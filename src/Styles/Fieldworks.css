@@ -66,3 +66,31 @@ img.img-fluid {
   border-radius: 10px;
   text-align: left;
 }
+
+.horizontal-scroll {
+  display: flex;
+  overflow-x: hidden;
+  gap: 1rem;
+  scrollbar-width: none; /* Firefox */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.thumbnail-container {
+  flex-shrink: 0;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.thumbnail-container img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 5px;
+}
