@@ -109,26 +109,19 @@ const RecordingCard = ({ record }) => {
 							<li key={index}>{note}</li>
 						))}
 					</ul>
-					<img
-						src={record.extrapictureFilePath}
-						alt={`Picture for ${record.recordist}`}
-						className='recording-image glitch-image'
-						loading='lazy'
-						onError={(e) => {
-							e.target.src =
-								"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
-						}}
-					/>
 					<video
 						src={record.videolink}
-						alt={`Picture for ${record.recordist}`}
-						className='recording-image glitch-image'
+						className='object-fit-contain'
+						controls
+						width='500'
+						height='500'
 						loading='lazy'
 						onError={(e) => {
+							e.target.onerror = null;
 							e.target.src =
 								"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
 						}}
-					/>
+					></video>
 				</Offcanvas.Body>
 			</Offcanvas>
 		</div>

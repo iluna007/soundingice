@@ -18,9 +18,10 @@ const MapEmbed = () => {
 		zoom: 14,
 		pitch: 0,
 		bearing: 0,
-		width: "100%",
-		height: "100%",
+		width: "100vw",
+		height: "100vh",
 		hash: true,
+		
 	});
 	const [records, setRecords] = useState(store.getAll());
 	const [selectedRecord, setSelectedRecord] = useState(
@@ -44,8 +45,9 @@ const MapEmbed = () => {
 		const demSource = new mlcontour.DemSource({
 			url: "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png",
 			encoding: "mapbox",
-			maxzoom: 12,
+			maxzoom: 14,
 			worker: true,
+			
 		});
 		demSource.setupMaplibre(mapboxgl);
 
@@ -55,7 +57,7 @@ const MapEmbed = () => {
 				type: "raster-dem",
 				tiles: [demSource.sharedDemProtocolUrl],
 				tileSize: 512,
-				maxzoom: 12,
+				maxzoom: 14,
 			});
 		}
 		if (!map.getLayer("hills")) {
@@ -130,10 +132,11 @@ const MapEmbed = () => {
 			const map = mapRef.current.getMap();
 			map.flyTo({
 				center: [selectedRecord.lon, selectedRecord.lat],
-				zoom: 8, // Adjust zoom level as needed
-				speed: 1.2,
+				zoom: 12, // Adjust zoom level as needed
+				speed: 1.3,
 				curve: 1,
 				easing: (t) => t,
+				essential: true, // This animation is considered essential with respect to prefers-reduced-motion
 			});
 		}
 	}, [selectedRecord]);
@@ -167,13 +170,13 @@ const MapEmbed = () => {
 								justifyContent: "center",
 							}}
 						>
-							<FaMapMarker size={40} color='magenta' />
+							<FaMapMarker size={30} color='magenta' />
 							<span
 								style={{
 									position: "absolute",
 									color: "white",
 									fontWeight: "bold",
-									fontSize: "0.8rem",
+									fontSize: "0.5rem",
 								}}
 							>
 								{record.id}
