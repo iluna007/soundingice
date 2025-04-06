@@ -1444,7 +1444,8 @@ const datadummy = [
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498420/63_BEAN_ZM05.03.2025_eo4lkd.mp3",
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447325/63A_Bean_ready_yqbdxt.jpg",
-		extrapictureFilePath: "",
+		extrapictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447267/63B_Bean_s_recording_outfit_krg82q.jpg",
 		videolink: "",
 		observations: [],
 	},
