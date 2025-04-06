@@ -6,7 +6,7 @@ import MapEmbed from "../components/MapEmbeded";
 import Masonry from "react-masonry-css";
 import "../Styles/FieldRecordings.css";
 
-const ITEMS_PER_PAGE = 35;
+const ITEMS_PER_PAGE = 20;
 
 const FieldRecordings = () => {
 	const [records, setRecords] = useState([]);
@@ -110,7 +110,7 @@ const FieldRecordings = () => {
 		}
 	};
 
-	// Paginación: definir subset de registros a mostrar
+	// Paginación: calcular el subset a mostrar
 	const indexOfLast = currentPage * ITEMS_PER_PAGE;
 	const indexOfFirst = indexOfLast - ITEMS_PER_PAGE;
 	const currentRecords = filteredRecords.slice(indexOfFirst, indexOfLast);
@@ -120,7 +120,54 @@ const FieldRecordings = () => {
 		if (newPage >= 1 && newPage <= totalPages) setCurrentPage(newPage);
 	};
 
-	// Define breakpoints para Masonry
+	// Componente de paginación usando estilo Bootstrap
+	const renderPagination = () => (
+		<nav aria-label='Page navigation'>
+			<ul className='pagination justify-content-center'>
+				<li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
+					<button
+						className='page-link'
+						onClick={() => handlePageChange(currentPage - 1)}
+					>
+						Preview
+					</button>
+				</li>
+				{Array.from({ length: totalPages }, (_, i) => (
+					<li
+						key={i + 1}
+						className={`page-item ${currentPage === i + 1 ? "active" : ""}`}
+					>
+						{currentPage === i + 1 ? (
+							<span className='page-link'>
+								{i + 1} <span className='sr-only'></span>
+							</span>
+						) : (
+							<button
+								className='page-link'
+								onClick={() => handlePageChange(i + 1)}
+							>
+								{i + 1}
+							</button>
+						)}
+					</li>
+				))}
+				<li
+					className={`page-item ${
+						currentPage === totalPages ? "disabled" : ""
+					}`}
+				>
+					<button
+						className='page-link'
+						onClick={() => handlePageChange(currentPage + 1)}
+					>
+						Next
+					</button>
+				</li>
+			</ul>
+		</nav>
+	);
+
+	// Define breakpoints para el layout de Masonry
 	const breakpointColumnsObj = {
 		default: 3,
 		1100: 2,
@@ -140,7 +187,6 @@ const FieldRecordings = () => {
 				}}
 			>
 				<h2 className='title'>Field Recordings</h2>
-
 				<div className='row mt-5'>
 					<div className='row mt-12'>
 						<p className='description'>
@@ -256,6 +302,8 @@ const FieldRecordings = () => {
 						</div>
 					</div>
 					<div className='col-md-5'>
+						{/* Paginación superior */}
+						{renderPagination()}
 						<div className='recording-list'>
 							{filteredRecords.length > 0 ? (
 								<>
@@ -278,22 +326,13 @@ const FieldRecordings = () => {
 											/>
 										))}
 									</Masonry>
-									<div className='pagination'>
-										<button onClick={() => handlePageChange(currentPage - 1)}>
-											Prev
-										</button>
-										<span>
-											Page {currentPage} of {totalPages}
-										</span>
-										<button onClick={() => handlePageChange(currentPage + 1)}>
-											Next
-										</button>
-									</div>
 								</>
 							) : (
 								<p>No recordings available.</p>
 							)}
 						</div>
+						{/* Paginación inferior */}
+						{renderPagination()}
 					</div>
 					<div className='col-md-5'>
 						<Masonry

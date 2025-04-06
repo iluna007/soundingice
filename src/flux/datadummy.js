@@ -1006,7 +1006,7 @@ const datadummy = [
 	},
 	{
 		id: 46,
-		recordist: "Bronwyn Butterfiled, Milo Jackdon",
+		recordist: "Bronwyn Butterfiled, Milo Jackson",
 		fileName: "7_BB_WOODGRAIN_CM_04.03.2025",
 		date: "04/03/2025",
 		time: "11:02:00",
@@ -1180,7 +1180,7 @@ const datadummy = [
 	},
 	{
 		id: 53,
-		recordist: "Milo Jackdon, Bronwyn Butterfiled",
+		recordist: "Milo Jackson, Bronwyn Butterfiled",
 		fileName: "1_MJBB_BLACKSMITHWALL_CM 04.03.2025",
 		date: "04/03/2025",
 		time: "11:02:00",
@@ -1205,7 +1205,7 @@ const datadummy = [
 	},
 	{
 		id: 54,
-		recordist: "Bronwyn Butterfiled, Milo Jackdon",
+		recordist: "Bronwyn Butterfiled, Milo Jackson",
 		fileName: "8_BB_GARBAGETRUCK_ZM_04.03.2025",
 		date: "04/03/2025",
 		time: "11:10:00",
