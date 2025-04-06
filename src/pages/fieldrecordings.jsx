@@ -129,7 +129,7 @@ const FieldRecordings = () => {
 						className='page-link'
 						onClick={() => handlePageChange(currentPage - 1)}
 					>
-						Preview
+						←
 					</button>
 				</li>
 				{Array.from({ length: totalPages }, (_, i) => (
@@ -160,7 +160,7 @@ const FieldRecordings = () => {
 						className='page-link'
 						onClick={() => handlePageChange(currentPage + 1)}
 					>
-						Next
+						→
 					</button>
 				</li>
 			</ul>
