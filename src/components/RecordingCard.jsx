@@ -109,6 +109,26 @@ const RecordingCard = ({ record }) => {
 							<li key={index}>{note}</li>
 						))}
 					</ul>
+					<img
+						src={record.extrapictureFilePath}
+						alt={`Picture for ${record.recordist}`}
+						className='recording-image glitch-image'
+						loading='lazy'
+						onError={(e) => {
+							e.target.src =
+								"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
+						}}
+					/>
+					<video
+						src={record.videolink}
+						alt={`Picture for ${record.recordist}`}
+						className='recording-image glitch-image'
+						loading='lazy'
+						onError={(e) => {
+							e.target.src =
+								"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
+						}}
+					/>
 				</Offcanvas.Body>
 			</Offcanvas>
 		</div>
@@ -129,7 +149,9 @@ RecordingCard.propTypes = {
 		tags: PropTypes.string,
 		"Key Words": PropTypes.string,
 		observations: PropTypes.arrayOf(PropTypes.string).isRequired,
-		equipment: PropTypes.string.isRequired
+		equipment: PropTypes.string.isRequired,
+		extrapictureFilePath: PropTypes.string,
+		videolink: PropTypes.string,
 	}).isRequired,
 };
 
