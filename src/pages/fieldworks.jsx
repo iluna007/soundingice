@@ -1,4 +1,6 @@
 import "../Styles/Fieldworks.css";
+import Carousel from "../components/Carousel";
+import galleryImages from "../flux/dataimages";
 
 const Fieldworks = () => {
 	return (
@@ -144,6 +146,7 @@ const Fieldworks = () => {
 									ecological niches has resulted in a diverse collection of
 									flora and fauna uncommon at this latitude.
 								</p>
+								<Carousel galleryItems={galleryImages} />
 							</div>
 						</div>
 						<div className='row mt-12'>
@@ -203,7 +206,7 @@ const Fieldworks = () => {
 											rel='noopener noreferrer'
 											className='description_forlinks_fieldworks'
 										>
-											Ifor Duncan
+											Ifor Duncan
 										</a>
 									</p>
 									<h3 className='subtitles'>River Confluences </h3>

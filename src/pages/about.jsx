@@ -17,6 +17,12 @@ const About = () => {
 					<div className='col'>
 						<h2 className='title'>About</h2>
 						<div className='mt-5'>
+							<img
+								src='https://res.cloudinary.com/drc27xzb4/image/upload/v1743837311/SOVA_STUDENTS_yqnmli.jpg'
+								className='img-fluid'
+								alt='...'
+							/>
+
 							<p className='description'>
 								<strong>SOUNDING ICE: sensing frozen flows</strong> explores the
 								signals of climate change found in and around the Yukon and
