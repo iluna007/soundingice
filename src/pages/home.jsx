@@ -6,7 +6,7 @@ import GlitchText from "../components/GlitchText";
 const Home = () => {
 	const videoRef = useRef(null);
 	const videoUrl =
-		"https://res.cloudinary.com/dw1ht0zfd/video/upload/v1740349894/SI_Landing_Page_k1914v.mp4";
+		"https://res.cloudinary.com/drc27xzb4/video/upload/v1743579679/SI_Landing_Page_msggt0.mp4";
 
 	useEffect(() => {
 		const video = videoRef.current;

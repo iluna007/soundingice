@@ -13,9 +13,9 @@ mapboxgl.accessToken =
 
 const MapEmbed = () => {
 	const [viewport, setViewport] = useState({
-		latitude: 64.049004,
-		longitude: -139.442815,
-		zoom: 6.5,
+		lat: 64.061239,
+		lon: -139.43228,
+		zoom: 14,
 		pitch: 0,
 		bearing: 0,
 		width: "100%",

@@ -6,6 +6,8 @@ import MapEmbed from "../components/MapEmbeded";
 import Masonry from "react-masonry-css";
 import "../Styles/FieldRecordings.css";
 
+const ITEMS_PER_PAGE = 35;
+
 const FieldRecordings = () => {
 	const [records, setRecords] = useState([]);
 	const [filters, setFilters] = useState({
@@ -16,6 +18,7 @@ const FieldRecordings = () => {
 	});
 	const [filteredRecords, setFilteredRecords] = useState([]);
 	const [expandedCard, setExpandedCard] = useState(null);
+	const [currentPage, setCurrentPage] = useState(1);
 
 	const handleUpdate = useCallback(() => {
 		const data = store.getAll() || [];
@@ -28,7 +31,12 @@ const FieldRecordings = () => {
 		return () => store.off("change", handleUpdate);
 	}, [handleUpdate]);
 
-	const distinctRecordists = [...new Set(records.map((r) => r.recordist))];
+	// Generar listas únicas de nombres individuales para recordist, keywords y conditions
+	const allRecordistNames = records.flatMap((r) =>
+		r.recordist ? r.recordist.split(",").map((name) => name.trim()) : []
+	);
+	const distinctRecordists = [...new Set(allRecordistNames)];
+
 	const distinctKeywords = [
 		...new Set(
 			records.flatMap((r) =>
@@ -36,23 +44,51 @@ const FieldRecordings = () => {
 			)
 		),
 	];
-	const distinctConditions = [...new Set(records.map((r) => r.conditions))];
+
+	const allConditions = records.flatMap((r) =>
+		r.conditions ? r.conditions.split(",").map((c) => c.trim()) : []
+	);
+	const distinctConditions = [...new Set(allConditions)];
+
 	const distinctDates = [...new Set(records.map((r) => r.date))];
 
 	useEffect(() => {
 		let filtered = records;
 		if (filters.recordist)
-			filtered = filtered.filter((r) => r.recordist === filters.recordist);
+			filtered = filtered.filter((r) =>
+				r.recordist
+					.split(",")
+					.map((name) => name.trim())
+					.includes(filters.recordist)
+			);
 		if (filters.tags)
-			filtered = filtered.filter(
-				(r) =>
-					r.tags && r.tags.toLowerCase().includes(filters.tags.toLowerCase())
+			filtered = filtered.filter((r) =>
+				r.tags
+					.split(",")
+					.map((t) => t.trim().toLowerCase())
+					.includes(filters.tags.toLowerCase())
 			);
 		if (filters.conditions)
-			filtered = filtered.filter((r) => r.conditions === filters.conditions);
+			filtered = filtered.filter((r) =>
+				r.conditions
+					.split(",")
+					.map((c) => c.trim())
+					.includes(filters.conditions)
+			);
 		if (filters.date)
 			filtered = filtered.filter((r) => r.date === filters.date);
+
+		// Orden aleatorio si no hay ningún filtro activo
+		if (
+			!filters.recordist &&
+			!filters.tags &&
+			!filters.conditions &&
+			!filters.date
+		) {
+			filtered = filtered.slice().sort(() => Math.random() - 0.5);
+		}
 		setFilteredRecords(filtered);
+		setCurrentPage(1); // Reinicia la paginación con cada cambio de filtro
 	}, [records, filters]);
 
 	const handleFilterClick = (column, value) => {
@@ -74,7 +110,17 @@ const FieldRecordings = () => {
 		}
 	};
 
-	// Define breakpoints for the masonry layout
+	// Paginación: definir subset de registros a mostrar
+	const indexOfLast = currentPage * ITEMS_PER_PAGE;
+	const indexOfFirst = indexOfLast - ITEMS_PER_PAGE;
+	const currentRecords = filteredRecords.slice(indexOfFirst, indexOfLast);
+	const totalPages = Math.ceil(filteredRecords.length / ITEMS_PER_PAGE);
+
+	const handlePageChange = (newPage) => {
+		if (newPage >= 1 && newPage <= totalPages) setCurrentPage(newPage);
+	};
+
+	// Define breakpoints para Masonry
 	const breakpointColumnsObj = {
 		default: 3,
 		1100: 2,
@@ -212,25 +258,38 @@ const FieldRecordings = () => {
 					<div className='col-md-5'>
 						<div className='recording-list'>
 							{filteredRecords.length > 0 ? (
-								<Masonry
-									breakpointCols={breakpointColumnsObj}
-									className='my-masonry-grid'
-									columnClassName='my-masonry-grid_column'
-								>
-									{filteredRecords.map((record) => (
-										<RecordingCard
-											key={record.id}
-											record={record}
-											expanded={expandedCard && expandedCard.id === record.id}
-											viewMode={
-												expandedCard && expandedCard.id === record.id
-													? expandedCard.view
-													: null
-											}
-											onToggle={handleToggleCard}
-										/>
-									))}
-								</Masonry>
+								<>
+									<Masonry
+										breakpointCols={breakpointColumnsObj}
+										className='my-masonry-grid'
+										columnClassName='my-masonry-grid_column'
+									>
+										{currentRecords.map((record) => (
+											<RecordingCard
+												key={record.id}
+												record={record}
+												expanded={expandedCard && expandedCard.id === record.id}
+												viewMode={
+													expandedCard && expandedCard.id === record.id
+														? expandedCard.view
+														: null
+												}
+												onToggle={handleToggleCard}
+											/>
+										))}
+									</Masonry>
+									<div className='pagination'>
+										<button onClick={() => handlePageChange(currentPage - 1)}>
+											Prev
+										</button>
+										<span>
+											Page {currentPage} of {totalPages}
+										</span>
+										<button onClick={() => handlePageChange(currentPage + 1)}>
+											Next
+										</button>
+									</div>
+								</>
 							) : (
 								<p>No recordings available.</p>
 							)}
