@@ -393,7 +393,8 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447224/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03_o8hzc3.jpg",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496934/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03.2025_fplvmt.mov",
 		observations: [
 			"Symphonic howling sounds in conjunction with silence creates a dynamic contrast, making the familiar, crunching sounds of walking on snow and chains clinking seem soft and familiar.",
 		],
@@ -492,7 +493,8 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447255/24_BB_DOGSLEDDING_ZM_02.03_ze84pn.jpg",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496969/24_BB_DOGSLEDDING_ZM_02.03.2025_s0i2m9.mov",
 		observations: [
 			"Dogs are unexpectedly quiet while leading a sled through the forest trail. The communication and commands of the musher, in combination with the strength and will of the dogs, are the driving force of this essential form of arctic transportation. The sled creaks against the snow as it moves forward and takes turns.",
 		],
@@ -1397,7 +1399,8 @@ const datadummy = [
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459909/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_vcqerl.mp3",
 		pictureFilePath: "",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496964/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_t1btst.mov",
 		observations: [],
 	},
 	{
@@ -1421,7 +1424,8 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447236/62_BB_SNOWSHOEING_ZM_28.02_q8bdkl.jpg",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496941/62_BB_SNOWSHOEING_ZM_28.02.2025_nz8tsc.mov",
 		observations: [],
 	},
 	{
@@ -1866,7 +1870,8 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447238/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02_myeh3h.jpg",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496947/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02.2025_mppcdj.mov",
 		observations: [
 			"The whooshing of a snowmobile passing by is a familiar sound of the north. Collaboration with Gabe McLellan.",
 		],
@@ -1916,7 +1921,8 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447277/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02_mvmmni.jpg",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496967/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02.2025_lk9zrh.mov",
 		observations: [
 			"Sound is partially blown out due to the loud and exhilirating nature of driving fast on a snowmobile, but I believe this captures the feeling of being a passenger on a snowmobile for the first time. A mechanical contrast to the hydrophone recordings of water and ice.",
 		],
@@ -2837,7 +2843,8 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447241/120_NR_snow_falling_on_snow_SM_03.06_yslbej.jpg",
 		extrapictureFilePath: "",
-		videolink: "",
+		videolink:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496963/120_NR_snow_falling_on_snow_SM_03.06.2025_swkudb.mov",
 		observations: [
 			"Snow falling on snow is usually subtle; however, the warmer weather made it slightly crystalized and audible.",
 		],

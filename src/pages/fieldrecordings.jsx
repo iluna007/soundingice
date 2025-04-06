@@ -340,10 +340,8 @@ const FieldRecordings = () => {
 							className='my-masonry-grid'
 							columnClassName='my-masonry-grid_column'
 						>
-							<div className='map-masonry-item'>
-								<MapEmbed />
-							</div>
 						</Masonry>
+						<MapEmbed />
 					</div>
 				</div>
 			</div>
