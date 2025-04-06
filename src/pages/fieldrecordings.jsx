@@ -339,9 +339,8 @@ const FieldRecordings = () => {
 							breakpointCols={{ default: 1 }}
 							className='my-masonry-grid'
 							columnClassName='my-masonry-grid_column'
-						>
-						</Masonry>
-						<MapEmbed />
+						></Masonry>
+						<MapEmbed className='map-container' />
 					</div>
 				</div>
 			</div>
