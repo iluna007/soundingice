@@ -78,9 +78,9 @@ const About = () => {
 								(SSHRC) Connections Grant / Toronto Biennial of Art.
 							</p>
 							<p className='description'>
-								Special thanks to Nicole Rayburn and Aubyn O’Grady, both
-								instructors at SOVA and to Faiza Ahmed Khan in Delhi, India, my
-								collaborator on the Listening to Ice research project.
+								Nicole Rayburn, Aubyn O’Grady, Andy Belanger, Chantal Rouseau at
+								SOVA and to Faiza Ahmed Khan in Delhi, India, my collaborator on
+								the Listening to Ice research project.
 							</p>
 							<p className='description'>
 								Project Credits: Drone Footage by John Howland & Bobby Ronka.
