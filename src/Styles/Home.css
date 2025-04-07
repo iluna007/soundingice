@@ -44,39 +44,35 @@
 
 .titlehome {
   font-family: "Arial", sans-serif;
-  font-style: normal;  
   font-weight: bolder;
-  font-size: 17vw; /* Mantén el tamaño grande para el título */
+  /* Tamaño responsivo: mínimo 2rem, ideal 17vw, máximo 10rem */
+  font-size: clamp(2rem, 17vw, 20rem);
   margin: 5px;
   line-height: 0.8;
   text-align: left;
-   /* Ajusta el espacio entre líneas */
 }
 
 .description1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 2vw; /* Tamaño más pequeño para la descripción */
+  /* Tamaño responsivo: mínimo 1rem, ideal 2vw, máximo 2rem */
+  font-size: clamp(1rem, 2vw, 2rem);
   margin-top: 1rem;
-  display: inline-block; /* Para que el fondo se ajuste al contenido */
-  padding-left: 50px;
-  padding-right: 50px;
+  display: inline-block;
+  padding: 0 50px;
   border-radius: 10px;
-  text-align: justify;
   text-align: right;
   line-height: 1.25;
-
 }
 .description2 {
   font-family: "Montserrat2", sans-serif;
   font-weight: lighter;
   font-style: italic;
-  font-size: 1.5vw; /* Tamaño más pequeño para la descripción */
+  /* Tamaño responsivo: mínimo 0.8rem, ideal 1.5vw, máximo 1.5rem */
+  font-size: clamp(0.8rem, 1.5vw, 1.5rem);
   margin-top: 1rem;
-  display: inline-block; /* Para que el fondo se ajuste al contenido */
-  padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  display: inline-block;
+  padding: 100px 50px 0 50px;
   border-radius: 10px;
   text-align: justify;
   line-height: 1;
