@@ -3,7 +3,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Styles/Layout.css";
 
-// Define our five pages with routes, colors and Material icon names.
 const pages = [
 	{ title: "Home", route: "/", color: "#ffffff", icon: "ac_unit" },
 	{
@@ -27,9 +26,6 @@ const pages = [
 	{ title: "About", route: "/about", color: "#00ffff", icon: "info" },
 ];
 
-
-
-// Define darker scrollbar colors for each background.
 const scrollbarColors = {
 	"#ffffff": { track: "#dddddd", thumb: "#bbbbbb" },
 	"#ffff00": { track: "#cccc00", thumb: "#aaaa00" },
@@ -38,7 +34,6 @@ const scrollbarColors = {
 	"#00ffff": { track: "#009999", thumb: "#007777" },
 };
 
-// Custom hook to get window width.
 function useWindowWidth() {
 	const [width, setWidth] = useState(window.innerWidth);
 	useEffect(() => {
@@ -58,13 +53,12 @@ export default function Layout({ children }) {
 	);
 
 	// Mobile layout: if width is less than 768px, show a top nav bar.
-	if (width < 768) {
+	if (width < 1280) {
 		return (
 			<div className='mobile-layout'>
 				<div className='mobile-nav'>
 					{pages.map((page, index) => {
 						const isActive = index === activeIndex;
-						// For Resources (black) force icon white; otherwise, black.
 						const iconColor =
 							page.route === "/resources" ? "#ffffff" : "#000000";
 						return (
@@ -78,7 +72,10 @@ export default function Layout({ children }) {
 							>
 								<span
 									className='material-symbols-outlined'
-									style={{ color: iconColor, fontSize: "24px" }}
+									style={{
+										color: iconColor,
+										fontSize: "clamp(18px, 5vw, 24px)",
+									}}
 								>
 									{page.icon}
 								</span>
@@ -147,14 +144,16 @@ export default function Layout({ children }) {
 							<div className='icon-container'>
 								<span
 									className='material-symbols-outlined'
-									style={{ color: iconColor, fontSize: "24px" }}
+									style={{
+										color: iconColor,
+										fontSize: "clamp(18px, 5vw, 24px)",
+									}}
 								>
 									{page.icon}
 								</span>
 							</div>
 						)}
 					</div>
-					
 				);
 			})}
 		</div>
