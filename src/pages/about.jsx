@@ -1,3 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import StudentCard from "../components/StudentCards.jsx"; // Adjust based on the actual file name and locationimport students from "../flux/datastudentsimages"; // Asegúrate de que este archivo exista y exporte el array
+import students from "../flux/datastudentsimages.js"; // Asegúrate de que este archivo exista y exporte el array
+import "../Styles/StudentCard.css"; // Asegúrate de que este archivo exista y contenga los estilos necesarios
+import ErrorBoundary from "../components/ErrorBoundary.jsx";
 import "../Styles/About.css";
 
 const About = () => {
@@ -22,9 +28,9 @@ const About = () => {
 								className='img-fluid'
 								alt='...'
 							/>
-							<br></br>
-							<br></br>
-							<br></br>
+							<br />
+							<br />
+							<br />
 							<p className='description'>
 								<strong>SOUNDING ICE: sensing frozen flows</strong> explores the
 								signals of climate change found in and around the Yukon and
@@ -61,18 +67,18 @@ const About = () => {
 								and resources that can be extracted.
 							</p>
 							<p className='description'>
-								The practice of ‘sounding’ refers both to the taking of depth
-								measurements in a body of water as well as the sourcing of
-								‘evidence’ needed in a preliminary step towards taking action.
-								This project and website documents our collective efforts to
-								‘sound out’ local expressions and histories of the
-								environment—Earth evidence—and its urgent calls to action.
-							</p>
-							<p className='description'>
 								<strong>Students:</strong> Jove Boutin, Grace Bruder, Bronwyn
 								Butterfield, Sam Huxley, Andrew Kearns, Milo Jackson, Lacey
 								Leforte, Gabe McLellan, Sadie Wasylko.
 							</p>
+							{/* Grid de tarjetas de estudiantes */}
+							<div className='student-grid'>
+								<ErrorBoundary>
+									{students.map((student, index) => (
+										<StudentCard key={index} student={student} />
+									))}
+								</ErrorBoundary>
+							</div>
 							<p className='description'>
 								Supported by Yukon School of Visual Arts, the Klondike Institute
 								of Art & Culture (KIAC), Yukon University, with funding support
@@ -97,7 +103,7 @@ const About = () => {
 						</div>
 						<div className='mt-5'>
 							<h3 className='subtitles'>Biographies</h3>
-							<hr></hr>
+							<hr />
 							<p className='description'>
 								<strong>Susan Schuppli</strong> is a researcher and artist based
 								in the UK. Her fieldwork and documentary film practice is
@@ -137,7 +143,6 @@ const About = () => {
 								BA from Simon Fraser University, MFA from UCSD, and PhD in
 								Cultural Studies & Research Architecture, from Goldsmiths.
 							</p>
-
 							<p className='description'>
 								<strong>Nicole Rayburn</strong> is an artist whose practice is a
 								blundering convergence of video, text, and still imagery. Often

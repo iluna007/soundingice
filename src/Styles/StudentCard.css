@@ -1,0 +1,28 @@
+.student-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 275px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.student-image {
+  display: block;
+  width: 100%;
+  height: auto;  /* Se respeta la proporción original de la imagen */
+}
+
+.student-name {
+  padding: 10px;
+  text-align: center;
+}
+
+.student-name h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+}
