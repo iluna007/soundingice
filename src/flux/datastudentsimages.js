@@ -29,7 +29,7 @@ const students = [
 	},
 	{
 		id: 5,
-		name: "Chantel Rouseau",
+		name: "Chantal Rousseau",
 		image:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743928142/Chantel_Rouseau_aqcnnr.jpg",
 		info: "Additional info about Chantel Rouseau.",
