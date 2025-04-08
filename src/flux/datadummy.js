@@ -2810,7 +2810,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501074/129_LL_SJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_ibu4ay.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743500987/127_LL_DREDGE2_HF_04.03.25._imrrtw.wav",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506795/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_eor0ba.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2832,7 +2832,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743586011/130_DOG_RACE_ZM_07.03.2025_hiik4b.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743586001/130_DOG_RACE_ZM_07.03.2025_ufwsqd.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744042264/130_DOG_RACE_ZM_07.03.2025_swjnfo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
