@@ -1228,7 +1228,8 @@ const datadummy = [
 		tags: "Tombstone Territorial Park, Walking, Collaboration",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459909/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_vcqerl.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744124531/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_jf2vs3.jpg",
 		extrapictureFilePath: "",
 		videolink:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496964/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_t1btst.mov",
@@ -1367,7 +1368,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498412/67_sh_streetraven_ds_03.25.2025_qqedg5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527739/66_sh_powshoe_zm_03.28.2025_p4tlkh.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527713/67_sh_streetraven_ds_03.25.2025_kavulg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1799,7 +1800,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_fwpjl2.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447283/85_BB_HAMMERING_ON_ICE_ROAD_GP_26.02.2025_raqwne.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447350/86_GB_Driving_on_the_Ice_Bridge_GP_26.02.2025_u7zjdi.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2490,7 +2491,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501038/115_LL_SW_DUMP2_DS_04.03.25_uluhch.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447270/114_LL_SW_DUMP.1_DS_04.03.25_jtsqnu.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447247/115_LL_SW_DUMP2_DS_04.03.25_ah4dtw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2556,7 +2557,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501040/118__NR_raven_gurgling_and_banging_metal_IP_02.26.2025_wy7r5v.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447287/119_NR_snow_falling_on_plastic_SM_03.06.2025_ba9sdf.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744128131/117_LL_SW_DUMP4_DS_04.03.25_g79l2z.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2677,7 +2678,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743524498/123_LL_SW_DUMP5_DS_04.03.25_tgosjz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447225/117_LL_SW_DUMP5_DS_04.03.25_sk7riv.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506795/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_eor0ba.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2884,30 +2885,6 @@ const datadummy = [
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743611913/132B_SS_AUGER_23.02.2025_auec4x.jpg",
 		videolink: "",
 		observations: [],
-	},
-	{
-		id: 133,
-		recordist: "Susan Schuppli, Nicole Rayburn",
-		fileName: "133A&B_SS_HYDROPHONE IN BORE HOLE_ZM_25.03.2025",
-		date: "25/03",
-		time: "11:30:00",
-		lat: 64.05261,
-		lon: -139.45139,
-		temperature: "-22°C",
-		activity: "Lowering hydrophone into borehole at confluence",
-		equipment: ["Hydrophone"],
-		conditions: "Windy, Cold, Sunny",
-		duration: "",
-		tags: "Yukon River, Klondike River, Underwater, Running Water",
-		audioFilePath: "",
-		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743611359/133A_SS_HYDROPHONE_IN_BORE_HOLE_ZM_25.03.2025_rhls2c.jpg",
-		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743611433/133B_SS_HYDROPHONE_IN_BORE_HOLE_ZM_25.03.2025_rbb3z7.jpg",
-		videolink: "",
-		observations: [
-			"Lowering hydrophone into borehole at confluence. Encountered a great deal of slush from frozen overspill.",
-		],
 	},
 ];
 
