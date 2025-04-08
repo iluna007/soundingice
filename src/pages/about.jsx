@@ -86,7 +86,7 @@ const About = () => {
 								(SSHRC) Connections Grant / Toronto Biennial of Art.
 							</p>
 							<p className='description'>
-								Special thanks to: Nicole Rayburn, Aubyn O’Grady, Andy Belanger,
+								Special thanks to Nicole Rayburn, Aubyn O’Grady, Andy Belanger,
 								Chantal Rousseau at SOVA and to Faiza Ahmed Khan in Delhi,
 								India, my collaborator on the Listening to Ice research project.
 							</p>
