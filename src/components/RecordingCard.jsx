@@ -57,7 +57,6 @@ const RecordingCard = ({ record }) => {
 					<p>
 						<strong>Key Words:</strong> {record.tags || record["Key Words"]}
 					</p>
-
 					<audio controls autoPlay>
 						<source src={record.audioFilePath} type='audio/mpeg' />
 						Your browser does not support the audio element.
@@ -68,11 +67,16 @@ const RecordingCard = ({ record }) => {
 				</div>
 			) : (
 				<div className='preview-info'>
-					<h3 className='recording-id'> {record.id}</h3>
+					<h3 className='recording-id'>{record.id}</h3>
 				</div>
 			)}
 
-			<Offcanvas show={show} onHide={handleClose} backdrop='static'>
+			<Offcanvas
+				show={show}
+				onHide={handleClose}
+				backdrop='static'
+				className='custom-offcanvas' /* Clase personalizada para controlar el ancho */
+			>
 				<Offcanvas.Header closeButton>
 					<Offcanvas.Title>{record.id}</Offcanvas.Title>
 				</Offcanvas.Header>
@@ -95,7 +99,6 @@ const RecordingCard = ({ record }) => {
 					<p>
 						<strong>Equipment:</strong> {record.equipment}
 					</p>
-
 					<p>
 						<strong>Key Words:</strong> {record.tags || record["Key Words"]}
 					</p>
@@ -109,19 +112,34 @@ const RecordingCard = ({ record }) => {
 							<li key={index}>{note}</li>
 						))}
 					</ul>
-					<video
-						src={record.videolink}
-						className='object-fit-contain'
-						controls
-						width='500'
-						height='500'
-						loading='lazy'
-						onError={(e) => {
-							e.target.onerror = null;
-							e.target.src =
-								"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
-						}}
-					></video>
+					{/* Renderizado condicional para video/foto extra */}
+					{record.videolink ? (
+						<video
+							src={record.videolink}
+							className='object-fit-contain'
+							controls
+							width='500'
+							height='500'
+							loading='lazy'
+							onError={(e) => {
+								e.target.onerror = null;
+								e.target.src =
+									"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
+							}}
+						></video>
+					) : record.extrapictureFilePath ? (
+						<img
+							src={record.extrapictureFilePath}
+							alt={`Extra for ${record.recordist}`}
+							className='img-fluid object-fit-contain'
+							style={{ width: "500px", height: "500px", objectFit: "contain" }}
+							onError={(e) => {
+								e.target.onerror = null;
+								e.target.src =
+									"https://dummyimage.com/300x300/cccccc/ffffff&text=No+Image";
+							}}
+						/>
+					) : null}
 				</Offcanvas.Body>
 			</Offcanvas>
 		</div>
