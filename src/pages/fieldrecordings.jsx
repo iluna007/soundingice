@@ -14,7 +14,7 @@ const FieldRecordings = () => {
 		recordist: "",
 		tags: "",
 		conditions: "",
-		date: "",
+		
 	});
 	const [filteredRecords, setFilteredRecords] = useState([]);
 	const [expandedCard, setExpandedCard] = useState(null);
@@ -50,7 +50,7 @@ const FieldRecordings = () => {
 	);
 	const distinctConditions = [...new Set(allConditions)];
 
-	const distinctDates = [...new Set(records.map((r) => r.date))];
+	
 
 	useEffect(() => {
 		let filtered = records;
@@ -75,15 +75,13 @@ const FieldRecordings = () => {
 					.map((c) => c.trim())
 					.includes(filters.conditions)
 			);
-		if (filters.date)
-			filtered = filtered.filter((r) => r.date === filters.date);
+		
 
 		// Orden aleatorio si no hay ningún filtro activo
 		if (
 			!filters.recordist &&
 			!filters.tags &&
-			!filters.conditions &&
-			!filters.date
+			!filters.conditions 
 		) {
 			filtered = filtered.slice().sort(() => Math.random() - 0.5);
 		}
@@ -277,29 +275,8 @@ const FieldRecordings = () => {
 								))}
 							</div>
 						</div>
-						<h3 className='subtitles'>Date</h3>
-						<hr />
-						<div className='filter-group'>
-							<div className='buttons'>
-								<button
-									className={`filter-btn ${!filters.date ? "active" : ""}`}
-									onClick={() => handleFilterClick("date", "")}
-								>
-									All
-								</button>
-								{distinctDates.map((date) => (
-									<button
-										key={date}
-										className={`filter-btn ${
-											filters.date === date ? "active" : ""
-										}`}
-										onClick={() => handleFilterClick("date", date)}
-									>
-										{date}
-									</button>
-								))}
-							</div>
-						</div>
+						
+						
 					</div>
 					<div className='col-md-5'>
 						{/* Paginación superior */}
@@ -340,7 +317,7 @@ const FieldRecordings = () => {
 							className='my-masonry-grid'
 							columnClassName='my-masonry-grid_column'
 						></Masonry>
-						<MapEmbed className='map-container' />
+						<MapEmbed/>
 					</div>
 				</div>
 			</div>
