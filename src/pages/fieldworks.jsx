@@ -1,6 +1,8 @@
 import "../Styles/Fieldworks.css";
 import Carousel from "../components/Carousel";
+import Lightbox from "../components/Lightbox";
 import galleryImages from "../flux/dataimages";
+import galleryImages2 from "../flux/dataimages2";
 
 const Fieldworks = () => {
 	return (
@@ -119,6 +121,7 @@ const Fieldworks = () => {
 								</p>
 							</div>
 						</div>
+						<Lightbox galleryItems={galleryImages2} />
 
 						{/* Field Trip section */}
 						<div className='row mt-12'>
@@ -170,9 +173,7 @@ const Fieldworks = () => {
 											Jeneen Frei Njootli
 										</a>
 									</p>
-									<h3 className='subtitles'>
-										Listening Exercise
-									</h3>
+									<h3 className='subtitles'>Listening Exercise</h3>
 									<hr></hr>
 
 									<p className='description'>
