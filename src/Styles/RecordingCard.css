@@ -1,3 +1,4 @@
+/* Estilos para la tarjeta */
 .recording-card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -28,30 +29,20 @@
   filter: grayscale(0%);
 }
 
-/* Contenedor para el modo preview */
 .preview-info {
   padding: 10px;
   text-align: center;
 }
 
-.waveform-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 5px;
-}
-
 .recording-id {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.1vw; /* Tamaño más pequeño para la descripción */
-  display: inline-block; /* Para que el fondo se ajuste al contenido */
-  text-align: justify;
+  font-size: 1.1vw;
+  display: inline-block;
   text-align: left;
   color: inherit;
 }
 
-/* Detalles completos (modo expandido) */
 .recording-details {
   padding: 15px;
 }
@@ -59,23 +50,32 @@
 .recording-details h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.1vw;
-  margin: 0 0 10px;
   font-size: 18px;
+  margin: 0 0 10px;
   color: #333;
 }
 
 .recording-details p {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  font-size: 1.1vw;
-  margin: 5px 0;
   font-size: 14px;
+  margin: 5px 0;
   color: #555;
 }
-
 
 audio {
   width: 100%;
   margin-top: 10px;
+}
+
+/* Estilos para offcanvas personalizado */
+.custom-offcanvas {
+  width: 800px !important; /* Ajusta el ancho deseado */
+}
+
+.custom-offcanvas .offcanvas-body video,
+.custom-offcanvas .offcanvas-body img {
+  /* Asegura que el contenido extra se ajuste al ancho del offcanvas */
+  max-width: 100%;
+  height: auto;
 }
