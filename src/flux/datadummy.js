@@ -11,7 +11,7 @@ const datadummy = [
 		activity:
 			"Recording sounds of footsteps, photo documentation of site, crows, and branches snapping, on top of Fathers Bogdan Bridge.",
 		equipment: ["Dual-set up"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "7:08:00",
 		tags: "Walking, Forest, Raven, Bonanza Creek, Running Water",
 		audioFilePath:
@@ -88,7 +88,7 @@ const datadummy = [
 		activity:
 			"Recording sounds of melting snow on trees, running water from Bonanza Creek, ravens, snapping branches, on top of Fathers Bogdan Bridge.",
 		equipment: ["Dual-set up"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "11:52:00",
 		tags: "Forest, Raven, Bonanza Creek, Running Water",
 		audioFilePath:
@@ -114,7 +114,7 @@ const datadummy = [
 		activity:
 			"Recording of the Klondike River flowing from hydrophone burried in the snow of top of the ice beside open water.",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "4:01:00",
 		tags: "Klondike River, Running Water",
 		audioFilePath:
@@ -139,7 +139,7 @@ const datadummy = [
 		activity:
 			"Cross country skiis swooshing and moving on snow tracks at Moose Mountain",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Warm",
+		conditions: "Sunny, Warm",
 		duration: "1:32:00",
 		tags: "Forest, Transportation, Trail, Sports",
 		audioFilePath:
@@ -164,7 +164,7 @@ const datadummy = [
 		activity:
 			"Recording of the Klondike River flowing with hyrdrophone submerged in the river beside the thawing ice.",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "4:01:00",
 		tags: "Klondike River, Ice Bridge, Running Water",
 		audioFilePath:
@@ -237,7 +237,7 @@ const datadummy = [
 		temperature: "-14°C",
 		activity: "Recording of grey jays eating potato chips out of my hands.",
 		equipment: ["Zoom"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:03:23",
 		tags: "Tombstone Territorial Park, Birds",
 		audioFilePath:
@@ -262,7 +262,7 @@ const datadummy = [
 		activity:
 			"Recording of Andrew Kearns feeding chips to Grey Jays, birds hoping on the ground, and flying away.",
 		equipment: ["Zoom"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:26:00",
 		tags: "Forest, Tombstone Territorial Park, Birds",
 		audioFilePath:
@@ -286,7 +286,7 @@ const datadummy = [
 		temperature: "-14°C",
 		activity: "Recording of traditional wooden snowshoes walking on snow.",
 		equipment: ["Zoom"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "1:42:00",
 		tags: "Forest, Tombstone Territorial Park, Walking",
 		audioFilePath:
@@ -341,7 +341,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457285/19_AK_Ethernet_Port_26_02_25_zyti9c.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503166/17X_AK_Wifi_Router_26_02_25_ehtncw.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503172/19X_AK_Ethernet_Port_26_02_25_qjuung.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -385,12 +385,13 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Deep snowshoeing",
 		equipment: ["Zoom"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:26:00",
 		tags: "Walking, Trail",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743525074/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_k3kbmb.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744099607/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_trknhg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -506,7 +507,7 @@ const datadummy = [
 		activity:
 			"Recording sounds of the quiet valley where the historical Dredge No.4 was laid to rest, picked up sounds of creaking metal coming from the dredge, owls and birds.",
 		equipment: ["Dual-set up"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "2:50:00",
 		tags: "Bonanza Creek, Mining, Forest",
 		audioFilePath:
@@ -532,7 +533,7 @@ const datadummy = [
 		activity:
 			"Recording the sounds of going off the trail, walking through knee deep snow between black spruce trees and willow.",
 		equipment: ["Zoom"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:01:04",
 		tags: "Forest, Tombstone Territorial Park",
 		audioFilePath:
@@ -557,7 +558,7 @@ const datadummy = [
 		activity:
 			"Recording of a 510 thread battery for a soldering iron being activated, set to 4.2 Volts.",
 		equipment: ["EMF"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:01:24",
 		tags: "Energy, SOVA",
 		audioFilePath:
@@ -582,7 +583,7 @@ const datadummy = [
 		activity:
 			"Recording of water trickling in the radiator used to heat the 2D studio at SOVA.",
 		equipment: ["Sensative"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:01:58",
 		tags: "Running Water, Urban, Infrastructure",
 		audioFilePath:
@@ -606,7 +607,7 @@ const datadummy = [
 		temperature: "20°C",
 		activity: "Recording of an extension cords electronic sound emmisions.",
 		equipment: ["EMF"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:30:01",
 		tags: "Energy, SOVA",
 		audioFilePath:
@@ -630,7 +631,7 @@ const datadummy = [
 		temperature: "20°C",
 		activity: "EMF recording of the microwave at SOVA",
 		equipment: ["EMF"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:01:51",
 		tags: "Energy, SOVA",
 		audioFilePath:
@@ -655,7 +656,7 @@ const datadummy = [
 		activity:
 			"Recordings of Andy and her dog Bean walking up and down the boardwalk of the last Gambling Hall in Dawson City, Diamond Tooth Gerties.",
 		equipment: ["Geophone"],
-		conditions:"Cloudy",
+		conditions: "Cloudy",
 		duration: "0:30:00",
 		tags: "Walking, Urban, Collaboration, Dog",
 		audioFilePath:
@@ -679,12 +680,13 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Deep snow snowshoeing",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:35:00",
 		tags: "",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502339/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_stzfup.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744098594/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_apqg2u.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -698,15 +700,15 @@ const datadummy = [
 		lat: 64.505797,
 		lon: -138.225523,
 		temperature: "-2°C",
-		activity:
-			"Snow shoe on ice of North Klondike River with thin sheet of ",
+		activity: "Snow shoe on ice of North Klondike River with thin sheet of ",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "1:12:00",
 		tags: "Klondike River",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502354/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_hvw1xw.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744097993/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_sf6si3.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -723,12 +725,13 @@ const datadummy = [
 		activity:
 			"Snowmobiling over ice - compressed snow path - Andrew's fake bird sounds at the end",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "3:42:00",
 		tags: "Klondike River",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502357/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_y0s4bn.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744096834/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_j6hgkt.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -745,12 +748,13 @@ const datadummy = [
 		activity:
 			"Snowmobiling over ice - snowshoeing over ice - pouring water into hole",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "4:20:00",
 		tags: "Klondike River, Snowmobile",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502344/36_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_zcj2rs.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744095570/36_4_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_bnivqt.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -766,12 +770,13 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Pouring water into hole",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:50:00",
 		tags: "Klondike River, Running Water",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502336/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_e7cxzz.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744099060/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_wr1tiv.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -787,12 +792,13 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Snowshoeing on ",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:35:00",
 		tags: "Klondike River",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502337/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_mbe0di.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744098283/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_kbkeuu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -808,12 +814,13 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Snowshoeing on show",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:39:00",
 		tags: "Klondike River",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502342/39_GM_BB_SNOWSHOEING_ON_SNOW2_ZM_28-02-2025_e5kxfm.mp3",
-		pictureFilePath: "",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744098390/39_GM_BB_DEEP_SNOW_ZM_2025-02-28_yt4cwl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -829,7 +836,7 @@ const datadummy = [
 		temperature: "-16°C",
 		activity: "Top of snowbank",
 		equipment: ["Contact"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "1:04:00",
 		tags: "Snow Removal",
 		audioFilePath:
@@ -840,48 +847,7 @@ const datadummy = [
 		videolink: "",
 		observations: [""],
 	},
-	{
-		id: 41,
-		recordist: "Gabe McLellan, Bronwyn Butterfiled, Milo Jackson",
-		fileName: "9_GM,BB,MJ_CAR START_EMF_04-03-2025.wav",
-		date: "04/03",
-		time: "11:55:00",
-		lat: 64.0540849,
-		lon: -139.4361551,
-		temperature: "-16°C",
-		activity: "Starting the car",
-		equipment: ["EMF"],
-		conditions:"Sunny",
-		duration: "0:46:00",
-		tags: "Energy, Transportation",
-		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502476/41_GM_BB_MJ_CAR_START_EMF_04-03-2025_llzgnh.mp3",
-		pictureFilePath: "",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [""],
-	},
-	{
-		id: 42,
-		recordist: "Gabe McLellan, Bronwyn Butterfiled, Milo Jackson",
-		fileName: "10_GM,BB,MJ_ENERGY YUKON PLANT_EMF_04-03-2025.wav",
-		date: "04/03",
-		time: "12:05:00",
-		lat: 64.05475,
-		lon: -139.43945,
-		temperature: "-16°C",
-		activity: "Energy Yukon plant",
-		equipment: ["EMF"],
-		conditions:"Sunny",
-		duration: "2:01:00",
-		tags: "Energy, Infrastructure",
-		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502481/42_GM_MJ_BB_ENERGY_YUKON_PLANT_EMF_04-03-2025_toktvu.mp3",
-		pictureFilePath: "",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [""],
-	},
+
 	{
 		id: 43,
 		recordist: "Gabe McLellan, Bronwyn Butterfiled, Milo Jackson",
@@ -916,7 +882,7 @@ const datadummy = [
 		activity:
 			"Walking along boardwalk to school, in front of Minto Park, as well as the Dawson City Museum.",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Cold",
+		conditions: "Sunny, Cold",
 		duration: "4:16:00",
 		tags: "Walking, Infrastructure, Urban",
 		audioFilePath:
@@ -940,7 +906,7 @@ const datadummy = [
 		temperature: "-5°C",
 		activity: "Playing banjo",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "1:05:00",
 		tags: "Bonanza Creek",
 		audioFilePath:
@@ -1013,7 +979,7 @@ const datadummy = [
 		temperature: "-12°C",
 		activity: "Open water recording, under thin ice sheet",
 		equipment: ["Hydrophone"],
-		conditions:"Cloudy, Sunny",
+		conditions: "Cloudy, Sunny",
 		duration: "1:03:00",
 		tags: "Klondike River, Underwater,  Dredge Ponds",
 		audioFilePath:
@@ -1038,7 +1004,7 @@ const datadummy = [
 		activity:
 			"Recording of Andy Belanger's dog, Bean, running back and forth for treats; sounds of claws clicking with similar notes of the treats falling.",
 		equipment: ["Zoom"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:04:15",
 		tags: "Dog, Walking",
 		audioFilePath:
@@ -1061,7 +1027,7 @@ const datadummy = [
 		activity:
 			"EMF recording of the printer at SOVA producing a status report sheet.",
 		equipment: ["EMF"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:01:00",
 		tags: "Energy, SOVA",
 		audioFilePath:
@@ -1091,7 +1057,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459835/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503221/50X_AK_Printer_EMF_06_03_25_ojkiea.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503201/51X_AK_Epson_Scanner_06_03_25_u7fyei.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1109,7 +1075,7 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Two adults and three young children during a skating lesson.",
 		equipment: ["Zoom"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:01:28",
 		tags: "Ice Skating, Sports, Collaboration",
 		audioFilePath:
@@ -1131,7 +1097,7 @@ const datadummy = [
 		temperature: "-16°C",
 		activity: "Contact recording of exterior of a log blacksmithing shop",
 		equipment: ["Contact"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:01:31",
 		tags: "Urban, Infrastructure, Collaboration",
 		audioFilePath:
@@ -1155,7 +1121,7 @@ const datadummy = [
 		temperature: "-16°C",
 		activity: "City worker and garbage truck collecting waste in a back alley.",
 		equipment: ["Zoom"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:57:00",
 		tags: "Infrastructure, Urban, Collaboration",
 		audioFilePath:
@@ -1168,29 +1134,7 @@ const datadummy = [
 			"Collaboration with Milo Jackson. The sound of machinery is heavy, with mechanical churns followed by hollow, metallic noises before the truck lurches forward.",
 		],
 	},
-	{
-		id: 55,
-		recordist: "Milo Jackson",
-		fileName: "2_MJ_TOMBSTONEBEARLID_ZM 02.28.2025.wav",
-		date: "28/02",
-		time: "12:05:00",
-		lat: 64.523742,
-		lon: -138.24534,
-		temperature: "-14°C",
-		activity:
-			"Closing and squeeking of a bear safe grabage lid at Tombstone lookout.",
-		equipment: ["Zoom"],
-		conditions:"Cold, Cloudy",
-		duration: "0:00:09",
-		tags: "Tombstone Territorial Park, Infrastructure",
-		audioFilePath: "",
-		pictureFilePath: "",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"The loud winds surrounding the lookout point are cut through with the heavy metal lid of the garbage can.",
-		],
-	},
+
 	{
 		id: 56,
 		recordist: "Bronwyn Butterfiled, Milo Jackson, Gabe McLellan",
@@ -1203,7 +1147,7 @@ const datadummy = [
 		activity:
 			"A fuel truck and its worker refuel the Dominion Petro Express gas station in Dawson City.",
 		equipment: ["Zoom"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "1:50:00",
 		tags: "Infrastructure, Urban, Collaboration, Energy",
 		audioFilePath:
@@ -1216,29 +1160,7 @@ const datadummy = [
 			"Collaboration with Milo Jackson and Gabe McLellan. The heavy clunk of the nozzle is followed by the soft hum of gasoline filling underground tanks.",
 		],
 	},
-	{
-		id: 57,
-		recordist: "Jove Boutin",
-		fileName: "3_JB_Cars on Fifth Street_ZM_06.03.2025-MISSING FILE.wav",
-		date: "06/03",
-		time: "09:40:00",
-		lat: 64.0577,
-		lon: -139.43441,
-		temperature: "-9°C",
-		activity: "Listening to cars drive by while standing still.",
-		equipment: ["Zoom"],
-		conditions:"Cold, Sunny",
-		duration: "0:01:52",
-		tags: "Birds, Urban",
-		audioFilePath: "",
-		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743529168/57_JB_Cars_on_Fifth_Street_ZM_06.03.2025_ussgu6.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"Cars and trucks drive by, and birds are heard in the distance.",
-		],
-	},
+
 	{
 		id: 58,
 		recordist: "Milo Jackson, Bronwyn Butterfiled",
@@ -1251,7 +1173,7 @@ const datadummy = [
 		activity:
 			"Contact recording of the grooves of the chain link fence outside Robert Service School",
 		equipment: ["Contact"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:01:21",
 		tags: "Infrastructure, Collaboration, Transportation",
 		audioFilePath:
@@ -1289,29 +1211,7 @@ const datadummy = [
 			"Collaboration with Milo Jackson and Gabe McLellan. A mix of sharp, uneven sounds creates a crisp, brittle, and gritty scrape.",
 		],
 	},
-	{
-		id: 60,
-		recordist: "Milo Jackson, Gabe McLellan",
-		fileName: "4_MJGM_FOOTSTEPSINSNOWUNDERWATER_",
-		date: "25/02",
-		time: "11:30:00",
-		lat: 64.05506674,
-		lon: -139.4438071,
-		temperature: "-22°C",
-		activity:
-			"Sounds of footsteps in the snow, with the rushing of the river underneath.",
-		equipment: ["Hydrophone","Zoom"],
-		conditions:"Cold, Sunny",
-		duration: "0:02:56",
-		tags: "Yukon River, Underwater, Walking",
-		audioFilePath: "",
-		pictureFilePath: "",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"Interesting layering of sounds, the crackling of the river juxtaposes the wind and loud crunching of snow.",
-		],
-	},
+
 	{
 		id: 61,
 		recordist: "Bronwyn Butterfiled, Gabe McLellan",
@@ -1323,7 +1223,7 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Snowshoeing in the deep snow at the campground in Tombstone.",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Warm",
+		conditions: "Sunny, Warm",
 		duration: "1:14:00",
 		tags: "Tombstone Territorial Park, Walking, Collaboration",
 		audioFilePath:
@@ -1346,7 +1246,7 @@ const datadummy = [
 		activity:
 			"Big steps in showshoes on light and compacted snow on the river trail at Tombstone.",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:42:00",
 		tags: "Klondike River, Tombstone Territorial Park, Walking, Trail, Collaboration",
 		audioFilePath:
@@ -1370,7 +1270,7 @@ const datadummy = [
 		activity:
 			"Bean running down the hill across the klondike river at Propresctor Rd.",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "3:29:00",
 		tags: "Klondike River, Dog, Forest",
 		audioFilePath:
@@ -1416,14 +1316,14 @@ const datadummy = [
 		temperature: "-5°C",
 		activity:
 			"Recording the water truck at the water fill up station available to residents without water",
-		equipment: ["Hydrophone","Zoom"],
-		conditions:"Sunny",
+		equipment: ["Hydrophone", "Zoom"],
+		conditions: "Sunny",
 		duration: "0:24:00",
 		tags: "Running Water, Transportation, Infrastructure",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498409/65_sh_watertruck_zm_04.03.2025_z90gf4.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743526099/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_wbv8ie.mp3",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527742/65_sh_watertruck_zm_04.03.2025_pj1urv.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1439,7 +1339,7 @@ const datadummy = [
 		temperature: "-7°C",
 		activity: "Snowshoeing in powder across the river in a clearing",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "1:04:00",
 		tags: "Yukon River",
 		audioFilePath:
@@ -1461,7 +1361,7 @@ const datadummy = [
 		temperature: "-15°C",
 		activity: "Recording ravens in town",
 		equipment: ["Dual-set up"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "0:21:00",
 		tags: "Raven, Urban",
 		audioFilePath:
@@ -1483,7 +1383,7 @@ const datadummy = [
 		temperature: "-7°C",
 		activity: "Angry squirlrel protesting my presence",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "3:30:00",
 		tags: "Forest",
 		audioFilePath:
@@ -1505,7 +1405,7 @@ const datadummy = [
 		temperature: "-7°C",
 		activity: "Whisky jacks listening to loud cars",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "0:47:00",
 		tags: "Transportation, Birds",
 		audioFilePath:
@@ -1527,7 +1427,7 @@ const datadummy = [
 		temperature: "-8°C",
 		activity: "Sled dogs barking in the distance whilst i played my banjo",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:20:00",
 		tags: "Bonanza Creek, Dog",
 		audioFilePath:
@@ -1550,7 +1450,7 @@ const datadummy = [
 		activity:
 			"microphone in the hole of the water spout creating pressure and eventually and explosion of water",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:27:00",
 		tags: "Running Water, Infrastructure",
 		audioFilePath:
@@ -1573,7 +1473,7 @@ const datadummy = [
 		activity:
 			"Microphone underneath where the water is dispensed onto the ground",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:25:00",
 		tags: "Running Water, Infrastructure",
 		audioFilePath:
@@ -1594,8 +1494,8 @@ const datadummy = [
 		lon: -139.40342,
 		temperature: "-5°C",
 		activity: "Fueling up at a northern gas station",
-		equipment: ["Zoom","Contact"],
-		conditions:"Sunny",
+		equipment: ["Zoom", "Contact"],
+		conditions: "Sunny",
 		duration: "1:05:00",
 		tags: "Energy, Collaboration",
 		audioFilePath:
@@ -1617,7 +1517,7 @@ const datadummy = [
 		temperature: "-5°C",
 		activity: "Fueling up at a northern gas station",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "",
 		tags: "Energy, Transportation",
 		audioFilePath:
@@ -1640,7 +1540,7 @@ const datadummy = [
 		activity:
 			"Microphone underneath the ice at the confluence of the Yukon and Klondike river",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:43:00",
 		tags: "Yukon River, Underwater, Klondike River",
 		audioFilePath:
@@ -1662,7 +1562,7 @@ const datadummy = [
 		temperature: "-7°C",
 		activity: "Whisky jacks comunicating to each other",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "0:17:00",
 		tags: "Forest, Birds",
 		audioFilePath:
@@ -1684,7 +1584,7 @@ const datadummy = [
 		temperature: "-3°C",
 		activity: "Dogs ready to race",
 		equipment: ["Phone"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "0:32:00",
 		tags: "Dog",
 		audioFilePath:
@@ -1706,7 +1606,7 @@ const datadummy = [
 		temperature: "-5°C",
 		activity: "Pouring water into snow high on the Domes south ridge",
 		equipment: ["Phone"],
-		conditions:"Snow, Windy",
+		conditions: "Snow, Windy",
 		duration: "0:11:00",
 		tags: "Running Water",
 		audioFilePath:
@@ -1728,7 +1628,7 @@ const datadummy = [
 		temperature: "-5°C",
 		activity: "Listening to sheep on farm",
 		equipment: ["Phone"],
-		conditions:"Cloudy, Windy",
+		conditions: "Cloudy, Windy",
 		duration: "1:01:00",
 		tags: "",
 		audioFilePath:
@@ -1750,7 +1650,7 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Gabe jumping on a fallen tree branch on the river bank",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:48:00",
 		tags: "Klondike River, Forest, Tombstone Territorial Park, Trail, Collaboration",
 		audioFilePath:
@@ -1772,7 +1672,7 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Snowmobile going over ice",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:20:00",
 		tags: "Klondike River, Infrastructure, Snowmobile, Trail, Collaboration",
 		audioFilePath:
@@ -1797,7 +1697,7 @@ const datadummy = [
 		temperature: "-2°C",
 		activity: "Snowshoe over ice & water",
 		equipment: ["Hydrophone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "1:05:00",
 		tags: "Klondike River,  Tombstone Territorial Park, Walking, Snowmobile, Trail, Collaboration",
 		audioFilePath:
@@ -1893,7 +1793,7 @@ const datadummy = [
 		activity:
 			"Recordings of Grace Bruder and other Dawsonites driving on the Ice Bridge",
 		equipment: ["Geophone"],
-		conditions:"Cloudy, Windy",
+		conditions: "Cloudy, Windy",
 		duration: "2:04:00",
 		tags: "Yukon River, Ice Bridge, Collaboration",
 		audioFilePath:
@@ -1918,7 +1818,7 @@ const datadummy = [
 		activity:
 			"Recordings of snowmobiles in the distance driving on a creek while I was walking on a trail in the trees",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "",
 		tags: "Snowmobile, Trail, Forest, Tombstone Territorial Park",
 		audioFilePath:
@@ -1943,7 +1843,7 @@ const datadummy = [
 		activity:
 			"Expiremental recording of cracking willow leaves in my hand and dropping them onto a snow bank.",
 		equipment: ["Zoom"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:50:00",
 		tags: "Trail, Tombstone Territorial Park, Forest",
 		audioFilePath:
@@ -1968,7 +1868,7 @@ const datadummy = [
 		activity:
 			"Recordings of myself stalking a grouse through the snow while taking photographs, Andrew Karnas making bird calls in the distance and a plane flying overhead",
 		equipment: ["Zoom"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "2:20:00",
 		tags: "Forest, Tombstone Territorial Park, Walking, Birds",
 		audioFilePath:
@@ -1994,7 +1894,7 @@ const datadummy = [
 		activity:
 			"Recordings of Lacey Leforte walking across the metal grate pedestrian walkway on the Klondike Bridge",
 		equipment: ["Geophone"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:06:00",
 		tags: "Klondike River, Walking, Collaboration, Infrastructure",
 		audioFilePath:
@@ -2018,7 +1918,7 @@ const datadummy = [
 		temperature: "-13°C",
 		activity: "Recordings of vehicles driving across the Klondike Bridge",
 		equipment: ["Geophone"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:20:00",
 		tags: "Klondike River, Collaboration, Infrastructure",
 		audioFilePath:
@@ -2044,7 +1944,7 @@ const datadummy = [
 		activity:
 			"Recordings of a snowmobile crossing the metal grate pedestrian walkway on the Klondike Bridge",
 		equipment: ["Geophone"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:53:00",
 		tags: "Klondike River, Snowmobile, Collaboration, Infrastructure",
 		audioFilePath:
@@ -2069,7 +1969,7 @@ const datadummy = [
 		activity:
 			"Recordings of Lacey Leforte knocking on the metal beams of the Klondike Bridge",
 		equipment: ["Geophone"],
-		conditions:"Windy",
+		conditions: "Windy",
 		duration: "0:22:00",
 		tags: "Klondike River, Collaboration, Infrastructure",
 		audioFilePath:
@@ -2093,7 +1993,7 @@ const datadummy = [
 		temperature: "-9°C",
 		activity: "Listening to garbage truck pick up a load",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "0:00:39",
 		tags: "Urban, Infrastructure, Transportation",
 		audioFilePath:
@@ -2117,7 +2017,7 @@ const datadummy = [
 		temperature: "-9°C",
 		activity: "Walking on the cold boardwalks on the way to school",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "",
 		tags: "Walking, Urban",
 		audioFilePath:
@@ -2143,7 +2043,7 @@ const datadummy = [
 		activity:
 			"Listening to the sound of Jove Boutin figure skating on the Ice Bridge",
 		equipment: ["Geophone"],
-		conditions:"Cloudy, Windy",
+		conditions: "Cloudy, Windy",
 		duration: "0:01:51",
 		tags: "Ice Bridge, Ice Skating, Sports, Collaboration",
 		audioFilePath:
@@ -2169,7 +2069,7 @@ const datadummy = [
 		activity:
 			"Listening to the sound of Jove Boutin figure skating on the Ice Bridge",
 		equipment: ["Zoom"],
-		conditions:"Cloudy, Windy",
+		conditions: "Cloudy, Windy",
 		duration: "0:00:19",
 		tags: "Ice Bridge, Ice Skating, Sports, Collaboration",
 		audioFilePath:
@@ -2194,7 +2094,7 @@ const datadummy = [
 		activity:
 			"Watching Klondike Ice Queens hockey game from right behind the boards",
 		equipment: ["Dual-set up"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "1:35:00",
 		tags: "Urban, Ice Skating, Sports",
 		audioFilePath:
@@ -2217,7 +2117,7 @@ const datadummy = [
 		activity:
 			"Listening to the sound of a vent outside of the arena, while kids play on snow pile nearby.",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:46:00",
 		tags: "Urban",
 		audioFilePath:
@@ -2240,7 +2140,7 @@ const datadummy = [
 		activity:
 			"Standing outside the general store, observing as people, cars and  pass by",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:52:00",
 		tags: "",
 		audioFilePath:
@@ -2263,7 +2163,7 @@ const datadummy = [
 		activity:
 			"Listening to the sound of Snow Clearer back up and unload snow and ice into a pile",
 		equipment: ["Zoom"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:00:31",
 		tags: "Infrastructure, Urban, Collaboration",
 		audioFilePath:
@@ -2285,7 +2185,7 @@ const datadummy = [
 		temperature: "-22°C",
 		activity: "Sounds of the river confluence",
 		equipment: ["Hydrophone"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:00:54",
 		tags: "Yukon River, Collaboration",
 		audioFilePath:
@@ -2307,7 +2207,7 @@ const datadummy = [
 		temperature: "-16°C",
 		activity: "Sounds of the hydrometer box outside the blacksmith shop",
 		equipment: ["EMF"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:01:07",
 		tags: "Infrastructure, Energy, Collaboration",
 		audioFilePath:
@@ -2331,7 +2231,7 @@ const datadummy = [
 		temperature: "-16°C",
 		activity: "Sounds of the Yukon energy Plant",
 		equipment: ["EMF"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:00:27",
 		tags: "Infrastructure, Energy, Collaboration",
 		audioFilePath:
@@ -2356,7 +2256,7 @@ const datadummy = [
 		activity:
 			"Wind and Ambience captured from the lookout off of the highway at Tombstone Territorial Park",
 		equipment: ["Zoom"],
-		conditions:"Sunny, Windy",
+		conditions: "Sunny, Windy",
 		duration: "0:01:37",
 		tags: "Tombstone Territorial Park, Transportation",
 		audioFilePath:
@@ -2380,7 +2280,7 @@ const datadummy = [
 		temperature: "-22°C",
 		activity: "Sounds of the river confluence",
 		equipment: ["Hydrophone"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:00:14",
 		tags: "Yukon River, Klondike River",
 		audioFilePath:
@@ -2404,7 +2304,7 @@ const datadummy = [
 		temperature: "",
 		activity: "Klondike Ice Queens arena ambience and game sounds.",
 		equipment: ["Dual-set up"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:00:34",
 		tags: "Sports, Ice Skating",
 		audioFilePath:
@@ -2426,11 +2326,13 @@ const datadummy = [
 		temperature: "",
 		activity: "Klondike Ice Queens faceoff",
 		equipment: ["Dual-set up"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:00:41",
 		tags: "Sports, Ice Skating",
-		audioFilePath: "",
-		pictureFilePath: "",
+		audioFilePath:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043804/108_MJSW_FACEOFF_DS_04.03.2025_zj7slz.mp3",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744044519/108_HuskiesDawsonCreek_wyersi.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2446,11 +2348,13 @@ const datadummy = [
 		temperature: "",
 		activity: "Ambient noise from Ice Queens Game",
 		equipment: ["Dual-set up"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:00:36",
 		tags: "Sports, Ice Skating",
-		audioFilePath: "",
-		pictureFilePath: "",
+		audioFilePath:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043805/109_MJSW_GAMESOUNDS_DS_04.03.2025_ejeh3p.mp3",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744043275/109_hockey_rink_pca9dl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2466,11 +2370,13 @@ const datadummy = [
 		temperature: "",
 		activity: "Cheering and Crowd noises from Klondike Ice Queens playoff game",
 		equipment: ["Dual-set up"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:02:00",
 		tags: "Sports, Ice Skating",
-		audioFilePath: "",
-		pictureFilePath: "",
+		audioFilePath:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043569/110_MJSW_CHEERINGFROMCENTERICE_DS_04.03.2025_r1xfnb.mp3",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744042972/110_MJSW_ICEQUEENSGAME_DS_04.03.2025_vm71lo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2486,11 +2392,13 @@ const datadummy = [
 		temperature: "-22°C",
 		activity: "Crackling and rushing of the confluence",
 		equipment: ["Hydrophone"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:00:22",
 		tags: "Yukon River, Klondike River",
-		audioFilePath: "",
-		pictureFilePath: "",
+		audioFilePath:
+			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043770/111_MJGM_CONFLUENCESOUNDS_HP_25.02.2025_gxh5ih.mp3",
+		pictureFilePath:
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744044744/111_Confluence_ljudmw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["Crackling and rushing creates pleasant ambient sound."],
@@ -2506,7 +2414,7 @@ const datadummy = [
 		temperature: "-15°C",
 		activity: "Ravens gathering outside of KIAC and ambient street noises",
 		equipment: ["Dual-set up"],
-		conditions:"Cold, Sunny",
+		conditions: "Cold, Sunny",
 		duration: "0:01:45",
 		tags: "Raven, Collaboration",
 		audioFilePath:
@@ -2530,7 +2438,7 @@ const datadummy = [
 		temperature: "",
 		activity: "Zamboni going by in ice rink",
 		equipment: ["Zoom"],
-		conditions:"Indoors",
+		conditions: "Indoors",
 		duration: "0:01:34",
 		tags: "Collaboration, Sports, Ice Skating",
 		audioFilePath:
@@ -2554,9 +2462,9 @@ const datadummy = [
 		temperature: "-12°C",
 		activity: "Quigley Landfill - Garbage Ravens (flying and talking)",
 		equipment: ["Dual-set up"],
-		conditions:"Clear Sky, Low Sun",
+		conditions: "Clear Sky, Low Sun",
 		duration: "5:12:00",
-		tags: "Raven, Birds, Collaboration",
+		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501083/114_LL_SW_DUMP1_DS_04.03.25_facgji.mp3",
 		pictureFilePath:
@@ -2576,9 +2484,9 @@ const datadummy = [
 		temperature: "-12°C",
 		activity: "Quigley Landfill - Garbage Ravens (flying and talking)",
 		equipment: ["Dual-set up"],
-		conditions:"Clear Sky, Low Sun",
+		conditions: "Clear Sky, Low Sun",
 		duration: "9:21:36",
-		tags: "Raven, Collaboration, Birds",
+		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501038/115_LL_SW_DUMP2_DS_04.03.25_uluhch.mp3",
 		pictureFilePath:
@@ -2598,9 +2506,9 @@ const datadummy = [
 		temperature: "-12°C",
 		activity: "Quigley Landfill - Garbage Ravens (flying and talking)",
 		equipment: ["Dual-set up"],
-		conditions:"Clear Sky, Low Sun",
+		conditions: "Clear Sky, Low Sun",
 		duration: "4:07:00",
-		tags: "Raven, Collaboration, Birds",
+		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501065/116_LL_SW_DUMP3_DS_04.03.25_whvhgy.mp3",
 		pictureFilePath:
@@ -2613,16 +2521,16 @@ const datadummy = [
 		id: 117,
 		recordist: "Lacey Leforte, Sadie Wasylko",
 		fileName: "4_LL,SW_DUMP4_DS 04.03.25.",
-		date:"",
-		time: "",
-		lat: "",
-		lon: "",
-		temperature: "",
+		date: "04/03",
+		time: "17:40:00",
+		lat: 64.02939,
+		lon: -139.30417,
+		temperature: "-12°C",
 		activity: "",
 		equipment: ["Dual-set up"],
-		conditions:"",
+		conditions: "Clear Sky, Low Sun",
 		duration: "",
-		tags: "",
+		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath: "",
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447225/117_LL_SW_DUMP5_DS_04.03.25_sk7riv.jpg",
@@ -2642,7 +2550,7 @@ const datadummy = [
 		temperature: "-15°C",
 		activity: "Encountering a raven on a rooftop gurgling & banging on metal",
 		equipment: ["Phone"],
-		conditions:"Sunny",
+		conditions: "Sunny",
 		duration: "0:33:00",
 		tags: "Raven, Urban, Infrastructure, Birds",
 		audioFilePath:
@@ -2666,7 +2574,7 @@ const datadummy = [
 		temperature: "-5°C",
 		activity: "Capturing the sound of snow falling on plastic",
 		equipment: ["Sensative"],
-		conditions:"",
+		conditions: "",
 		duration: "0:35:00",
 		tags: "Urban",
 		audioFilePath:
@@ -2690,7 +2598,7 @@ const datadummy = [
 		temperature: "-5°C",
 		activity: "Capturing the sound of snow falling on ",
 		equipment: ["Sensative"],
-		conditions:"",
+		conditions: "",
 		duration: "0:25:00",
 		tags: "",
 		audioFilePath:

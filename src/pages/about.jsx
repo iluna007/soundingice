@@ -22,7 +22,9 @@ const About = () => {
 								className='img-fluid'
 								alt='...'
 							/>
-
+							<br></br>
+							<br></br>
+							<br></br>
 							<p className='description'>
 								<strong>SOUNDING ICE: sensing frozen flows</strong> explores the
 								signals of climate change found in and around the Yukon and
@@ -78,9 +80,9 @@ const About = () => {
 								(SSHRC) Connections Grant / Toronto Biennial of Art.
 							</p>
 							<p className='description'>
-								Nicole Rayburn, Aubyn O’Grady, Andy Belanger, Chantal Rouseau at
-								SOVA and to Faiza Ahmed Khan in Delhi, India, my collaborator on
-								the Listening to Ice research project.
+								Special thanks to: Nicole Rayburn, Aubyn O’Grady, Andy Belanger,
+								Chantal Rousseau at SOVA and to Faiza Ahmed Khan in Delhi,
+								India, my collaborator on the Listening to Ice research project.
 							</p>
 							<p className='description'>
 								Project Credits: Drone Footage by John Howland & Bobby Ronka.
@@ -162,16 +164,16 @@ const About = () => {
 								built environment. Iker holds an MAArch from the Institute for
 								Advanced Architecture of Catalonia. He teaches at the University
 								of Costa Rica in the Architecture School and is currently
-								pursuing a{" "}
+								pursuing a MA in the{" "}
 								<a
 									href='https://www.gold.ac.uk/architecture/programmes/'
 									target='_blank'
 									rel='noopener noreferrer'
 									className='description_forlinks_about'
 								>
-									MA in the Centre for Research Architecture at Goldsmiths,
-									University of London.
-								</a>
+									Centre for Research Architecture at
+								</a>{" "}
+								Goldsmiths, University of London.
 							</p>
 						</div>
 					</div>
