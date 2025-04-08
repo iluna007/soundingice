@@ -5,21 +5,20 @@ import { FaMapMarker } from "react-icons/fa";
 import store from "../flux/store";
 import { selectRecord } from "../flux/actions";
 import "mapbox-gl/dist/mapbox-gl.css";
-import mlcontour from "maplibre-contour"; // Ensure this package is installed
+import mlcontour from "maplibre-contour";
 
 // Set the global Mapbox token
 mapboxgl.accessToken =
 	"pk.eyJ1IjoiaWtlcmx1bmEiLCJhIjoiY203NjMwZHptMHAzaDJrcXlrbnNuMHJlZiJ9.hkoRlM6gQ-BflcGjpI40GA";
 
 const MapEmbed = () => {
+	// Estado viewport sin propiedades no soportadas (ej. position)
 	const [viewport, setViewport] = useState({
 		latitude: 64.061239,
 		longitude: -139.43228,
 		zoom: 14,
 		pitch: 0,
 		bearing: 0,
-		position: "sticky",
-		
 	});
 	const [records, setRecords] = useState(store.getAll());
 	const [selectedRecord, setSelectedRecord] = useState(
@@ -27,6 +26,7 @@ const MapEmbed = () => {
 	);
 	const mapRef = useRef(null);
 
+	// Actualiza registros en store
 	useEffect(() => {
 		const update = () => {
 			setRecords(store.getAll());
@@ -36,20 +36,32 @@ const MapEmbed = () => {
 		return () => store.off("change", update);
 	}, []);
 
+	// Forzar resize en cambios de tamaño de ventana y cuando se monta el mapa
+	useEffect(() => {
+		const handleResize = () => {
+			if (mapRef.current) {
+				const map = mapRef.current.getMap();
+				if (map) map.resize();
+			}
+		};
+		window.addEventListener("resize", handleResize);
+		// Llamada con retraso para el primer render y cuando el contenedor se muestra
+		setTimeout(handleResize, 500);
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
 	const handleMapLoad = () => {
 		const map = mapRef.current.getMap();
 
-		// Set up mlcontour for DEM-based contours
+		// Configuración de mlcontour para contornos basados en DEM
 		const demSource = new mlcontour.DemSource({
 			url: "https://demotiles.maplibre.org/terrain-tiles/{z}/{x}/{y}.png",
 			encoding: "mapbox",
 			maxzoom: 14,
 			worker: true,
-			
 		});
 		demSource.setupMaplibre(mapboxgl);
 
-		// Add hillshade source and layer with exaggeration set to 5
 		if (!map.getSource("hillshadeSource")) {
 			map.addSource("hillshadeSource", {
 				type: "raster-dem",
@@ -67,8 +79,6 @@ const MapEmbed = () => {
 				paint: { "hillshade-exaggeration": 5 },
 			});
 		}
-
-		// Add contour vector source and layers
 		if (!map.getSource("contourSourceFeet")) {
 			map.addSource("contourSourceFeet", {
 				type: "vector",
@@ -122,19 +132,24 @@ const MapEmbed = () => {
 				},
 			});
 		}
+
+		// Forzar resize tras cargar el mapa para garantizar que se aplique el 100% de ancho
+		setTimeout(() => {
+			map.resize();
+		}, 300);
 	};
 
-	// When selectedRecord changes, fly to its location.
+	// Al cambiar selectedRecord, volar a su ubicación
 	useEffect(() => {
 		if (selectedRecord && mapRef.current) {
 			const map = mapRef.current.getMap();
 			map.flyTo({
 				center: [selectedRecord.lon, selectedRecord.lat],
-				zoom: 12, // Adjust zoom level as needed
+				zoom: 12,
 				speed: 1.3,
 				curve: 1,
 				easing: (t) => t,
-				essential: true, // This animation is considered essential with respect to prefers-reduced-motion
+				essential: true,
 			});
 		}
 	}, [selectedRecord]);
@@ -144,7 +159,8 @@ const MapEmbed = () => {
 	};
 
 	return (
-		<div className='map-wrapper' style={{ height: "500px", width: "100%" }}>
+		// Contenedor con altura y width fijos (width: "100%" se hereda del contenedor padre)
+		<div style={{ height: "500px", width: "100%" }}>
 			<ReactMapGL
 				ref={mapRef}
 				{...viewport}
@@ -202,7 +218,6 @@ const MapEmbed = () => {
 									<strong>Date:</strong> {selectedRecord.date}
 								</p>
 							</div>
-							{/* Removed autoPlay to prevent unwanted activation */}
 							<audio controls style={{ width: "100%" }}>
 								<source src={selectedRecord.audioFilePath} type='audio/mpeg' />
 								Your browser does not support the audio element.
