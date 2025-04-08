@@ -275,8 +275,6 @@ const FieldRecordings = () => {
 								))}
 							</div>
 						</div>
-						
-						
 					</div>
 					<div className='col-md-5'>
 						{/* Paginación superior */}
@@ -312,12 +310,7 @@ const FieldRecordings = () => {
 						{renderPagination()}
 					</div>
 					<div className='col-md-5'>
-						<Masonry
-							breakpointCols={{ default: 1 }}
-							className='my-masonry-grid'
-							columnClassName='my-masonry-grid_column'
-						></Masonry>
-						<MapEmbed/>
+						<MapEmbed />
 					</div>
 				</div>
 			</div>
