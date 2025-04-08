@@ -38,8 +38,8 @@ const About = () => {
 							<br />
 							<br />
 							<p className='description'>
-								<strong>SOUNDING ICE: sensing frozen flows</strong> explores the
-								signals of climate change found in and around the Yukon and
+								<strong>SOUNDING ICE / SENSING FROZEN FLOWS</strong> explores
+								the signals of climate change found in and around the Yukon and
 								Klondike Rivers—their confluences and histories.
 							</p>
 							<p className='description'>
