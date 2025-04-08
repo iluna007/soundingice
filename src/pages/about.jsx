@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import StudentCard from "../components/StudentCards.jsx"; // Adjust based on the actual file name and locationimport students from "../flux/datastudentsimages"; // Asegúrate de que este archivo exista y exporte el array
-import students from "../flux/datastudentsimages.js"; // Asegúrate de que este archivo exista y exporte el array
-import "../Styles/StudentCard.css"; // Asegúrate de que este archivo exista y contenga los estilos necesarios
+import StudentCard from "../components/StudentCards.jsx";
+import students from "../flux/datastudentsimages.js";
+import "../Styles/StudentCard.css";
 import ErrorBoundary from "../components/ErrorBoundary.jsx";
 import "../Styles/About.css";
 
 const About = () => {
+	// Genera una copia barajada aleatoriamente del array de estudiantes
+	const shuffledStudents = React.useMemo(() => {
+		return [...students].sort(() => Math.random() - 0.5);
+	}, []);
+
 	return (
 		<div className='container-fluid'>
 			<div
@@ -23,9 +28,10 @@ const About = () => {
 					<div className='col'>
 						<h2 className='title'>About</h2>
 						<div className='mt-5'>
+							{/* Primera imagen con filtro blanco y negro */}
 							<img
 								src='https://res.cloudinary.com/drc27xzb4/image/upload/v1743837311/SOVA_STUDENTS_yqnmli.jpg'
-								className='img-fluid'
+								className='img-fluid about-first-image'
 								alt='...'
 							/>
 							<br />
@@ -71,10 +77,10 @@ const About = () => {
 								Butterfield, Sam Huxley, Andrew Kearns, Milo Jackson, Lacey
 								Leforte, Gabe McLellan, Sadie Wasylko.
 							</p>
-							{/* Grid de tarjetas de estudiantes */}
+							{/* Grid de tarjetas de estudiantes (orden aleatorio) */}
 							<div className='student-grid'>
 								<ErrorBoundary>
-									{students.map((student, index) => (
+									{shuffledStudents.map((student, index) => (
 										<StudentCard key={index} student={student} />
 									))}
 								</ErrorBoundary>
