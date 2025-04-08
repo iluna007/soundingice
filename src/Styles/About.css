@@ -28,6 +28,7 @@ img.img-fluid {
   text-align: justify;
   text-align: left;
   color: inherit;
+  flex-wrap: wrap; /* Permite que el título se divida en líneas si es necesario */
 }
 
 .description_forlinks_about {

@@ -53,7 +53,7 @@ export default function Layout({ children }) {
 	);
 
 	// Mobile layout: if width is less than 768px, show a top nav bar.
-	if (width < 1280) {
+	if (width < 768) {
 		return (
 			<div className='mobile-layout'>
 				<div className='mobile-nav'>

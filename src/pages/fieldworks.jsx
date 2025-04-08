@@ -171,7 +171,7 @@ const Fieldworks = () => {
 										</a>
 									</p>
 									<h3 className='subtitles'>
-										Listening Exercise & Artist Talk
+										Listening Exercise
 									</h3>
 									<hr></hr>
 
@@ -235,7 +235,7 @@ const Fieldworks = () => {
 								<div className='col-md-3 '>
 									<p className='description'>Bill Morrison</p>
 									<h3 className='subtitles'>
-										Screening: Dawson City: Frozen Time
+										Screening: Dawson City Frozen Time
 									</h3>
 									<hr></hr>
 

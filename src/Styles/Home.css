@@ -46,10 +46,13 @@
   font-family: "Arial", sans-serif;
   font-weight: bolder;
   /* Tamaño responsivo: mínimo 2rem, ideal 17vw, máximo 10rem */
-  font-size: clamp(2rem, 17vw, 20rem);
-  margin: 5px;
-  line-height: 0.8;
-  text-align: left;
+  font-size: clamp(2rem, 15vw, 20rem);
+  margin: 25px;
+  line-height: 0.75;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap; /* Permite que el título se divida en líneas si es necesario */
+  align-items: baseline;
 }
 
 .description1 {
