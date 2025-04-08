@@ -2557,7 +2557,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501040/118__NR_raven_gurgling_and_banging_metal_IP_02.26.2025_wy7r5v.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744128131/117_LL_SW_DUMP4_DS_04.03.25_g79l2z.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447228/118_NR_raven_gurgling_banging_metal_IP_02.26.2025_sritpk.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
