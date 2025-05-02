@@ -2722,7 +2722,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501053/125_LL_BRIDGE_GF_04.03.25WAV_vqmlzl.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447247/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_eaaugw.jpg",
+			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447380/125_LL_BRIDGE_GF_04.03.25WAV_cecrrl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
