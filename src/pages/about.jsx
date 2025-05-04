@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import StudentCard from "../components/StudentCards.jsx";
 import students from "../flux/datastudentsimages.js";
 import "../Styles/StudentCard.css";
@@ -30,7 +29,7 @@ const About = () => {
 						<div className='mt-5'>
 							{/* Primera imagen con filtro blanco y negro */}
 							<img
-								src='https://res.cloudinary.com/drc27xzb4/image/upload/v1743837311/SOVA_STUDENTS_yqnmli.jpg'
+								src='https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/GROUP+PHOTO/SOVA_TEAM_yqnmli.jpg'
 								className='img-fluid about-first-image'
 								alt='...'
 							/>
