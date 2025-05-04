@@ -1,8 +1,8 @@
 const galleryImages = [
-	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937597/1_TOMBSTONE_shzrio.jpg",
-	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937598/2_TOMBSTONE_nicfqh.jpg",
-	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937604/3_TOMBSTONE_n7792z.jpg",
-	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937604/4_TOMBSTONE_kl8hqh.jpg",
+	"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/TOMBSTONE+LANDSCAPE+FORMAT/1_TOMBSTONE_shzrio.jpg",
+	"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/TOMBSTONE+LANDSCAPE+FORMAT/10_TOMBSTONE_jdlspd.jpg",
+	"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/TOMBSTONE+LANDSCAPE+FORMAT/11_TOMBSTONE_ncp6wu.jpg",
+	"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/TOMBSTONE+LANDSCAPE+FORMAT/12_TOMBSTONE_wgscsx.jpg",
 	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937605/5_TOMBSTONE_wjaicp.jpg",
 	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937606/6_TOMBSTONE_tocxwy.jpg",
 	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743937614/7_TOMBSTONE_r0zlsa.jpg",
@@ -69,7 +69,6 @@ const galleryImages = [
 	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743967258/68_TOMBSTONE_ivilxg.jpg",
 	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743967278/69_TOMBSTONE_z9oo4y.jpg",
 	"https://res.cloudinary.com/drc27xzb4/image/upload/v1743967284/70_TOMBSTONE_zwsene.jpg",
-	
 ];
 
 export default galleryImages;

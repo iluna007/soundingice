@@ -17,7 +17,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455502/2_GB_Fathers_Bogdan_Bridge_7min_DS_01.03.2025_pcpxw3.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447251/2_GB_Fathers_Bogdan_Bridge_Photo_DS_01.03.2025_zv3gbd.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/2_GB_Fathers_Bogdan_Bridge_Photo_DS_01.03.2025_zv3gbd.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -42,7 +42,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455749/3_BB_SLED_DOGS_YAPPING_ZM_02.03.2025_q1sejx.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447370/3_BB_SLED_DOGS_YAPPING_ZM_02.03.2025_lvvzxt.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/3_BB_SLED_DOGS_YAPPING_ZM_02.03.2025_lvvzxt.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -69,7 +69,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455781/4_JB_Sharpening_Skates_ZM_04.03.2025_las5by.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447262/4_JB_Sharpening_Skates_ZM_04.03.2025_jf4el6.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/4_JB_Sharpening_Skates_ZM_04.03.2025_jf4el6.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -94,9 +94,9 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455924/5_GB_Fathers_Bogdan_Bridge_12min_DS_01.03.2025_e9xfyl.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743461114/5A_GB_Fathers_Bogdan_Bridge_Photo_DS_01.03.2025_tb8erb.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/5A_GB_Fathers_Bogdan_Bridge_Photo_DS_01.03.2025_tb8erb.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743461116/5B_GB_Fathers_Bogdan_Bridge_Photo_DS.01.03.2025_yjtqg8.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/5B_GB_Fathers_Bogdan_Bridge_Photo_DS.01.03.2025_yjtqg8.jpg",
 		videolink: "",
 		observations: [
 			"After driving down the remote mining road until it was no longer plowed, Fathers Bogdan Bridge appeared. I set up a dual mic in the middle of the small wodden bridge to listen to the quiet valley. Amazingly I could hear Bonanza Creek flowing below, even though it was burried under five feet of snow and ice. You can also hear sounds of ravens and other birds in the surounding area, as well as snow sluffing off of trees from the sun warming up the valley bottom.",
@@ -120,7 +120,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455914/6_GB_Klondike_In_Snow_on_Ice_HD_03.03.2025_f5xawm.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447249/6_GB_Klondike_In_Snow_on_Ice_HD_03.03.2025_upd1gw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/6_GB_Klondike_In_Snow_on_Ice_HD_03.03.2025_upd1gw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -145,7 +145,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455910/7_BB_CROSS_COUNTRY_SKIING_ZM_01.03.2025_d6ghvi.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447309/7_BB_CROSS_COUNTRY_SKIING_ZM_01.03.2025_cc0j0m.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/7_BB_CROSS_COUNTRY_SKIING_ZM_01.03.2025_cc0j0m.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -170,7 +170,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456356/8_GB_Klondike_In_Water_HD_03.03.2025_e32yus.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447318/8_GB_Klondike_In_Water_HD_03.03.2025_t39kgl.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/8_GB_Klondike_In_Water_HD_03.03.2025_t39kgl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["A small section of open water on the Klondike river."],
@@ -193,7 +193,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456341/10_GB_Black_Spruce_Bark_Cracking_ZM_28.02.2025_l7ctu1.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447385/10_GB_Black_Spruce_Bark_Cracking_ZM_28.02.2025_qots8y.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/10_GB_Black_Spruce_Bark_Cracking_ZM_28.02.2025_qots8y.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -219,7 +219,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456339/11_AK_Ravens_04_03_25_txh8un.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743617379/11_11_AK_Raven_04_03_25_w5itwe.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/11_11_AK_Raven_04_03_25_w5itwe.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -243,7 +243,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456353/13_AK_Grey_Jays_28_02_25_oo8epg.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447228/13_AK_Grey_Jays_28_02_25_tx8ezg.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/13_AK_Grey_Jays_28_02_25_tx8ezg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -268,7 +268,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456338/14_GB_Grey_Jay_s_eating_Chips_ZM_28.02.2025_ctpwjw.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447279/14_GB_Grey_Jay_s_eating_Chips_ZM_28.02.2025_u88bvb.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/14_GB_Grey_Jay_s_eating_Chips_ZM_28.02.2025_u88bvb.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -292,7 +292,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456344/15_GB_Traditional_Snowshoes_ZM_28.02.2025_vgwnjp.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447301/15_GB_Traditional_Snowshoes_ZM_28.02.2025_ccs3b6.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/15_GB_Traditional_Snowshoes_ZM_28.02.2025_ccs3b6.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -316,7 +316,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457281/17_AK_Wifi_Router_26_02_25_yp9lah.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503166/17X_AK_Wifi_Router_26_02_25_ehtncw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/17X_AK_Wifi_Router_26_02_25_ehtncw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -341,7 +341,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457285/19_AK_Ethernet_Port_26_02_25_zyti9c.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503172/19X_AK_Ethernet_Port_26_02_25_qjuung.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/19X_AK_Ethernet_Port_26_02_25_qjuung.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -366,10 +366,10 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457749/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03.2025_s1ekdj.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447224/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03_o8hzc3.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03_o8hzc3.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496934/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03.2025_fplvmt.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03.2025_fplvmt.mov",
 		observations: [
 			"Symphonic howling sounds in conjunction with silence creates a dynamic contrast, making the familiar, crunching sounds of walking on snow and chains clinking seem soft and familiar.",
 		],
@@ -391,7 +391,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743525074/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_k3kbmb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744099607/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_trknhg.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_trknhg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -414,7 +414,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457782/22_AK_Toaster_EMF_01_03_25_uiipvw.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503188/22X_AK_Toaster_EMF_01_03_25_cz6n1h.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/22X_AK_Toaster_EMF_01_03_25_cz6n1h.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -439,7 +439,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743526099/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_wbv8ie.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743525892/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_mrtpqu.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_mrtpqu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -463,10 +463,10 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457822/24_BB_DOGSLEDDING_ZM_02.03.2025_il7fn5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447255/24_BB_DOGSLEDDING_ZM_02.03_ze84pn.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/24_BB_DOGSLEDDING_ZM_02.03_ze84pn.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496969/24_BB_DOGSLEDDING_ZM_02.03.2025_s0i2m9.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/24_BB_DOGSLEDDING_ZM_02.03.2025_s0i2m9.mov",
 		observations: [
 			"Dogs are unexpectedly quiet while leading a sled through the forest trail. The communication and commands of the musher, in combination with the strength and will of the dogs, are the driving force of this essential form of arctic transportation. The sled creaks against the snow as it moves forward and takes turns.",
 		],
@@ -488,7 +488,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458538/25_BB_ENERGY_YUKON_PLANT_ZM_04.03.2025_c4n1lo.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447235/25_BB_ENERGY_YUKON_PLANT_ZM_04.03.2025_mp7ozh.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/25_BB_ENERGY_YUKON_PLANT_ZM_04.03.2025_mp7ozh.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -513,9 +513,9 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458546/26_GB_Dredge_No.4_DS_01.02.2025_tsob5q.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447259/26A_GB_Dredge_No.4_DS_01.02.2025_hwez0m.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/26A_GB_Dredge_No.4_DS_01.02.2025_hwez0m.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447274/26B_GB_Dredge_No.4_DS_01.02.2025_pyvfdm.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/26B_GB_Dredge_No.4_DS_01.02.2025_pyvfdm.jpg",
 		videolink: "",
 		observations: [
 			"On my way back to town from Fathers Bogdan Bridge I stopped at the historic site of Dredge No.4, a wooden-hulled buckline sluice dredge that minned gold in the Yukon from 1913 until 1959. The area was completely silent, in an almost earie way. I set up the dual mics again and heard the sounds of the dredge creaking in the cold shadows of hills surounding the valley.",
@@ -539,7 +539,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458539/27_GB_Bushwacking_ZM_28.02.2025_mavoay.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447328/27_GB_Bushwacking_ZM_28.02.2025_nvjsra.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/27_GB_Bushwacking_ZM_28.02.2025_nvjsra.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -564,7 +564,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458541/28_AK_510Thread__Battery_4.2V_24_02_25_w4liaz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503181/28X_AK_510Thread__Battery_4.2V_24_02_25.wav_fajbyc.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/28X_AK_510Thread__Battery_4.2V_24_02_25.wav_fajbyc.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -589,8 +589,8 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458543/29_GB_SOVA_Studio_Radiator_SM_02.03.2025_qjef9a.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447275/29A_GB_SOVA_Studio_Radiator_SM_02.03.2025_mvitwq.jpg",
-		extrapictureFilePath: "",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/29A_GB_SOVA_Studio_Radiator_SM_02.03.2025_mvitwq.jpg",
+		extrapictureFilePath: "https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/29AX_GB_SOVA_Studio_Radiator_SM_02.03.2025_wbbd8c.jpg",
 		videolink: "",
 		observations: [
 			"In the personal studio spaces of the School of visual arts there is one particular radiator that sounds like water trickling down a small stream, it is most beautiful and calming late at night while working on sketches and paintings alone at school.",
@@ -613,7 +613,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459473/30_AK_EMF_Extension_Cord_01_03_25_mtxkjx.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447329/30_AK_EMF_Extension_Cord_01_03_25_rvnilk.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/30_AK_EMF_Extension_Cord_01_03_25_rvnilk.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -637,7 +637,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459424/31_AK_EMF_Angry_Microwave_06_03_25_qw8nxq.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503208/31X_AK_EMF_Angry_Microwave_06_03_25_vs61cs.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/31X_AK_EMF_Angry_Microwave_06_03_25_vs61cs.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -662,7 +662,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501483/32_GB_Diamond_Tooth_Gerties_Boardwalk_GP_06.03.2025_y8gago.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447332/32_GB_Diamond_Tooth_Gerties_Boardwalk_GP_06.03.2025_rmza8q.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/32_GB_Diamond_Tooth_Gerties_Boardwalk_GP_06.03.2025_rmza8q.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -686,7 +686,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502339/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_stzfup.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744098594/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_apqg2u.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_apqg2u.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -708,7 +708,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502354/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_hvw1xw.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744097993/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_sf6si3.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_sf6si3.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -731,7 +731,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502357/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_y0s4bn.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744096834/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_j6hgkt.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_j6hgkt.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -754,7 +754,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502344/36_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_zcj2rs.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744095570/36_4_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_bnivqt.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/36_4_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_bnivqt.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -776,7 +776,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502336/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_e7cxzz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744099060/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_wr1tiv.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_wr1tiv.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -798,7 +798,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502337/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_mbe0di.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744098283/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_kbkeuu.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_kbkeuu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -820,7 +820,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502342/39_GM_BB_SNOWSHOEING_ON_SNOW2_ZM_28-02-2025_e5kxfm.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744098390/39_GM_BB_DEEP_SNOW_ZM_2025-02-28_yt4cwl.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/39_GM_BB_DEEP_SNOW_ZM_2025-02-28_yt4cwl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -842,7 +842,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502346/40_GM_MJ_BB_TOP_OF_SNOW_BANK_CM_04-03-2025_uaw4kc.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447319/40_GM_MJ_BB_TOP_OF_SNOW_BANK_CM_04-03-2025_xcujmv.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/40_GM_MJ_BB_TOP_OF_SNOW_BANK_CM_04-03-2025_xcujmv.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [""],
@@ -865,7 +865,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459422/43_GM_MJ_BB_PUMPING_GAS_EMF_04-03-2025_r6pwg8.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447286/43_GM_MJ_BB_PUMPING_GAS_EMF_04-03-2025_m7ydk2.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/43_GM_MJ_BB_PUMPING_GAS_EMF_04-03-2025_m7ydk2.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -888,7 +888,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459428/44_BB_BOARDWALKING_ZM_04.03.2025_upg5zb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447308/45_sh_wolves_howling_zoom_3.04.2025_u5v6g3.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/44_BB_BOARDWALKING_ZM_04.03.2025_vomlkl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -912,7 +912,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459415/45_sh_wolves_howling_zoom_3.04.2025_i3gkrk.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447308/45_sh_wolves_howling_zoom_3.04.2025_u5v6g3.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/45_sh_wolves_howling_zoom_3.04.2025_u5v6g3.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -937,7 +937,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459415/45_sh_wolves_howling_zoom_3.04.2025_i3gkrk.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447389/46_BB_WOODGRAIN_CM_04.03.2025_wrtxte.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/46_BB_WOODGRAIN_CM_04.03.2025_wrtxte.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -961,7 +961,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459406/47_sh_wisky_jack_zm_03.28.2025_yo9oqk.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506084/47_sh_wisky_jack_zm_03.28.2025_l4lpvc.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/47_sh_wisky_jack_zm_03.28.2025_l4lpvc.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -985,7 +985,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459408/48_AB_PROSPECTOR_RD_KR_HYDRO_05.03.2025_ju4dt8.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447302/48_AB_PROSPECTOR_RD_KR_HYDRO_05.03.2025_isii8f.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/48_AB_PROSPECTOR_RD_KR_HYDRO_05.03.2025_isii8f.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1010,7 +1010,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459434/49_AK_Dog_Claws_Floor_06_03_25_cn0rfs.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506206/49_AK_Dog_Claws_Floor_06_03_25_piusf7.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/49_AK_Dog_Claws_Floor_06_03_25_piusf7.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["I noticed Bean might need a manicure."],
@@ -1033,7 +1033,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459835/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503221/50X_AK_Printer_EMF_06_03_25_ojkiea.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/50X_AK_Printer_EMF_06_03_25_ojkiea.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1057,7 +1057,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459835/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743503201/51X_AK_Epson_Scanner_06_03_25_u7fyei.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/51X_AK_Epson_Scanner_06_03_25_u7fyei.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1081,7 +1081,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459821/52_JB_Arena_Lesson_ZM_04.03.2025_z1hvhc.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506084/47_sh_wisky_jack_zm_03.28.2025_l4lpvc.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/52_JB_Arena_Lesson_ZM_04.03.2025_vt7nef.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["Children were dragging ice skating aids across the ice."],
@@ -1103,7 +1103,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459819/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_rlev6m.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447333/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_kvbqnf.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_kvbqnf.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1127,7 +1127,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459819/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_rlev6m.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447244/54_BB_GARBAGETRUCK_ZM_04.03.2025_lzixfo.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/54_BB_GARBAGETRUCK_ZM_04.03.2025_lzixfo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1153,7 +1153,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459815/56_BB_REFUELING_GAS_STATION_ZM_04.03.2025_hn1axl.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447250/56_BB_REFUELING_GAS_STATION_ZM_04.03.2025_zzu1fo.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/56_BB_REFUELING_GAS_STATION_ZM_04.03.2025_zzu1fo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1179,7 +1179,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459824/58_MJBB_CHAINLINKFENCE_CM_04.03_csalvw.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447264/58_MJBB_CHAINLINKFENCE_CM_04.03_nl1dr4.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/58_MJBB_CHAINLINKFENCE_CM_04.03_nl1dr4.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1204,7 +1204,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459810/59_BB_SNOW_BANK_CHUNKS_ZM_04.03.2025_rfcnd5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447343/59_BB_SNOW_BANK_CHUNKS_ZM_04.03.2025_cdkkma.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/59_BB_SNOW_BANK_CHUNKS_ZM_04.03.2025_cdkkma.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1229,10 +1229,10 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459909/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_vcqerl.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744124531/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_jf2vs3.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_jf2vs3.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496964/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_t1btst.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_t1btst.mov",
 		observations: [],
 	},
 	{
@@ -1256,7 +1256,7 @@ const datadummy = [
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447236/62_BB_SNOWSHOEING_ZM_28.02_q8bdkl.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496941/62_BB_SNOWSHOEING_ZM_28.02.2025_nz8tsc.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/62_BB_SNOWSHOEING_ZM_28.02.2025_nz8tsc.mov",
 		observations: [],
 	},
 	{
@@ -1277,7 +1277,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498420/63_BEAN_ZM05.03.2025_eo4lkd.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447325/63A_Bean_ready_yqbdxt.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/62_BB_SNOWSHOEING_ZM_28.02_q8bdkl.jpg",
 		extrapictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447267/63B_Bean_s_recording_outfit_krg82q.jpg",
 		videolink: "",
@@ -1301,7 +1301,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498410/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_fjwl9c.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447343/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_kmmfpx.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_kmmfpx.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1324,7 +1324,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498409/65_sh_watertruck_zm_04.03.2025_z90gf4.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527742/65_sh_watertruck_zm_04.03.2025_pj1urv.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/65_sh_watertruck_zm_04.03.2025_pj1urv.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1346,7 +1346,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498411/66_sh_powshoe_zm_03.28.2025_v1vdnk.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527739/66_sh_powshoe_zm_03.28.2025_p4tlkh.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/66_sh_powshoe_zm_03.28.2025_p4tlkh.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1368,7 +1368,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498412/67_sh_streetraven_ds_03.25.2025_qqedg5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527713/67_sh_streetraven_ds_03.25.2025_kavulg.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/67_sh_streetraven_ds_03.25.2025_kavulg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1390,7 +1390,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498426/68_sh_squirlanger_zm_03.28.2025_u5eqyt.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527722/68_sh_squirlanger_zm_03.28.2025_v5seuw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/68_sh_squirlanger_zm_03.28.2025_v5seuw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1412,7 +1412,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498414/69_sh_wiskycar_zm_03.28.2025_umsmmz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527724/69_sh_wiskycar_zm_03.28.2025._mryabf.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/69_sh_wiskycar_zm_03.28.2025._mryabf.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1434,7 +1434,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498342/70_sh_dogbark_zm_04.03.2025_boc4va.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527719/70_sh_dogbark_zm_04.03.2025_aoejgu.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/70_sh_dogbark_zm_04.03.2025_aoejgu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1457,7 +1457,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498348/71_sh_waterexplosion_hp_04.04.2025_yohfbp.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527727/71_sh_waterexplosion_hp_04.04.2025_dzafu0.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/71_sh_waterexplosion_hp_04.04.2025_dzafu0.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1480,7 +1480,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498349/72_sh_fillinup_water_hp_04.04.2025_pnfy3x.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527729/72_sh_fillinup_water_hp_04.04.2025_urs8lu.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/72_sh_fillinup_water_hp_04.04.2025_urs8lu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1502,7 +1502,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498351/73_sh_fillinupgass_zm_04.04.2025_exwg4b.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527727/71_sh_waterexplosion_hp_04.04.2025_dzafu0.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/73_sh_fillinupgass_zm_04.04.2025_uqpnq1.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1524,7 +1524,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/74_sh_externalgass_zm_04.04.2025_iavuu3.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527708/74_sh_externalgass_zm_04.04.2025_mplaos.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/74_sh_externalgass_zm_04.04.2025_mplaos.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1547,7 +1547,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498346/75_sh_iceconfluence_hp_25.03.2024_jbzzlc.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527708/74_sh_externalgass_zm_04.04.2025_mplaos.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/75_sh_iceconfluence_hp_25.03.2024_elwbmo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1569,7 +1569,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498343/76_sh_speakingbirds_zm_03.28.2025_fkgxfs.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743527711/76_sh_speakingbirds_zm_03.28.2025_gtakr8.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/76_sh_speakingbirds_zm_03.28.2025_gtakr8.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1591,7 +1591,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447340/77.sh.dograce.phone.7.04.2025_ygl7gg.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/77.sh.dograce.phone.7.04.2025_ygl7gg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1613,7 +1613,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498342/78.sh.snowater.phone.08.04_kxq7lb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447226/78.sh.snowater.phone.08.04_dppyqo.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/78.sh.snowater.phone.08.04_dppyqo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1635,7 +1635,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447350/79.sh.sheep.phone.08.04_kjjt5c.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/79.sh.sheep.phone.08.04_kjjt5c.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1657,7 +1657,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498879/80_BB_JUMPING_ON_BRANCH_ZM_28.02.2025_zlucpb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447343/80_BB_JUMPING_ON_BRANCH_ZM_28.02.2025_kecpse.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/80_BB_JUMPING_ON_BRANCH_ZM_28.02.2025_kecpse.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1679,10 +1679,10 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447238/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02_myeh3h.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02_myeh3h.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496947/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02.2025_mppcdj.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02.2025_mppcdj.mov",
 		observations: [
 			"The whooshing of a snowmobile passing by is a familiar sound of the north. Collaboration with Gabe McLellan.",
 		],
@@ -1704,7 +1704,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_fwpjl2.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447254/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_hlgc9w.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_hlgc9w.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1728,10 +1728,10 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498878/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447277/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02_mvmmni.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02_mvmmni.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496967/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02.2025_lk9zrh.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02.2025_lk9zrh.mov",
 		observations: [
 			"Sound is partially blown out due to the loud and exhilirating nature of driving fast on a snowmobile, but I believe this captures the feeling of being a passenger on a snowmobile for the first time. A mechanical contrast to the hydrophone recordings of water and ice.",
 		],
@@ -1753,7 +1753,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498878/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447288/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_kvdc5a.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_kvdc5a.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1776,7 +1776,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498878/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447283/85_BB_HAMMERING_ON_ICE_ROAD_GP_26.02.2025_raqwne.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/85_BB_HAMMERING_ON_ICE_ROAD_GP_26.02.2025_raqwne.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -1800,7 +1800,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_fwpjl2.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447350/86_GB_Driving_on_the_Ice_Bridge_GP_26.02.2025_u7zjdi.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/86_GB_Driving_on_the_Ice_Bridge_GP_26.02.2025_u7zjdi.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1825,7 +1825,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498876/87_GB_Snowmobile_in_the_Distance_ZM_26.02.2025_jr59ss.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447350/87_GB_Snowmobile_in_the_Distance_ZM_26.02.2025_ednyhw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/87_GB_Snowmobile_in_the_Distance_ZM_26.02.2025_ednyhw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1850,7 +1850,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498883/88_GB_Exprimental_Crackling_of_Willow_Leaves_ZM_26.02_r2emck.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447358/88_GB_Exprimental_Crackling_of_Willow_Leaves_ZM_26.02_gwwltj.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/88_GB_Exprimental_Crackling_of_Willow_Leaves_ZM_26.02_gwwltj.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1875,7 +1875,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/89_GB_Photographer_Stalking_a_Grouse_ZM_26.02.2025_ngfpfa.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447298/89_GB_Photographer_Stalking_a_Grouse_ZM_26.02.2025_scexjc.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/89_GB_Photographer_Stalking_a_Grouse_ZM_26.02.2025_scexjc.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1901,7 +1901,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499883/90_GB_Walking_on_the_Grate_Path_of_the_Klondike_Bridge_GP_04.03.2025_vmjpco.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447351/90_GB_Walking_on_the_Grate_Path_of_the_Klondike_Bridge_GP_04.03.2025_ptntbk.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/90_GB_Walking_on_the_Grate_Path_of_the_Klondike_Bridge_GP_04.03.2025_ptntbk.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1925,7 +1925,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499856/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447363/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_g33mli.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_g33mli.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1951,7 +1951,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499856/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447359/92_GB_Snowmobile_Driving_on_Klondike_Bridge_Grate_GP_04.03.2025_ul9gq4.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/92_GB_Snowmobile_Driving_on_Klondike_Bridge_Grate_GP_04.03.2025_ul9gq4.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -1976,7 +1976,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499856/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447355/93_GB_Knocking_on_the_Klondike_Bridge_GP_04.03.2025_httlnq.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/93_GB_Knocking_on_the_Klondike_Bridge_GP_04.03.2025_httlnq.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2000,7 +2000,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499860/94_JB_Garbage_Truck_ZM_06.03.2025_u90qri.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447275/94_JB_Garbage_Truck_ZM_06.03.2025_l0vacp.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/94_JB_Garbage_Truck_ZM_06.03.2025_l0vacp.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2024,7 +2024,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499877/95_JB_Walking_on_Boardwalk_ZM_06.03.2025_ohmnj5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447275/94_JB_Garbage_Truck_ZM_06.03.2025_l0vacp.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/95_JB_Walking_on_Boardwalk_ZM_06.03.2025_hk73ww.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2050,7 +2050,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499873/96_JB_Ice_Skating_ZM_26.02.2025_k3eztz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447295/96_JB_Ice_Skating_ZM_26.02.2025_oxjs2b.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/96_JB_Ice_Skating_ZM_26.02.2025_oxjs2b.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2076,7 +2076,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499857/97_JB_Ice_Skating_on_Ice_Bridge_ZM_26.02.2025_xwox0e.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447243/97_JB_Ice_Skating_on_Ice_Bridge_ZM_26.02.2025_zphtvw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/97_JB_Ice_Skating_on_Ice_Bridge_ZM_26.02.2025_zphtvw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2101,7 +2101,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499879/98_SW_MJ_BEHINDNET_DS_04.03.2025_sbyltp.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447238/98_SW_MJ_BEHINDNET_DS_04.03.2025_jrvqwx.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/98_SW_MJ_BEHINDNET_DS_04.03.2025_jrvqwx.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2147,7 +2147,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499874/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447235/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_rumk6x.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_rumk6x.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2170,7 +2170,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499863/101_JB_Snow-Clearing_Tractor_ZM_04.03.2025_tbvqgo.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447388/101_JB_Snow-Clearing_Tractor_ZM_04.03.2025_kfxe5u.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/101_JB_Snow-Clearing_Tractor_ZM_04.03.2025_kfxe5u.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2192,7 +2192,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499874/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447266/102_MJGM_RIVERCONFLUENCESHALLOWERDEPTH_HP_01.03_tviw2v.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/102_MJGM_RIVERCONFLUENCESHALLOWERDEPTH_HP_01.03_tviw2v.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["Interesting crackling, unrecognizable sound."],
@@ -2214,7 +2214,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499871/103_MJBB_HYDROMETER_EMF_04.03.2025_owdstg.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447254/103_MJBB_HYDROMETER_EMF_04.03.2025_bgom0u.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/103_MJBB_HYDROMETER_EMF_04.03.2025_bgom0u.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2238,7 +2238,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499864/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_dk4f6w.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447240/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_mojvxn.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_mojvxn.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2263,7 +2263,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499864/105_MJ_TOMBSTONELOOKOUT_ZM_28.02.2025_fluydt.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447313/105_MJ_TOMBSTONELOOKOUT_ZM_28.02.2025_mh0i3y.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/105_MJ_TOMBSTONELOOKOUT_ZM_28.02.2025_mh0i3y.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2287,7 +2287,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499859/106_MJGM_CONFLUENCEUNDERICE_HP_25.02.2025_a4pynn.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743528923/106_MJGM_CONFLUENCEUNDERICE_HP_25.02.2025_pcovbn_oi7ryz.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/106_MJGM_CONFLUENCEUNDERICE_HP_25.02.2025_pcovbn_oi7ryz.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2311,7 +2311,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499879/98_SW_MJ_BEHINDNET_DS_04.03.2025_sbyltp.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447238/98_SW_MJ_BEHINDNET_DS_04.03.2025_jrvqwx.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/107_MJSW_ICEQUEENSGAME_DS_04.03.2025_yqfndh.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["Captures energy of the arena."],
@@ -2333,7 +2333,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043804/108_MJSW_FACEOFF_DS_04.03.2025_zj7slz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744044519/108_HuskiesDawsonCreek_wyersi.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/108_HuskiesDawsonCreek_wyersi.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2355,7 +2355,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043805/109_MJSW_GAMESOUNDS_DS_04.03.2025_ejeh3p.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744043275/109_hockey_rink_pca9dl.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/109_hockey_rink_pca9dl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2377,7 +2377,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043569/110_MJSW_CHEERINGFROMCENTERICE_DS_04.03.2025_r1xfnb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744042972/110_MJSW_ICEQUEENSGAME_DS_04.03.2025_vm71lo.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/110_MJSW_ICEQUEENSGAME_DS_04.03.2025_vm71lo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2399,7 +2399,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043770/111_MJGM_CONFLUENCESOUNDS_HP_25.02.2025_gxh5ih.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744044744/111_Confluence_ljudmw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/111_Confluence_ljudmw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["Crackling and rushing creates pleasant ambient sound."],
@@ -2421,7 +2421,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499875/112_MJLLSH_STREETRAVENS1_DS_26.02_xgeapb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447343/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_kmmfpx.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/112_MJLLSH_STREETRAVENS1_DS_26.02_xaqwtu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2445,7 +2445,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501037/113_MJSW_ZAMBONI_DS_04.03.2025_ezhazv.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447248/113_MJSW_ZAMBONI_DS_04.03.2025_onabor.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/113_MJSW_ZAMBONI_DS_04.03.2025_onabor.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2469,7 +2469,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501083/114_LL_SW_DUMP1_DS_04.03.25_facgji.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447270/114_LL_SW_DUMP.1_DS_04.03.25_jtsqnu.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/114_LL_SW_DUMP.1_DS_04.03.25_jtsqnu.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2491,7 +2491,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501038/115_LL_SW_DUMP2_DS_04.03.25_uluhch.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447247/115_LL_SW_DUMP2_DS_04.03.25_ah4dtw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/115_LL_SW_DUMP2_DS_04.03.25_ah4dtw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2513,7 +2513,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501065/116_LL_SW_DUMP3_DS_04.03.25_whvhgy.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447378/116_LL_SW_DUMP3_DS_04.03.25_nfnl0x.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/116_LL_SW_DUMP3_DS_04.03.25_nfnl0x.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2536,7 +2536,7 @@ const datadummy = [
 		pictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744128131/117_LL_SW_DUMP4_DS_04.03.25_g79l2z.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447229/117_LL_SW_DUMP4_DS_04.03.25_sgdbwp.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/117_LL_SW_DUMP4_DS_04.03.25_g79l2z.jpg",
 		videolink: "",
 		observations: [],
 	},
@@ -2557,7 +2557,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501040/118__NR_raven_gurgling_and_banging_metal_IP_02.26.2025_wy7r5v.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447228/118_NR_raven_gurgling_banging_metal_IP_02.26.2025_sritpk.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/118_NR_raven_gurgling_banging_metal_IP_02.26.2025_sritpk.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2581,7 +2581,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501040/119_NR_snow_falling_on_plastic_SM_03.06.2025_ainanl.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447287/119_NR_snow_falling_on_plastic_SM_03.06.2025_ba9sdf.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/119_NR_snow_falling_on_plastic_SM_03.06.2025_ba9sdf.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2605,10 +2605,10 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501041/120_NR_snow_falling_on_snow_SM_03.06.2025_mrqg6e.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447241/120_NR_snow_falling_on_snow_SM_03.06_yslbej.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/120_NR_snow_falling_on_snow_SM_03.06_yslbej.jpg",
 		extrapictureFilePath: "",
 		videolink:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743496963/120_NR_snow_falling_on_snow_SM_03.06.2025_swkudb.mov",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/120_NR_snow_falling_on_snow_SM_03.06.2025_swkudb.mov",
 		observations: [
 			"Snow falling on snow is usually subtle; however, the warmer weather made it slightly crystalized and audible.",
 		],
@@ -2631,7 +2631,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501047/121_NR_natural_vent_SM_03.07.2025_tbhk3u.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447276/121B_NR_natural_vent_SM_03.07.2025_htynrs.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/121B_NR_natural_vent_SM_03.07.2025_htynrs.jpg",
 		extrapictureFilePath:
 			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447323/121A_NR_natural_vent_SM_03.07.2025_ydmsze.jpg",
 		videolink: "",
@@ -2656,7 +2656,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499874/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447266/102_MJGM_RIVERCONFLUENCESHALLOWERDEPTH_HP_01.03_tviw2v.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/122_NR_dog_race_in_distance_ZM_03.07.2025_s8wze0.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: ["Interesting crackling, unrecognizable sound."],
@@ -2678,7 +2678,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743524498/123_LL_SW_DUMP5_DS_04.03.25_tgosjz.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506795/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_eor0ba.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/123_LL_SW_DUMP5_DS_04.03.25_na2irm.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2700,7 +2700,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501082/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_dxhbdd.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447247/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_eaaugw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_eaaugw.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2722,7 +2722,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501053/125_LL_BRIDGE_GF_04.03.25WAV_vqmlzl.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447380/125_LL_BRIDGE_GF_04.03.25WAV_cecrrl.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/125_LL_BRIDGE_GF_04.03.25WAV_cecrrl.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2744,7 +2744,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501052/126_LL_DREDGE1_HF_04.03.25_myh8kb.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447377/126_LL_DREDGE1_HF_04.03.25_kfvxsg.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/126_LL_DREDGE1_HF_04.03.25_kfvxsg.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2766,7 +2766,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743500987/127_LL_DREDGE2_HF_04.03.25._imrrtw.wav",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447384/127_LL_DREDGE2_HF_04.03.25._hbhrki.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/127_LL_DREDGE2_HF_04.03.25._hbhrki.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2788,7 +2788,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501053/128_LL_DREDGE3_HF_04.03.25._ffn3c3.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447296/128_LL_DREDGE3_HF_04.03.25._dsp7l6.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/128_LL_DREDGE3_HF_04.03.25._dsp7l6.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [],
@@ -2811,8 +2811,8 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501074/129_LL_SJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_ibu4ay.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743506795/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_eor0ba.jpg",
-		extrapictureFilePath: "",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_eor0ba.jpg",
+		extrapictureFilePath: "https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_nimv84.jpg",
 		videolink: "",
 		observations: [],
 	},
@@ -2833,7 +2833,7 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743586011/130_DOG_RACE_ZM_07.03.2025_hiik4b.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744042264/130_DOG_RACE_ZM_07.03.2025_swjnfo.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/130_DOG_RACE_ZM_07.03.2025_swjnfo.jpg",
 		extrapictureFilePath: "",
 		videolink: "",
 		observations: [
@@ -2857,9 +2857,9 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743611829/131_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_veqxdu.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743610461/131A_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_hku5nw.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/131A_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_hku5nw.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743610463/131B_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_wr3ny4.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/131B_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_wr3ny4.jpg",
 		videolink: "",
 		observations: [],
 	},
@@ -2880,9 +2880,9 @@ const datadummy = [
 		audioFilePath:
 			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743612650/132_SS_BOREHOLE_23.02.2025_ljwafa.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743611911/132A_SS_BOREHOLE_23.02.2025_l9gqp9.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/132A_SS_BOREHOLE_23.02.2025_l9gqp9.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743611913/132B_SS_AUGER_23.02.2025_auec4x.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/132B_SS_AUGER_23.02.2025_auec4x.jpg",
 		videolink: "",
 		observations: [],
 	},
