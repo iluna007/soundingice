@@ -15,7 +15,7 @@ const datadummy = [
 		duration: "7:08:00",
 		tags: "Walking, Forest, Raven, Bonanza Creek, Running Water",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455502/2_GB_Fathers_Bogdan_Bridge_7min_DS_01.03.2025_pcpxw3.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/2_GB_Fathers_Bogdan_Bridge_7min_DS_01.03.2025_pcpxw3.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/2_GB_Fathers_Bogdan_Bridge_Photo_DS_01.03.2025_zv3gbd.jpg",
 		extrapictureFilePath: "",
@@ -40,7 +40,7 @@ const datadummy = [
 		duration: "3:35:00",
 		tags: "Forest, Dog, Walking",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455749/3_BB_SLED_DOGS_YAPPING_ZM_02.03.2025_q1sejx.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/3_BB_SLED_DOGS_YAPPING_ZM_02.03.2025_q1sejx.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/3_BB_SLED_DOGS_YAPPING_ZM_02.03.2025_lvvzxt.jpg",
 		extrapictureFilePath: "",
@@ -67,7 +67,7 @@ const datadummy = [
 		duration: "1:41:00",
 		tags: "Ice Skating, Sports",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455781/4_JB_Sharpening_Skates_ZM_04.03.2025_las5by.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/4_JB_Sharpening_Skates_ZM_04.03.2025_las5by.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/4_JB_Sharpening_Skates_ZM_04.03.2025_jf4el6.jpg",
 		extrapictureFilePath: "",
@@ -92,7 +92,7 @@ const datadummy = [
 		duration: "11:52:00",
 		tags: "Forest, Raven, Bonanza Creek, Running Water",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455924/5_GB_Fathers_Bogdan_Bridge_12min_DS_01.03.2025_e9xfyl.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/5_GB_Fathers_Bogdan_Bridge_12min_DS_01.03.2025_e9xfyl.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/5A_GB_Fathers_Bogdan_Bridge_Photo_DS_01.03.2025_tb8erb.jpg",
 		extrapictureFilePath:
@@ -118,7 +118,7 @@ const datadummy = [
 		duration: "4:01:00",
 		tags: "Klondike River, Running Water",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455914/6_GB_Klondike_In_Snow_on_Ice_HD_03.03.2025_f5xawm.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/6_GB_Klondike_In_Snow_on_Ice_HD_03.03.2025_f5xawm.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/6_GB_Klondike_In_Snow_on_Ice_HD_03.03.2025_upd1gw.jpg",
 		extrapictureFilePath: "",
@@ -143,7 +143,7 @@ const datadummy = [
 		duration: "1:32:00",
 		tags: "Forest, Transportation, Trail, Sports",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743455910/7_BB_CROSS_COUNTRY_SKIING_ZM_01.03.2025_d6ghvi.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/7_BB_CROSS_COUNTRY_SKIING_ZM_01.03.2025_d6ghvi.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/7_BB_CROSS_COUNTRY_SKIING_ZM_01.03.2025_cc0j0m.jpg",
 		extrapictureFilePath: "",
@@ -168,7 +168,7 @@ const datadummy = [
 		duration: "4:01:00",
 		tags: "Klondike River, Ice Bridge, Running Water",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456356/8_GB_Klondike_In_Water_HD_03.03.2025_e32yus.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/8_GB_Klondike_In_Water_HD_03.03.2025_e32yus.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/8_GB_Klondike_In_Water_HD_03.03.2025_t39kgl.jpg",
 		extrapictureFilePath: "",
@@ -191,7 +191,7 @@ const datadummy = [
 		duration: "1:19:00",
 		tags: "Forest, Tombstone Territorial Park, Trail, Snowmobile",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456341/10_GB_Black_Spruce_Bark_Cracking_ZM_28.02.2025_l7ctu1.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/10_GB_Black_Spruce_Bark_Cracking_ZM_28.02.2025_l7ctu1.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/10_GB_Black_Spruce_Bark_Cracking_ZM_28.02.2025_qots8y.jpg",
 		extrapictureFilePath: "",
@@ -217,7 +217,7 @@ const datadummy = [
 		duration: "0:00:34",
 		tags: "Raven, Urban",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456339/11_AK_Ravens_04_03_25_txh8un.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/11_AK_Ravens_04_03_25_txh8un.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/11_11_AK_Raven_04_03_25_w5itwe.jpg",
 		extrapictureFilePath: "",
@@ -241,7 +241,7 @@ const datadummy = [
 		duration: "0:03:23",
 		tags: "Tombstone Territorial Park, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456353/13_AK_Grey_Jays_28_02_25_oo8epg.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/13_AK_Grey_Jays_28_02_25_oo8epg.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/13_AK_Grey_Jays_28_02_25_tx8ezg.jpg",
 		extrapictureFilePath: "",
@@ -266,7 +266,7 @@ const datadummy = [
 		duration: "0:26:00",
 		tags: "Forest, Tombstone Territorial Park, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456338/14_GB_Grey_Jay_s_eating_Chips_ZM_28.02.2025_ctpwjw.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/14_GB_Grey_Jay_s_eating_Chips_ZM_28.02.2025_ctpwjw.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/14_GB_Grey_Jay_s_eating_Chips_ZM_28.02.2025_u88bvb.jpg",
 		extrapictureFilePath: "",
@@ -290,7 +290,7 @@ const datadummy = [
 		duration: "1:42:00",
 		tags: "Forest, Tombstone Territorial Park, Walking",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743456344/15_GB_Traditional_Snowshoes_ZM_28.02.2025_vgwnjp.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/15_GB_Traditional_Snowshoes_ZM_28.02.2025_vgwnjp.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/15_GB_Traditional_Snowshoes_ZM_28.02.2025_ccs3b6.jpg",
 		extrapictureFilePath: "",
@@ -314,7 +314,7 @@ const datadummy = [
 		duration: "0:01:00",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457281/17_AK_Wifi_Router_26_02_25_yp9lah.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/17_AK_Wifi_Router_26_02_25_yp9lah.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/17X_AK_Wifi_Router_26_02_25_ehtncw.jpg",
 		extrapictureFilePath: "",
@@ -339,7 +339,7 @@ const datadummy = [
 		duration: "0:03:25",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457285/19_AK_Ethernet_Port_26_02_25_zyti9c.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/19_AK_Ethernet_Port_26_02_25_zyti9c.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/19X_AK_Ethernet_Port_26_02_25_qjuung.jpg",
 		extrapictureFilePath: "",
@@ -364,7 +364,7 @@ const datadummy = [
 		duration: "4:19:00",
 		tags: "Forest, Dog, Walking, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457749/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03.2025_s1ekdj.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03.2025_s1ekdj.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/20_BB_SLED_DOGS_YAPPING_2_ZM_02.03_o8hzc3.jpg",
 		extrapictureFilePath: "",
@@ -389,7 +389,7 @@ const datadummy = [
 		duration: "0:26:00",
 		tags: "Walking, Trail",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743525074/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_k3kbmb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_k3kbmb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/21_GM_BB_DEEP_SNOW_SHOEING_ZM_2025-02-28_trknhg.jpg",
 		extrapictureFilePath: "",
@@ -412,7 +412,7 @@ const datadummy = [
 		duration: "0:35:01",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457782/22_AK_Toaster_EMF_01_03_25_uiipvw.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/22_AK_Toaster_EMF_01_03_25_uiipvw.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/22X_AK_Toaster_EMF_01_03_25_cz6n1h.jpg",
 		extrapictureFilePath: "",
@@ -437,7 +437,7 @@ const datadummy = [
 		duration: "23:00:00",
 		tags: "Walking",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743526099/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_wbv8ie.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_wbv8ie.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/23_SW_JB_WALKINGTHROUGHICE_ZM_04.03.2025_mrtpqu.jpg",
 		extrapictureFilePath: "",
@@ -461,7 +461,7 @@ const datadummy = [
 		duration: "0:37:00",
 		tags: "Forest, Dog, Transportation, Trail, Sports",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743457822/24_BB_DOGSLEDDING_ZM_02.03.2025_il7fn5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/24_BB_DOGSLEDDING_ZM_02.03.2025_il7fn5.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/24_BB_DOGSLEDDING_ZM_02.03_ze84pn.jpg",
 		extrapictureFilePath: "",
@@ -486,7 +486,7 @@ const datadummy = [
 		duration: "1:02:00",
 		tags: "Infrastructure, Urban, Energy",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458538/25_BB_ENERGY_YUKON_PLANT_ZM_04.03.2025_c4n1lo.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/25_BB_ENERGY_YUKON_PLANT_ZM_04.03.2025_c4n1lo.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/25_BB_ENERGY_YUKON_PLANT_ZM_04.03.2025_mp7ozh.jpg",
 		extrapictureFilePath: "",
@@ -511,7 +511,7 @@ const datadummy = [
 		duration: "2:50:00",
 		tags: "Bonanza Creek, Mining, Forest",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458546/26_GB_Dredge_No.4_DS_01.02.2025_tsob5q.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/26_GB_Dredge_No.4_DS_01.02.2025_tsob5q.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/26A_GB_Dredge_No.4_DS_01.02.2025_hwez0m.jpg",
 		extrapictureFilePath:
@@ -537,7 +537,7 @@ const datadummy = [
 		duration: "0:01:04",
 		tags: "Forest, Tombstone Territorial Park",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458539/27_GB_Bushwacking_ZM_28.02.2025_mavoay.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/27_GB_Bushwacking_ZM_28.02.2025_mavoay.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/27_GB_Bushwacking_ZM_28.02.2025_nvjsra.jpg",
 		extrapictureFilePath: "",
@@ -562,7 +562,7 @@ const datadummy = [
 		duration: "0:01:24",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458541/28_AK_510Thread__Battery_4.2V_24_02_25_w4liaz.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/28_AK_510Thread__Battery_4.2V_24_02_25_w4liaz.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/28X_AK_510Thread__Battery_4.2V_24_02_25.wav_fajbyc.jpg",
 		extrapictureFilePath: "",
@@ -587,7 +587,7 @@ const datadummy = [
 		duration: "0:01:58",
 		tags: "Running Water, Urban, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743458543/29_GB_SOVA_Studio_Radiator_SM_02.03.2025_qjef9a.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/29_GB_SOVA_Studio_Radiator_SM_02.03.2025_qjef9a.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/29A_GB_SOVA_Studio_Radiator_SM_02.03.2025_mvitwq.jpg",
 		extrapictureFilePath: "https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/29AX_GB_SOVA_Studio_Radiator_SM_02.03.2025_wbbd8c.jpg",
@@ -611,7 +611,7 @@ const datadummy = [
 		duration: "0:30:01",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459473/30_AK_EMF_Extension_Cord_01_03_25_mtxkjx.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/30_AK_EMF_Extension_Cord_01_03_25_ycaqjj.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/30_AK_EMF_Extension_Cord_01_03_25_rvnilk.jpg",
 		extrapictureFilePath: "",
@@ -635,7 +635,7 @@ const datadummy = [
 		duration: "0:01:51",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459424/31_AK_EMF_Angry_Microwave_06_03_25_qw8nxq.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/31_AK_EMF_Angry_Microwave_06_03_25_qw8nxq.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/31X_AK_EMF_Angry_Microwave_06_03_25_vs61cs.jpg",
 		extrapictureFilePath: "",
@@ -660,7 +660,7 @@ const datadummy = [
 		duration: "0:30:00",
 		tags: "Walking, Urban, Collaboration, Dog",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501483/32_GB_Diamond_Tooth_Gerties_Boardwalk_GP_06.03.2025_y8gago.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/32_GB_Diamond_Tooth_Gerties_Boardwalk_GP_06.03.2025_bw0wmt.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/32_GB_Diamond_Tooth_Gerties_Boardwalk_GP_06.03.2025_rmza8q.jpg",
 		extrapictureFilePath: "",
@@ -684,7 +684,7 @@ const datadummy = [
 		duration: "0:35:00",
 		tags: "",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502339/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_stzfup.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_stzfup.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/33_GM_BB_DEEP_SNOW_ZM_2025-02-28_apqg2u.jpg",
 		extrapictureFilePath: "",
@@ -706,7 +706,7 @@ const datadummy = [
 		duration: "1:12:00",
 		tags: "Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502354/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_hvw1xw.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_hvw1xw.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/34_GM_BB_SNOWSHOEING_ON_THE_RIVER_ZM_2025-02-28_sf6si3.jpg",
 		extrapictureFilePath: "",
@@ -729,7 +729,7 @@ const datadummy = [
 		duration: "3:42:00",
 		tags: "Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502357/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_y0s4bn.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_y0s4bn.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/35_GM_BB_SNOWMOBILING_OVER_ICE_HP_28-02-2025_j6hgkt.jpg",
 		extrapictureFilePath: "",
@@ -752,7 +752,7 @@ const datadummy = [
 		duration: "4:20:00",
 		tags: "Klondike River, Snowmobile",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502344/36_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_zcj2rs.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/36_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_zcj2rs.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/36_4_GM_BB_SNOW_SHOE_ON_ICE_ZM_2025-02-28_bnivqt.jpg",
 		extrapictureFilePath: "",
@@ -774,7 +774,7 @@ const datadummy = [
 		duration: "0:50:00",
 		tags: "Klondike River, Running Water",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502336/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_e7cxzz.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_e7cxzz.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/37_GM_BB_POURING_WATER_IN_HOLE_HP_2025-02-28_wr1tiv.jpg",
 		extrapictureFilePath: "",
@@ -796,7 +796,7 @@ const datadummy = [
 		duration: "0:35:00",
 		tags: "Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502337/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_mbe0di.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_mbe0di.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/38_GM_BB_SNOWSHOEING_ON_SNOW_ZM_28-02-2025_kbkeuu.jpg",
 		extrapictureFilePath: "",
@@ -818,7 +818,7 @@ const datadummy = [
 		duration: "0:39:00",
 		tags: "Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502342/39_GM_BB_SNOWSHOEING_ON_SNOW2_ZM_28-02-2025_e5kxfm.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/39_GM_BB_SNOWSHOEING_ON_SNOW2_ZM_28-02-2025_e5kxfm.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/39_GM_BB_DEEP_SNOW_ZM_2025-02-28_yt4cwl.jpg",
 		extrapictureFilePath: "",
@@ -840,7 +840,7 @@ const datadummy = [
 		duration: "1:04:00",
 		tags: "Snow Removal",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743502346/40_GM_MJ_BB_TOP_OF_SNOW_BANK_CM_04-03-2025_uaw4kc.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/40_GM_MJ_BB_TOP_OF_SNOW_BANK_CM_04-03-2025_uaw4kc.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/40_GM_MJ_BB_TOP_OF_SNOW_BANK_CM_04-03-2025_xcujmv.jpg",
 		extrapictureFilePath: "",
@@ -863,7 +863,7 @@ const datadummy = [
 		duration: "2:51:00",
 		tags: "Energy",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459422/43_GM_MJ_BB_PUMPING_GAS_EMF_04-03-2025_r6pwg8.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/43_GM_MJ_BB_PUMPING_GAS_EMF_04-03-2025_r6pwg8.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/43_GM_MJ_BB_PUMPING_GAS_EMF_04-03-2025_m7ydk2.jpg",
 		extrapictureFilePath: "",
@@ -886,7 +886,7 @@ const datadummy = [
 		duration: "4:16:00",
 		tags: "Walking, Infrastructure, Urban",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459428/44_BB_BOARDWALKING_ZM_04.03.2025_upg5zb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/44_BB_BOARDWALKING_ZM_04.03.2025_upg5zb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/44_BB_BOARDWALKING_ZM_04.03.2025_vomlkl.jpg",
 		extrapictureFilePath: "",
@@ -910,7 +910,7 @@ const datadummy = [
 		duration: "1:05:00",
 		tags: "Bonanza Creek",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459415/45_sh_wolves_howling_zoom_3.04.2025_i3gkrk.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/45_sh_wolves_howling_zoom_3.04.2025_i3gkrk.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/45_sh_wolves_howling_zoom_3.04.2025_u5v6g3.jpg",
 		extrapictureFilePath: "",
@@ -935,7 +935,7 @@ const datadummy = [
 		duration: "0:32:00",
 		tags: "Infrastructure, Urban, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459415/45_sh_wolves_howling_zoom_3.04.2025_i3gkrk.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/46_BB_WOODGRAIN_CM_04.03.2025_fhdmnj.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/46_BB_WOODGRAIN_CM_04.03.2025_wrtxte.jpg",
 		extrapictureFilePath: "",
@@ -959,7 +959,7 @@ const datadummy = [
 		duration: "0:43:00",
 		tags: "Tombstone Territorial Park",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459406/47_sh_wisky_jack_zm_03.28.2025_yo9oqk.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/47_sh_wisky_jack_zm_03.28.2025_yo9oqk.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/47_sh_wisky_jack_zm_03.28.2025_l4lpvc.jpg",
 		extrapictureFilePath: "",
@@ -983,7 +983,7 @@ const datadummy = [
 		duration: "1:03:00",
 		tags: "Klondike River, Underwater,  Dredge Ponds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459408/48_AB_PROSPECTOR_RD_KR_HYDRO_05.03.2025_ju4dt8.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/48_AB_PROSPECTOR_RD_KR_HYDRO_05.03.2025_ju4dt8.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/48_AB_PROSPECTOR_RD_KR_HYDRO_05.03.2025_isii8f.jpg",
 		extrapictureFilePath: "",
@@ -1008,7 +1008,7 @@ const datadummy = [
 		duration: "0:04:15",
 		tags: "Dog, Walking",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459434/49_AK_Dog_Claws_Floor_06_03_25_cn0rfs.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/49_AK_Dog_Claws_Floor_06_03_25_cn0rfs.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/49_AK_Dog_Claws_Floor_06_03_25_piusf7.jpg",
 		extrapictureFilePath: "",
@@ -1031,7 +1031,7 @@ const datadummy = [
 		duration: "0:01:00",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459835/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/50X_AK_Printer_EMF_06_03_25_ojkiea.jpg",
 		extrapictureFilePath: "",
@@ -1055,7 +1055,7 @@ const datadummy = [
 		duration: "0:01:25",
 		tags: "Energy, SOVA",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459835/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/51_AK_Epson_Scanner_06_03_25_csifna.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/51X_AK_Epson_Scanner_06_03_25_u7fyei.jpg",
 		extrapictureFilePath: "",
@@ -1079,7 +1079,7 @@ const datadummy = [
 		duration: "0:01:28",
 		tags: "Ice Skating, Sports, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459821/52_JB_Arena_Lesson_ZM_04.03.2025_z1hvhc.mp3",
+			"hhttps://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/52_JB_Arena_Lesson_ZM_04.03.2025_z1hvhc.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/52_JB_Arena_Lesson_ZM_04.03.2025_vt7nef.jpg",
 		extrapictureFilePath: "",
@@ -1101,7 +1101,7 @@ const datadummy = [
 		duration: "0:01:31",
 		tags: "Urban, Infrastructure, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459819/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_rlev6m.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_rlev6m.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_kvbqnf.jpg",
 		extrapictureFilePath: "",
@@ -1125,7 +1125,7 @@ const datadummy = [
 		duration: "0:57:00",
 		tags: "Infrastructure, Urban, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459819/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_rlev6m.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/53_MJBB_BLACKSMITHWALL_CM_04.03.2025_rlev6m.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/54_BB_GARBAGETRUCK_ZM_04.03.2025_lzixfo.jpg",
 		extrapictureFilePath: "",
@@ -1151,7 +1151,7 @@ const datadummy = [
 		duration: "1:50:00",
 		tags: "Infrastructure, Urban, Collaboration, Energy",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459815/56_BB_REFUELING_GAS_STATION_ZM_04.03.2025_hn1axl.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/56_BB_REFUELING_GAS_STATION_ZM_04.03.2025_hn1axl.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/56_BB_REFUELING_GAS_STATION_ZM_04.03.2025_zzu1fo.jpg",
 		extrapictureFilePath: "",
@@ -1177,7 +1177,7 @@ const datadummy = [
 		duration: "0:01:21",
 		tags: "Infrastructure, Collaboration, Transportation",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459824/58_MJBB_CHAINLINKFENCE_CM_04.03_csalvw.mp3",
+			"hhttps://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/58_MJBB_CHAINLINKFENCE_CM_04.03_csalvw.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/58_MJBB_CHAINLINKFENCE_CM_04.03_nl1dr4.jpg",
 		extrapictureFilePath: "",
@@ -1202,7 +1202,7 @@ const datadummy = [
 		duration: "0:51:00",
 		tags: "Walking, Urban, Snow Removal, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459810/59_BB_SNOW_BANK_CHUNKS_ZM_04.03.2025_rfcnd5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/59_BB_SNOW_BANK_CHUNKS_ZM_04.03.2025_rfcnd5.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/59_BB_SNOW_BANK_CHUNKS_ZM_04.03.2025_cdkkma.jpg",
 		extrapictureFilePath: "",
@@ -1227,7 +1227,7 @@ const datadummy = [
 		duration: "1:14:00",
 		tags: "Tombstone Territorial Park, Walking, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743459909/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_vcqerl.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_vcqerl.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/61_BB_DEEP_SNOW_SNOWSHOEING_ZM_28.02.2025_jf2vs3.jpg",
 		extrapictureFilePath: "",
@@ -1251,9 +1251,9 @@ const datadummy = [
 		duration: "0:42:00",
 		tags: "Klondike River, Tombstone Territorial Park, Walking, Trail, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498412/62_BB_SNOWSHOE_ZM_28.02.2025_gsadi5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/62_BB_SNOWSHOE_ZM_28.02.2025_gsadi5.mp3",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447236/62_BB_SNOWSHOEING_ZM_28.02_q8bdkl.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/62_BB_SNOWSHOEING_ZM_28.02_q8bdkl.jpg",
 		extrapictureFilePath: "",
 		videolink:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/VIDEO/62_BB_SNOWSHOEING_ZM_28.02.2025_nz8tsc.mov",
@@ -1275,11 +1275,11 @@ const datadummy = [
 		duration: "3:29:00",
 		tags: "Klondike River, Dog, Forest",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498420/63_BEAN_ZM05.03.2025_eo4lkd.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/63_BEAN_ZM05.03.2025_eo4lkd.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/62_BB_SNOWSHOEING_ZM_28.02_q8bdkl.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447267/63B_Bean_s_recording_outfit_krg82q.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/63B_Bean_s_recording_outfit_krg82q.jpg",
 		videolink: "",
 		observations: [],
 	},
@@ -1299,7 +1299,7 @@ const datadummy = [
 		duration: "0:31:00",
 		tags: "Walking, Urban, Collaboration, Dog",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498410/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_fjwl9c.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_fjwl9c.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/64_GB_Palace_Theatre_Boardwalk_GP_06.03.2025_kmmfpx.jpg",
 		extrapictureFilePath: "",
@@ -1322,7 +1322,7 @@ const datadummy = [
 		duration: "0:24:00",
 		tags: "Running Water, Transportation, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498409/65_sh_watertruck_zm_04.03.2025_z90gf4.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/65_sh_watertruck_zm_04.03.2025_z90gf4.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/65_sh_watertruck_zm_04.03.2025_pj1urv.jpg",
 		extrapictureFilePath: "",
@@ -1344,7 +1344,7 @@ const datadummy = [
 		duration: "1:04:00",
 		tags: "Yukon River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498411/66_sh_powshoe_zm_03.28.2025_v1vdnk.mp3",
+			"hhttps://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/66_sh_powshoe_zm_03.28.2025_v1vdnk.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/66_sh_powshoe_zm_03.28.2025_p4tlkh.jpg",
 		extrapictureFilePath: "",
@@ -1366,7 +1366,7 @@ const datadummy = [
 		duration: "0:21:00",
 		tags: "Raven, Urban",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498412/67_sh_streetraven_ds_03.25.2025_qqedg5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/67_sh_streetraven_ds_03.25.2025_qqedg5.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/67_sh_streetraven_ds_03.25.2025_kavulg.jpg",
 		extrapictureFilePath: "",
@@ -1388,7 +1388,7 @@ const datadummy = [
 		duration: "3:30:00",
 		tags: "Forest",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498426/68_sh_squirlanger_zm_03.28.2025_u5eqyt.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/68_sh_squirlanger_zm_03.28.2025_u5eqyt.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/68_sh_squirlanger_zm_03.28.2025_v5seuw.jpg",
 		extrapictureFilePath: "",
@@ -1410,7 +1410,7 @@ const datadummy = [
 		duration: "0:47:00",
 		tags: "Transportation, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498414/69_sh_wiskycar_zm_03.28.2025_umsmmz.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/69_sh_wiskycar_zm_03.28.2025_umsmmz.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/69_sh_wiskycar_zm_03.28.2025._mryabf.jpg",
 		extrapictureFilePath: "",
@@ -1432,7 +1432,7 @@ const datadummy = [
 		duration: "0:20:00",
 		tags: "Bonanza Creek, Dog",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498342/70_sh_dogbark_zm_04.03.2025_boc4va.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/70_sh_dogbark_zm_04.03.2025_boc4va.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/70_sh_dogbark_zm_04.03.2025_aoejgu.jpg",
 		extrapictureFilePath: "",
@@ -1455,7 +1455,7 @@ const datadummy = [
 		duration: "0:27:00",
 		tags: "Running Water, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498348/71_sh_waterexplosion_hp_04.04.2025_yohfbp.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/71_sh_waterexplosion_hp_04.04.2025_yohfbp.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/71_sh_waterexplosion_hp_04.04.2025_dzafu0.jpg",
 		extrapictureFilePath: "",
@@ -1478,7 +1478,7 @@ const datadummy = [
 		duration: "0:25:00",
 		tags: "Running Water, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498349/72_sh_fillinup_water_hp_04.04.2025_pnfy3x.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/72_sh_fillinup_water_hp_04.04.2025_pnfy3x.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/72_sh_fillinup_water_hp_04.04.2025_urs8lu.jpg",
 		extrapictureFilePath: "",
@@ -1500,7 +1500,7 @@ const datadummy = [
 		duration: "1:05:00",
 		tags: "Energy, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498351/73_sh_fillinupgass_zm_04.04.2025_exwg4b.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/73_sh_fillinupgass_zm_04.04.2025_exwg4b.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/73_sh_fillinupgass_zm_04.04.2025_uqpnq1.jpg",
 		extrapictureFilePath: "",
@@ -1522,7 +1522,7 @@ const datadummy = [
 		duration: "",
 		tags: "Energy, Transportation",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/74_sh_externalgass_zm_04.04.2025_iavuu3.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/74_sh_externalgass_zm_04.04.2025_iavuu3.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/74_sh_externalgass_zm_04.04.2025_mplaos.jpg",
 		extrapictureFilePath: "",
@@ -1545,7 +1545,7 @@ const datadummy = [
 		duration: "0:43:00",
 		tags: "Yukon River, Underwater, Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498346/75_sh_iceconfluence_hp_25.03.2024_jbzzlc.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/75_sh_iceconfluence_hp_25.03.2024_jbzzlc.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/75_sh_iceconfluence_hp_25.03.2024_elwbmo.jpg",
 		extrapictureFilePath: "",
@@ -1567,7 +1567,7 @@ const datadummy = [
 		duration: "0:17:00",
 		tags: "Forest, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498343/76_sh_speakingbirds_zm_03.28.2025_fkgxfs.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/76_sh_speakingbirds_zm_03.28.2025_fkgxfs.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/76_sh_speakingbirds_zm_03.28.2025_gtakr8.jpg",
 		extrapictureFilePath: "",
@@ -1589,7 +1589,7 @@ const datadummy = [
 		duration: "0:32:00",
 		tags: "Dog",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/77.sh.dograce.phone.7.04.2025_ygl7gg.jpg",
 		extrapictureFilePath: "",
@@ -1611,7 +1611,7 @@ const datadummy = [
 		duration: "0:11:00",
 		tags: "Running Water",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498342/78.sh.snowater.phone.08.04_kxq7lb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/78.sh.snowater.phone.08.04_kxq7lb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/78.sh.snowater.phone.08.04_dppyqo.jpg",
 		extrapictureFilePath: "",
@@ -1633,7 +1633,7 @@ const datadummy = [
 		duration: "1:01:00",
 		tags: "",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/79.sh.sheep.phone.08.04_opqskk.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/79.sh.sheep.phone.08.04_kjjt5c.jpg",
 		extrapictureFilePath: "",
@@ -1655,7 +1655,7 @@ const datadummy = [
 		duration: "0:48:00",
 		tags: "Klondike River, Forest, Tombstone Territorial Park, Trail, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498879/80_BB_JUMPING_ON_BRANCH_ZM_28.02.2025_zlucpb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/80_BB_JUMPING_ON_BRANCH_ZM_28.02.2025_zlucpb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/80_BB_JUMPING_ON_BRANCH_ZM_28.02.2025_kecpse.jpg",
 		extrapictureFilePath: "",
@@ -1677,7 +1677,7 @@ const datadummy = [
 		duration: "0:20:00",
 		tags: "Klondike River, Infrastructure, Snowmobile, Trail, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498344/77.sh.dograce.phone.7.04.2025_uoboo5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02.2025_ywkzn7.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/81_BB_SNOWMOBILING_OVER_ICE_ZM_28.02_myeh3h.jpg",
 		extrapictureFilePath: "",
@@ -1702,7 +1702,7 @@ const datadummy = [
 		duration: "1:05:00",
 		tags: "Klondike River,  Tombstone Territorial Park, Walking, Snowmobile, Trail, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_fwpjl2.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_fwpjl2.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_hlgc9w.jpg",
 		extrapictureFilePath: "",
@@ -1726,7 +1726,7 @@ const datadummy = [
 		duration: "1:31:00",
 		tags: "Klondike River, Snowmobile, Tombstone Territorial Park",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498878/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02.2025_dpaxht.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/83_BB_FROM_THE_SNOWMOBILE_ZM_28.02_mvmmni.jpg",
 		extrapictureFilePath: "",
@@ -1751,7 +1751,7 @@ const datadummy = [
 		duration: "0:51:00",
 		tags: "Klondike River,  Tombstone Territorial Park, Trail, Underwater",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498878/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_kvdc5a.jpg",
 		extrapictureFilePath: "",
@@ -1774,7 +1774,7 @@ const datadummy = [
 		duration: "0:49:00",
 		tags: "Yukon River, Ice Bridge, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498878/84_BB_BUBBLING_UNDER_ICE_HP_28.02.2025_mynaey.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/85_BB_HAMMERING_ON_ICE_ROAD_GP_26.02.2025_ipfbjy.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/85_BB_HAMMERING_ON_ICE_ROAD_GP_26.02.2025_raqwne.jpg",
 		extrapictureFilePath: "",
@@ -1798,7 +1798,7 @@ const datadummy = [
 		duration: "2:04:00",
 		tags: "Yukon River, Ice Bridge, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/82_BB_SNOWSHOE_CRACKLING_ON_ICE_HP_28.02.2025_fwpjl2.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/86_GB_Driving_on_the_Ice_Bridge_GP_26.02.2025_l6dgcs.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/86_GB_Driving_on_the_Ice_Bridge_GP_26.02.2025_u7zjdi.jpg",
 		extrapictureFilePath: "",
@@ -1823,7 +1823,7 @@ const datadummy = [
 		duration: "",
 		tags: "Snowmobile, Trail, Forest, Tombstone Territorial Park",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498876/87_GB_Snowmobile_in_the_Distance_ZM_26.02.2025_jr59ss.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/87_GB_Snowmobile_in_the_Distance_ZM_26.02.2025_jr59ss.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/87_GB_Snowmobile_in_the_Distance_ZM_26.02.2025_ednyhw.jpg",
 		extrapictureFilePath: "",
@@ -1848,7 +1848,7 @@ const datadummy = [
 		duration: "0:50:00",
 		tags: "Trail, Tombstone Territorial Park, Forest",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498883/88_GB_Exprimental_Crackling_of_Willow_Leaves_ZM_26.02_r2emck.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/88_GB_Exprimental_Crackling_of_Willow_Leaves_ZM_26.02_r2emck.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/88_GB_Exprimental_Crackling_of_Willow_Leaves_ZM_26.02_gwwltj.jpg",
 		extrapictureFilePath: "",
@@ -1873,7 +1873,7 @@ const datadummy = [
 		duration: "2:20:00",
 		tags: "Forest, Tombstone Territorial Park, Walking, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743498891/89_GB_Photographer_Stalking_a_Grouse_ZM_26.02.2025_ngfpfa.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/89_GB_Photographer_Stalking_a_Grouse_ZM_26.02.2025_ngfpfa.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/89_GB_Photographer_Stalking_a_Grouse_ZM_26.02.2025_scexjc.jpg",
 		extrapictureFilePath: "",
@@ -1899,7 +1899,7 @@ const datadummy = [
 		duration: "0:06:00",
 		tags: "Klondike River, Walking, Collaboration, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499883/90_GB_Walking_on_the_Grate_Path_of_the_Klondike_Bridge_GP_04.03.2025_vmjpco.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/90_GB_Walking_on_the_Grate_Path_of_the_Klondike_Bridge_GP_04.03.2025_vmjpco.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/90_GB_Walking_on_the_Grate_Path_of_the_Klondike_Bridge_GP_04.03.2025_ptntbk.jpg",
 		extrapictureFilePath: "",
@@ -1923,7 +1923,7 @@ const datadummy = [
 		duration: "0:20:00",
 		tags: "Klondike River, Collaboration, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499856/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_g33mli.jpg",
 		extrapictureFilePath: "",
@@ -1949,7 +1949,7 @@ const datadummy = [
 		duration: "0:53:00",
 		tags: "Klondike River, Snowmobile, Collaboration, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499856/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/92_GB_Snowmobile_Driving_on_Klondike_Bridge_Grate_GP_04.03.2025_nd8etc.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/92_GB_Snowmobile_Driving_on_Klondike_Bridge_Grate_GP_04.03.2025_ul9gq4.jpg",
 		extrapictureFilePath: "",
@@ -1974,7 +1974,7 @@ const datadummy = [
 		duration: "0:22:00",
 		tags: "Klondike River, Collaboration, Infrastructure",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499856/91_GB_Vehicle_Driving_on_the_Klondike_Bridge_GP_04.03.2025_eivgbd.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/93_GB_Knocking_on_the_klondike_Bridge_GP_04.03.2025_xbyite.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/93_GB_Knocking_on_the_Klondike_Bridge_GP_04.03.2025_httlnq.jpg",
 		extrapictureFilePath: "",
@@ -1998,7 +1998,7 @@ const datadummy = [
 		duration: "0:00:39",
 		tags: "Urban, Infrastructure, Transportation",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499860/94_JB_Garbage_Truck_ZM_06.03.2025_u90qri.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/94_JB_Garbage_Truck_ZM_06.03.2025_u90qri.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/94_JB_Garbage_Truck_ZM_06.03.2025_l0vacp.jpg",
 		extrapictureFilePath: "",
@@ -2022,7 +2022,7 @@ const datadummy = [
 		duration: "",
 		tags: "Walking, Urban",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499877/95_JB_Walking_on_Boardwalk_ZM_06.03.2025_ohmnj5.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/95_JB_Walking_on_Boardwalk_ZM_06.03.2025_ohmnj5.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/95_JB_Walking_on_Boardwalk_ZM_06.03.2025_hk73ww.jpg",
 		extrapictureFilePath: "",
@@ -2048,7 +2048,7 @@ const datadummy = [
 		duration: "0:01:51",
 		tags: "Ice Bridge, Ice Skating, Sports, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499873/96_JB_Ice_Skating_ZM_26.02.2025_k3eztz.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/96_JB_Ice_Skating_ZM_26.02.2025_k3eztz.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/96_JB_Ice_Skating_ZM_26.02.2025_oxjs2b.jpg",
 		extrapictureFilePath: "",
@@ -2074,7 +2074,7 @@ const datadummy = [
 		duration: "0:00:19",
 		tags: "Ice Bridge, Ice Skating, Sports, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499857/97_JB_Ice_Skating_on_Ice_Bridge_ZM_26.02.2025_xwox0e.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/97_JB_Ice_Skating_on_Ice_Bridge_ZM_26.02.2025_xwox0e.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/97_JB_Ice_Skating_on_Ice_Bridge_ZM_26.02.2025_zphtvw.jpg",
 		extrapictureFilePath: "",
@@ -2099,7 +2099,7 @@ const datadummy = [
 		duration: "1:35:00",
 		tags: "Urban, Ice Skating, Sports",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499879/98_SW_MJ_BEHINDNET_DS_04.03.2025_sbyltp.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/98_SW_MJ_BEHINDNET_DS_04.03.2025_sbyltp.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/98_SW_MJ_BEHINDNET_DS_04.03.2025_jrvqwx.jpg",
 		extrapictureFilePath: "",
@@ -2145,7 +2145,7 @@ const datadummy = [
 		duration: "0:52:00",
 		tags: "",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499874/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_rumk6x.jpg",
 		extrapictureFilePath: "",
@@ -2168,7 +2168,7 @@ const datadummy = [
 		duration: "0:00:31",
 		tags: "Infrastructure, Urban, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499863/101_JB_Snow-Clearing_Tractor_ZM_04.03.2025_tbvqgo.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/101_JB_Snow-Clearing_Tractor_ZM_04.03.2025_tbvqgo.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/101_JB_Snow-Clearing_Tractor_ZM_04.03.2025_kfxe5u.jpg",
 		extrapictureFilePath: "",
@@ -2190,7 +2190,7 @@ const datadummy = [
 		duration: "0:00:54",
 		tags: "Yukon River, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499874/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/102_MJGM_RIVERCONFLUENCESHALLOWERDEPTH_HP_01.03_hbuxrn.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/102_MJGM_RIVERCONFLUENCESHALLOWERDEPTH_HP_01.03_tviw2v.jpg",
 		extrapictureFilePath: "",
@@ -2212,7 +2212,7 @@ const datadummy = [
 		duration: "0:01:07",
 		tags: "Infrastructure, Energy, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499871/103_MJBB_HYDROMETER_EMF_04.03.2025_owdstg.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/103_MJBB_HYDROMETER_EMF_04.03.2025_owdstg.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/103_MJBB_HYDROMETER_EMF_04.03.2025_bgom0u.jpg",
 		extrapictureFilePath: "",
@@ -2236,7 +2236,7 @@ const datadummy = [
 		duration: "0:00:27",
 		tags: "Infrastructure, Energy, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499864/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_dk4f6w.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_dk4f6w.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_mojvxn.jpg",
 		extrapictureFilePath: "",
@@ -2261,7 +2261,7 @@ const datadummy = [
 		duration: "0:01:37",
 		tags: "Tombstone Territorial Park, Transportation",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499864/105_MJ_TOMBSTONELOOKOUT_ZM_28.02.2025_fluydt.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/104_MJBBGM_ENERGYPLANT_EMF_04.03.2025_dk4f6w.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/105_MJ_TOMBSTONELOOKOUT_ZM_28.02.2025_mh0i3y.jpg",
 		extrapictureFilePath: "",
@@ -2285,7 +2285,7 @@ const datadummy = [
 		duration: "0:00:14",
 		tags: "Yukon River, Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499859/106_MJGM_CONFLUENCEUNDERICE_HP_25.02.2025_a4pynn.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/106_MJGM_CONFLUENCEUNDERICE_HP_25.02.2025_a4pynn.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/106_MJGM_CONFLUENCEUNDERICE_HP_25.02.2025_pcovbn_oi7ryz.jpg",
 		extrapictureFilePath: "",
@@ -2309,7 +2309,7 @@ const datadummy = [
 		duration: "0:00:34",
 		tags: "Sports, Ice Skating",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499879/98_SW_MJ_BEHINDNET_DS_04.03.2025_sbyltp.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/107_MJSW_ICEQUEENSGAME_DS_04.03.2025_xnmc1o.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/107_MJSW_ICEQUEENSGAME_DS_04.03.2025_yqfndh.jpg",
 		extrapictureFilePath: "",
@@ -2331,7 +2331,7 @@ const datadummy = [
 		duration: "0:00:41",
 		tags: "Sports, Ice Skating",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043804/108_MJSW_FACEOFF_DS_04.03.2025_zj7slz.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/108_MJSW_FACEOFF_DS_04.03.2025_zj7slz.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/108_HuskiesDawsonCreek_wyersi.jpg",
 		extrapictureFilePath: "",
@@ -2353,7 +2353,7 @@ const datadummy = [
 		duration: "0:00:36",
 		tags: "Sports, Ice Skating",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043805/109_MJSW_GAMESOUNDS_DS_04.03.2025_ejeh3p.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/109_MJSW_GAMESOUNDS_DS_04.03.2025_ejeh3p.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/109_hockey_rink_pca9dl.jpg",
 		extrapictureFilePath: "",
@@ -2375,7 +2375,7 @@ const datadummy = [
 		duration: "0:02:00",
 		tags: "Sports, Ice Skating",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043569/110_MJSW_CHEERINGFROMCENTERICE_DS_04.03.2025_r1xfnb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/110_MJSW_CHEERINGFROMCENTERICE_DS_04.03.2025_r1xfnb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/110_MJSW_ICEQUEENSGAME_DS_04.03.2025_vm71lo.jpg",
 		extrapictureFilePath: "",
@@ -2397,7 +2397,7 @@ const datadummy = [
 		duration: "0:00:22",
 		tags: "Yukon River, Klondike River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1744043770/111_MJGM_CONFLUENCESOUNDS_HP_25.02.2025_gxh5ih.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/111_MJGM_CONFLUENCESOUNDS_HP_25.02.2025_gxh5ih.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/111_Confluence_ljudmw.jpg",
 		extrapictureFilePath: "",
@@ -2419,7 +2419,7 @@ const datadummy = [
 		duration: "0:01:45",
 		tags: "Raven, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499875/112_MJLLSH_STREETRAVENS1_DS_26.02_xgeapb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/112_MJLLSH_STREETRAVENS1_DS_26.02_xgeapb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/112_MJLLSH_STREETRAVENS1_DS_26.02_xaqwtu.jpg",
 		extrapictureFilePath: "",
@@ -2443,7 +2443,7 @@ const datadummy = [
 		duration: "0:01:34",
 		tags: "Collaboration, Sports, Ice Skating",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501037/113_MJSW_ZAMBONI_DS_04.03.2025_ezhazv.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/113_MJSW_ZAMBONI_DS_04.03.2025_ezhazv.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/113_MJSW_ZAMBONI_DS_04.03.2025_onabor.jpg",
 		extrapictureFilePath: "",
@@ -2467,7 +2467,7 @@ const datadummy = [
 		duration: "5:12:00",
 		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501083/114_LL_SW_DUMP1_DS_04.03.25_facgji.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/114_LL_SW_DUMP1_DS_04.03.25_facgji.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/114_LL_SW_DUMP.1_DS_04.03.25_jtsqnu.jpg",
 		extrapictureFilePath: "",
@@ -2489,7 +2489,7 @@ const datadummy = [
 		duration: "9:21:36",
 		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501038/115_LL_SW_DUMP2_DS_04.03.25_uluhch.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/115_LL_SW_DUMP2_DS_04.03.25_uluhch.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/115_LL_SW_DUMP2_DS_04.03.25_ah4dtw.jpg",
 		extrapictureFilePath: "",
@@ -2511,7 +2511,7 @@ const datadummy = [
 		duration: "4:07:00",
 		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501065/116_LL_SW_DUMP3_DS_04.03.25_whvhgy.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/116_LL_SW_DUMP3_DS_04.03.25_whvhgy.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/116_LL_SW_DUMP3_DS_04.03.25_nfnl0x.jpg",
 		extrapictureFilePath: "",
@@ -2534,7 +2534,7 @@ const datadummy = [
 		tags: "Raven, Birds, Collaboration, Dump, Animals",
 		audioFilePath: "",
 		pictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1744128131/117_LL_SW_DUMP4_DS_04.03.25_g79l2z.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/117_LL_SW_DUMP4_DS_04.03.25_yibbjs.mp3",
 		extrapictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/117_LL_SW_DUMP4_DS_04.03.25_g79l2z.jpg",
 		videolink: "",
@@ -2555,7 +2555,7 @@ const datadummy = [
 		duration: "0:33:00",
 		tags: "Raven, Urban, Infrastructure, Birds",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501040/118__NR_raven_gurgling_and_banging_metal_IP_02.26.2025_wy7r5v.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/118__NR_raven_gurgling_and_banging_metal_IP_02.26.2025_wy7r5v.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/118_NR_raven_gurgling_banging_metal_IP_02.26.2025_sritpk.jpg",
 		extrapictureFilePath: "",
@@ -2579,7 +2579,7 @@ const datadummy = [
 		duration: "0:35:00",
 		tags: "Urban",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501040/119_NR_snow_falling_on_plastic_SM_03.06.2025_ainanl.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/119_NR_snow_falling_on_plastic_SM_03.06.2025_ainanl.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/119_NR_snow_falling_on_plastic_SM_03.06.2025_ba9sdf.jpg",
 		extrapictureFilePath: "",
@@ -2603,7 +2603,7 @@ const datadummy = [
 		duration: "0:25:00",
 		tags: "",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501041/120_NR_snow_falling_on_snow_SM_03.06.2025_mrqg6e.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/120_NR_snow_falling_on_snow_SM_03.06.2025_mrqg6e.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/120_NR_snow_falling_on_snow_SM_03.06_yslbej.jpg",
 		extrapictureFilePath: "",
@@ -2629,11 +2629,11 @@ const datadummy = [
 		duration: "0:52:00",
 		tags: "Forest",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501047/121_NR_natural_vent_SM_03.07.2025_tbhk3u.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/121_NR_natural_vent_SM_03.07.2025_tbhk3u.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/121B_NR_natural_vent_SM_03.07.2025_htynrs.jpg",
 		extrapictureFilePath:
-			"https://res.cloudinary.com/drc27xzb4/image/upload/v1743447323/121A_NR_natural_vent_SM_03.07.2025_ydmsze.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/121B_NR_natural_vent_SM_03.07.2025_htynrs.jpg",
 		videolink: "",
 		observations: [
 			"The air venting from under a massive rock stays clear of snow and ice all winter, even into the -40's (observed over 3 winters), suggesting warm air is continuously being released. The vent audio is extremely subtle, pulsing with a low resonance (requires headphones). A greater temperature differential might yield a clearer capture of venting air.",
@@ -2654,7 +2654,7 @@ const datadummy = [
 		duration: "0:00:54",
 		tags: "Yukon River, Collaboration",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743499874/100_SW_JB_RAVENSOUTSIDESTORE_ZM_04.03.2025_coouz9.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/122_NR_dog_race_in_distance_ZM_03.07.2025_xakxs3.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/122_NR_dog_race_in_distance_ZM_03.07.2025_s8wze0.jpg",
 		extrapictureFilePath: "",
@@ -2676,7 +2676,7 @@ const datadummy = [
 		duration: "0:31:00",
 		tags: "Infrastructure, Dump",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743524498/123_LL_SW_DUMP5_DS_04.03.25_tgosjz.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/123_LL_SW_DUMP5_DS_04.03.25_tgosjz.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/123_LL_SW_DUMP5_DS_04.03.25_na2irm.jpg",
 		extrapictureFilePath: "",
@@ -2698,7 +2698,7 @@ const datadummy = [
 		duration: "",
 		tags: "Yukon River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501082/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_dxhbdd.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_dxhbdd.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/124_LL_SH_MJ_AMBIENTRIVER_DS_26.02.25_eaaugw.jpg",
 		extrapictureFilePath: "",
@@ -2720,7 +2720,7 @@ const datadummy = [
 		duration: "9:15:00",
 		tags: "Ice Bridge, Yukon River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501053/125_LL_BRIDGE_GF_04.03.25WAV_vqmlzl.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/125_LL_BRIDGE_GF_04.03.25WAV_vqmlzl.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/125_LL_BRIDGE_GF_04.03.25WAV_cecrrl.jpg",
 		extrapictureFilePath: "",
@@ -2742,7 +2742,7 @@ const datadummy = [
 		duration: "1:53:00",
 		tags: "Dredge Ponds, Mining",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501052/126_LL_DREDGE1_HF_04.03.25_myh8kb.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/126_LL_DREDGE1_HF_04.03.25_myh8kb.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/126_LL_DREDGE1_HF_04.03.25_kfvxsg.jpg",
 		extrapictureFilePath: "",
@@ -2764,7 +2764,7 @@ const datadummy = [
 		duration: "0:57:00",
 		tags: "Dredge Ponds, Mining",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743500987/127_LL_DREDGE2_HF_04.03.25._imrrtw.wav",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/127_LL_DREDGE2_HF_04.03.25._imrrtw.wav",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/127_LL_DREDGE2_HF_04.03.25._hbhrki.jpg",
 		extrapictureFilePath: "",
@@ -2786,7 +2786,7 @@ const datadummy = [
 		duration: "0:15:00",
 		tags: "Dredge Ponds, Mining",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501053/128_LL_DREDGE3_HF_04.03.25._ffn3c3.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/128_LL_DREDGE3_HF_04.03.25._pnpxdb.wav",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/128_LL_DREDGE3_HF_04.03.25._dsp7l6.jpg",
 		extrapictureFilePath: "",
@@ -2809,7 +2809,7 @@ const datadummy = [
 		duration: "",
 		tags: "Birds, Dump",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743501074/129_LL_SJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_ibu4ay.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/129_LL_SJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_ibu4ay.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_eor0ba.jpg",
 		extrapictureFilePath: "https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/129_LL_MJ_SW_JB_DEMPSTERBIRDS_DS_20.02.25_nimv84.jpg",
@@ -2831,7 +2831,7 @@ const datadummy = [
 		duration: "0:01:08",
 		tags: "Dog, Urban",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743586011/130_DOG_RACE_ZM_07.03.2025_hiik4b.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/130_DOG_RACE_ZM_07.03.2025_hiik4b.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/130_DOG_RACE_ZM_07.03.2025_swjnfo.jpg",
 		extrapictureFilePath: "",
@@ -2855,7 +2855,7 @@ const datadummy = [
 		duration: "",
 		tags: "Ice Bridge, Underwater, Yukon River",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743611829/131_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_veqxdu.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/131_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_veqxdu.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/131A_SS_DRILLING_BORE_HOLE_ZM_07.03.2025_hku5nw.jpg",
 		extrapictureFilePath:
@@ -2878,7 +2878,7 @@ const datadummy = [
 		duration: "",
 		tags: "Yukon River,  Underwater",
 		audioFilePath:
-			"https://res.cloudinary.com/drc27xzb4/video/upload/v1743612650/132_SS_BOREHOLE_23.02.2025_ljwafa.mp3",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/132_SS_BOREHOLE_23.02.2025_ljwafa.mp3",
 		pictureFilePath:
 			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/132A_SS_BOREHOLE_23.02.2025_l9gqp9.jpg",
 		extrapictureFilePath:
