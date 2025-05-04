@@ -52,7 +52,7 @@ const students = [
 		id: 8,
 		name: "Nicole Rayburn",
 		image:
-			"hhttps://soundingicetestbucket.s3.eu-west-2.amazonaws.com/PEOPLE/Nicole_Rayburn_pxrf7v.jpg",
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/PEOPLE/Nicole_Rayburn_pxrf7v.jpg",
 		info: "Additional info about Nicole Rayburn.",
 	},
 	{
