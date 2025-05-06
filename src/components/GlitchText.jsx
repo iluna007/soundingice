@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const GlitchText = ({ children }) => {
 	const audioRef = useRef(
 		new Audio(
-			"https://res.cloudinary.com/dw1ht0zfd/video/upload/v1739981867/breakingice_effect_ykj6v5.mp3"
+			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/Effects/breakingice_effect_ykj6v5.mp3"
 		)
 	);
 
