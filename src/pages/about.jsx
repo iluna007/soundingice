@@ -99,10 +99,11 @@ const About = () => {
 								Project Credits: Drone Footage by John Howland & Bobby Ronka.
 								Website designed by{" "}
 								<a
-									href='mailto:arquitectoikerluna@gmail.com'
+									href='mailto:negripes0000@gmail.com
+'
 									className='description_forlinks_about'
 								>
-									Iker Luna.
+									Simona Perez.
 								</a>
 							</p>
 						</div>
@@ -168,10 +169,10 @@ const About = () => {
 								</a>
 							</p>
 							<p className='description'>
-								<strong>Iker Luna</strong> is an architect and designer based in
-								Costa Rica whose research explores political repression and
+								<strong>Simona Perez</strong> is an architect and designer based
+								in Costa Rica whose research explores political repression and
 								state-sponsored violence in Nicaragua as expressed through the
-								built environment. Iker holds an MAArch from the Institute for
+								built environment. Simona holds an MAArch from the Institute for
 								Advanced Architecture of Catalonia. He teaches at the University
 								of Costa Rica in the Architecture School and is currently
 								pursuing a MA in the{" "}

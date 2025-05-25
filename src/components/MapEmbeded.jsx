@@ -164,7 +164,7 @@ const MapEmbed = () => {
 			<ReactMapGL
 				ref={mapRef}
 				{...viewport}
-				mapStyle='mapbox://styles/ikerluna/cm7b6ykln005d01s7fdffhda4'
+				mapStyle='mapbox://styles/luna/cm7b6ykln005d01s7fdffhda4'
 				mapboxApiAccessToken={mapboxgl.accessToken}
 				onLoad={handleMapLoad}
 				onMove={(evt) => setViewport(evt.viewState)}
