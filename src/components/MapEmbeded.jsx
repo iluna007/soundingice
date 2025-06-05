@@ -10,6 +10,7 @@ import mlcontour from "maplibre-contour";
 // Set the global Mapbox token
 mapboxgl.accessToken =
 	"pk.eyJ1IjoiaWtlcmx1bmEiLCJhIjoiY203NjMwZHptMHAzaDJrcXlrbnNuMHJlZiJ9.hkoRlM6gQ-BflcGjpI40GA";
+	
 
 const MapEmbed = () => {
 	// Estado viewport sin propiedades no soportadas (ej. position)
@@ -164,7 +165,7 @@ const MapEmbed = () => {
 			<ReactMapGL
 				ref={mapRef}
 				{...viewport}
-				mapStyle='mapbox://styles/luna/cm7b6ykln005d01s7fdffhda4'
+				mapStyle='mapbox://styles/ikerluna/cm7b6ykln005d01s7fdffhda4'
 				mapboxApiAccessToken={mapboxgl.accessToken}
 				onLoad={handleMapLoad}
 				onMove={(evt) => setViewport(evt.viewState)}

@@ -299,55 +299,7 @@ const datadummy = [
 			"Walking in the sunshine on a campground trail in Tombstone Territorial Park, with traditional wooden snowshoes strapped to my boots.",
 		],
 	},
-	{
-		id: 17,
-		recordist: "Andrew Kearns",
-		fileName: "3_AK_Wifi_Router_26/02/25.wav",
-		date: "26/02",
-		time: "02:30:00",
-		lat: 64.05421352653208,
-		lon: -139.43606323893314,
-		temperature: "25°C",
-		activity: "Static and crackling sounds, with a quiet continueous beeping.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:01:00",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/17_AK_Wifi_Router_26_02_25_yp9lah.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/17X_AK_Wifi_Router_26_02_25_ehtncw.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"I noticed the chaotic crackling the router emitted, never rythmatic of sorts however a continueous beeping balanced it well.",
-		],
-	},
-	{
-		id: 19,
-		recordist: "Andrew Kearns",
-		fileName: "4_AK_Ethernet_Port_26/02/25.wav",
-		date: "26/02",
-		time: "02:35:00",
-		lat: 64.05421352653208,
-		lon: -139.43606323893314,
-		temperature: "25°C",
-		activity:
-			"Recording of an a ethernet port in indirect contact with an EMF attachment.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:03:25",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/19_AK_Ethernet_Port_26_02_25_zyti9c.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/19X_AK_Ethernet_Port_26_02_25_qjuung.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"extremely fast pulsing noises with consistant pattern, with suddle interuptions of static and crackling.",
-		],
-	},
+		
 	{
 		id: 20,
 		recordist: "Bronwyn Butterfiled",
@@ -396,31 +348,7 @@ const datadummy = [
 		videolink: "",
 		observations: [""],
 	},
-	{
-		id: 22,
-		recordist: "Andrew Kearns",
-		fileName: "7_AK_Toaster_EMF_01/03/25.wav",
-		date: "01/03",
-		time: "23:35:00",
-		lat: 64.05421352653208,
-		lon: -139.43606323893314,
-		temperature: "25°C",
-		activity:
-			"Sounds of my toaster having the lever pressed up and down without any identifiable rythmn.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:35:01",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/22_AK_Toaster_EMF_01_03_25_uiipvw.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/22X_AK_Toaster_EMF_01_03_25_cz6n1h.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"Buzzing noise continues however it gets queiter momentarily when i press down the toaster handle and has slight increase in volume when it pops. On a more personal note, continuously using a toaster for over 30 minutes can cause it to overheat, which can be heard towards tthe end of the recording. if a sound could smell this would smell burnt.",
-		],
-	},
+	
 	{
 		id: 23,
 		recordist: "Sadie Wasylko, Jove Boutin",
@@ -546,104 +474,9 @@ const datadummy = [
 			"Walking off trail in Tombstone Territorial Park through four feet of snow, between black spruce trees and willow branches.",
 		],
 	},
-	{
-		id: 28,
-		recordist: "Andrew Kearns",
-		fileName: "9_AK_510Thread_ Battery_4.2V_24/02/25.wav",
-		date: "24/02",
-		time: "04:31:00",
-		lat: 64.05421352653208,
-		lon: -139.43606323893314,
-		temperature: "15°C",
-		activity:
-			"Recording of a 510 thread battery for a soldering iron being activated, set to 4.2 Volts.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:01:24",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/28_AK_510Thread__Battery_4.2V_24_02_25_w4liaz.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/28X_AK_510Thread__Battery_4.2V_24_02_25.wav_fajbyc.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"Buzzing crackling noises increasing in volume as the recording goes on and the battery heats up.",
-		],
-	},
-	{
-		id: 29,
-		recordist: "Grace Bruder",
-		fileName: "9_GB_SOVA Studio Radiator_SM 02.03.2025.wav",
-		date: "02/03",
-		time: "16:00:00",
-		lat: 64.06149,
-		lon: -139.43236,
-		temperature: "20°C",
-		activity:
-			"Recording of water trickling in the radiator used to heat the 2D studio at SOVA.",
-		equipment: ["Sensative"],
-		conditions: "Indoors",
-		duration: "0:01:58",
-		tags: "Running Water, Urban, Infrastructure",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/29_GB_SOVA_Studio_Radiator_SM_02.03.2025_qjef9a.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/29A_GB_SOVA_Studio_Radiator_SM_02.03.2025_mvitwq.jpg",
-		extrapictureFilePath: "https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/29AX_GB_SOVA_Studio_Radiator_SM_02.03.2025_wbbd8c.jpg",
-		videolink: "",
-		observations: [
-			"In the personal studio spaces of the School of visual arts there is one particular radiator that sounds like water trickling down a small stream, it is most beautiful and calming late at night while working on sketches and paintings alone at school.",
-		],
-	},
-	{
-		id: 30,
-		recordist: "Andrew Kearns",
-		fileName: "13_AK_EMF_Extension_Cord_01/03/25.wav",
-		date: "01/03",
-		time: "03:30:00",
-		lat: 64.05421352653208,
-		lon: -139.43606323893314,
-		temperature: "20°C",
-		activity: "Recording of an extension cords electronic sound emmisions.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:30:01",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/30_AK_EMF_Extension_Cord_01_03_25_ycaqjj.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/30_AK_EMF_Extension_Cord_01_03_25_rvnilk.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"Continuous buzzing sounds change pitch from time to time but always reverting back to its original souynd for some few moments.",
-		],
-	},
-	{
-		id: 31,
-		recordist: "Andrew Kearns",
-		fileName: "14_AK_EMF_Angry_Microwave_06/03/25.wav",
-		date: "06/03",
-		time: "16:01:00",
-		lat: 64.06164382670404,
-		lon: -139.4328119,
-		temperature: "20°C",
-		activity: "EMF recording of the microwave at SOVA",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:01:51",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/31_AK_EMF_Angry_Microwave_06_03_25_qw8nxq.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/31X_AK_EMF_Angry_Microwave_06_03_25_vs61cs.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"The microwave sounds extremely agitated, im aware microwaves dont have emotions but the sounds it made convinced me.",
-		],
-	},
+	
+	
+	
 	{
 		id: 32,
 		recordist: "Grace Bruder, Andy Belanger, Bean",
@@ -1015,55 +848,7 @@ const datadummy = [
 		videolink: "",
 		observations: ["I noticed Bean might need a manicure."],
 	},
-	{
-		id: 50,
-		recordist: "Andrew Kearns",
-		fileName: "11_AK_Printer_EMF_06/03/25.wav",
-		date: "06/03",
-		time: "11:45:00",
-		lat: 64.06164382670404,
-		lon: -139.4328119,
-		temperature: "20°C",
-		activity:
-			"EMF recording of the printer at SOVA producing a status report sheet.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:01:00",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/50_AK_Printer_EMF_06_03_25_lmebfb.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/50X_AK_Printer_EMF_06_03_25_ojkiea.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"I noticed the eerie sounds emitted were incoherent but the sound of the paper being pushed through was picked up in a high frequency tone.",
-		],
-	},
-	{
-		id: 51,
-		recordist: "Andrew Kearns",
-		fileName: "12_AK_Epson_Scanner_06/03/25.wav",
-		date: "06/03",
-		time: "11:50:00",
-		lat: 64.06164382670404,
-		lon: -139.4328119,
-		temperature: "20°C",
-		activity: "EMF recording of the document scanner at SOVA being used.",
-		equipment: ["EMF"],
-		conditions: "Indoors",
-		duration: "0:01:25",
-		tags: "Energy, SOVA",
-		audioFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/SOUND/51_AK_Epson_Scanner_06_03_25_csifna.mp3",
-		pictureFilePath:
-			"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/IMAGES/51X_AK_Epson_Scanner_06_03_25_u7fyei.jpg",
-		extrapictureFilePath: "",
-		videolink: "",
-		observations: [
-			"The high frequency buzzing of the scanner's light moving stung my ears slightly.",
-		],
-	},
+	
 	{
 		id: 52,
 		recordist: "Jove Boutin, Sadie Wasylko",
