@@ -1,0 +1,13 @@
+/* Sidebar: texto gris */
+.cartography-container .sidebar h5,
+.cartography-container .sidebar .form-check-label {
+  color: #666; /* gris oscuro */
+}
+
+/* Alinear checkbox a la derecha */
+.cartography-container .sidebar .form-check {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1rem;
+}

@@ -169,7 +169,7 @@ const About = () => {
 								</a>
 							</p>
 							<p className='description'>
-								<strong>Simona Perez</strong> is an architect and designer based
+								<strong>Iker Luna</strong> is an architect and designer based
 								in Costa Rica whose research explores political repression and
 								state-sponsored violence in Nicaragua as expressed through the
 								built environment. Simona holds an MAArch from the Institute for
