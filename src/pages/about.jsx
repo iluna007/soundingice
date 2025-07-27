@@ -172,7 +172,7 @@ const About = () => {
 								<strong>Iker Luna</strong> is an architect and designer based
 								in Costa Rica whose research explores political repression and
 								state-sponsored violence in Nicaragua as expressed through the
-								built environment. Simona holds an MAArch from the Institute for
+								built environment. Iker holds an MAArch from the Institute for
 								Advanced Architecture of Catalonia. He teaches at the University
 								of Costa Rica in the Architecture School and is currently
 								pursuing a MA in the{" "}
