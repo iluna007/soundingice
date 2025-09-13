@@ -103,7 +103,7 @@ const About = () => {
 '
 									className='description_forlinks_about'
 								>
-									Simona Perez.
+									Iker Luna.
 								</a>
 							</p>
 						</div>
