@@ -169,22 +169,21 @@ const About = () => {
 								</a>
 							</p>
 							<p className='description'>
-								<strong>Iker Luna</strong> is an architect and designer based
+								<strong>Iker Luna</strong> is an architect and artist based
 								in Costa Rica whose research explores political repression and
-								state-sponsored violence in Nicaragua as expressed through the
-								built environment. Iker holds an MAArch from the Institute for
-								Advanced Architecture of Catalonia. He teaches at the University
-								of Costa Rica in the Architecture School and is currently
-								pursuing a MA in the{" "}
-								<a
-									href='https://www.gold.ac.uk/architecture/programmes/'
+								state-sponsored violence in Central America as expressed through the
+								built and natural environment. Iker holds an MAArch from the Institute for
+								Advanced Architecture of Catalonia and Master of Arts from <a
+									href='https://research-architecture.org/'
 									target='_blank'
 									rel='noopener noreferrer'
 									className='description_forlinks_about'
 								>
 									Centre for Research Architecture at
 								</a>{" "}
-								Goldsmiths, University of London.
+								Goldsmiths, University of London.,
+								University of London.
+								
 							</p>
 						</div>
 					</div>
