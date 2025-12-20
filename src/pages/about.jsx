@@ -173,7 +173,7 @@ const About = () => {
 								in Costa Rica whose research explores political repression and
 								state-sponsored violence in Central America as expressed through the
 								built and natural environment. Iker holds an MAArch from the Institute for
-								Advanced Architecture of Catalonia and Master of Arts from <a
+								Advanced Architecture of Catalonia and a Master of Arts from <a
 									href='https://research-architecture.org/'
 									target='_blank'
 									rel='noopener noreferrer'
@@ -181,7 +181,7 @@ const About = () => {
 								>
 									Centre for Research Architecture at
 								</a>{" "}
-								Goldsmiths, University of London.,
+								Goldsmiths, University of London,
 								University of London.
 								
 							</p>
