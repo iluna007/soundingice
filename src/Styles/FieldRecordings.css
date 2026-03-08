@@ -201,13 +201,44 @@
 
 .full-list-header {
   display: grid;
-  grid-template-columns: 0.7fr 0.6fr 0.9fr 1fr 1.2fr 1fr 1.2fr 1fr minmax(120px, 2fr) 56px;
-  gap: 8px;
-  padding: 10px 0;
+  grid-template-columns: 56px 0.7fr 0.6fr 0.9fr 1fr 1.2fr 1fr 1.2fr minmax(120px, 2fr);
+  gap: 0;
+  padding: 0;
+  align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   font-weight: bold;
   font-size: 0.7rem;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.full-list-header .full-list-col,
+.full-list-header .full-list-sortable {
+  text-align: center;
+}
+
+/* STFT - centrado */
+.full-list-header .full-list-col.full-list-action,
+.full-list-row .full-list-col.full-list-action {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Recordist - izquierda */
+.full-list-header .full-list-col.full-list-recordist,
+.full-list-row .full-list-col.full-list-recordist {
+  text-align: left;
+}
+
+/* Key Words - centrado */
+.full-list-header .full-list-col.full-list-tags,
+.full-list-row .full-list-col.full-list-tags {
+  text-align: center;
+}
+
+/* Observations - derecha */
+.full-list-header .full-list-col.full-list-observations,
+.full-list-row .full-list-col.full-list-observations {
+  text-align: right;
 }
 
 .full-list-sortable {
@@ -230,9 +261,10 @@
 
 .full-list-row {
   display: grid;
-  grid-template-columns: 0.7fr 0.6fr 0.9fr 1fr 1.2fr 1fr 1.2fr 1fr minmax(120px, 2fr) 56px;
-  gap: 8px;
-  padding: 8px 0;
+  grid-template-columns: 56px 0.7fr 0.6fr 0.9fr 1fr 1.2fr 1fr 1.2fr minmax(120px, 2fr);
+  gap: 0;
+  padding: 0;
+  align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   cursor: pointer;
   font-size: 0.75rem;
@@ -247,28 +279,40 @@
   background-color: rgba(0, 0, 0, 0.08);
 }
 
+.full-list-row.expanded {
+  background-color: rgba(0, 0, 0, 0.04);
+  align-items: start;
+}
+
 .full-list-col {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
 }
 
 .full-list-col.full-list-id {
   font-weight: 600;
 }
 
-/* Observations puede ser largo: permitir wrap */
-.full-list-col.full-list-observations {
-  white-space: normal;
-  line-height: 1.3;
-  -webkit-line-clamp: 3;
+/* Celdas compactas: texto truncado hasta hacer click */
+.full-list-row:not(.expanded) .full-list-col.full-list-observations,
+.full-list-row:not(.expanded) .full-list-col.full-list-equipment {
   display: -webkit-box;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  line-height: 1.3;
 }
 
-.full-list-row:hover .full-list-col.full-list-observations {
+
+/* Al hacer click: mostrar texto completo de observations */
+.full-list-row.expanded .full-list-col.full-list-observations {
   -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.full-list-row {
+  min-height: 2.5em;
 }
 
 .full-list-col.full-list-action {
@@ -276,10 +320,38 @@
   align-items: center;
 }
 
+/* Key Words: chips, una palabra por línea, todas visibles solo al expandir */
+.full-list-col.full-list-tags {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-list-row:not(.expanded) .full-list-col.full-list-tags {
+  max-height: 2.2em;
+  overflow: hidden;
+}
+
+.full-list-row.expanded .full-list-col.full-list-tags {
+  align-items: center;
+}
+
+.full-list-tag-chip {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
 @media (max-width: 1200px) {
   .full-list-header,
   .full-list-row {
-    grid-template-columns: 0.6fr 0.5fr 0.8fr 0.9fr 1fr 0.9fr 1fr 0.9fr minmax(100px, 1.5fr) 56px;
+    grid-template-columns: 56px 0.6fr 0.5fr 0.8fr 0.9fr 0.9fr 1fr 0.9fr minmax(100px, 1.5fr);
     font-size: 0.7rem;
   }
 }
@@ -287,7 +359,7 @@
 @media (max-width: 992px) {
   .full-list-header,
   .full-list-row {
-    grid-template-columns: 0.6fr 0.5fr 0.8fr 0.9fr 1fr 56px;
+    grid-template-columns: 56px 0.6fr 0.5fr 0.8fr 0.9fr;
     font-size: 0.7rem;
   }
 
@@ -306,14 +378,12 @@
 @media (max-width: 768px) {
   .full-list-header,
   .full-list-row {
-    grid-template-columns: 0.6fr 0.7fr 1fr 48px;
+    grid-template-columns: 48px 0.6fr 0.7fr 1fr;
     font-size: 0.7rem;
   }
 
   .full-list-header .full-list-time,
-  .full-list-header .full-list-location,
-  .full-list-row .full-list-time,
-  .full-list-row .full-list-location {
+  .full-list-row .full-list-time {
     display: none;
   }
 }

@@ -24,6 +24,7 @@ const FieldRecordings = () => {
 	const [viewMode, setViewMode] = useState("cards"); // "cards" | "list"
 	const [sortBy, setSortBy] = useState(null); // "date" | "time" | "id" | "conditions"
 	const [sortOrder, setSortOrder] = useState("asc"); // "asc" | "desc"
+	const [expandedRowId, setExpandedRowId] = useState(null); // id of expanded table row
 
 	const handleUpdate = useCallback(() => {
 		const data = store.getAll() || [];
@@ -115,6 +116,7 @@ const FieldRecordings = () => {
 
 	const handleRowClick = (record) => {
 		selectRecord(record);
+		setExpandedRowId((prev) => (prev === record.id ? null : record.id));
 	};
 
 	const handleSortClick = (column) => {
@@ -380,6 +382,7 @@ const FieldRecordings = () => {
 									) : (
 										<div className='full-list-view'>
 											<div className='full-list-header'>
+												<span className='full-list-col full-list-action'>STFT</span>
 												<button
 													type='button'
 													className={`full-list-col full-list-sortable ${sortBy === "date" ? "active" : ""}`}
@@ -402,7 +405,6 @@ const FieldRecordings = () => {
 													Recording {sortBy === "id" && (sortOrder === "asc" ? "↑" : "↓")}
 												</button>
 												<span className='full-list-col full-list-recordist'>Recordist</span>
-												<span className='full-list-col full-list-location'>Location</span>
 												<button
 													type='button'
 													className={`full-list-col full-list-sortable ${sortBy === "conditions" ? "active" : ""}`}
@@ -413,73 +415,76 @@ const FieldRecordings = () => {
 												<span className='full-list-col full-list-equipment'>Equipment</span>
 												<span className='full-list-col full-list-tags'>Key Words</span>
 												<span className='full-list-col full-list-observations'>Observations</span>
-												<span className='full-list-col full-list-action'>
-													<span className='material-symbols-outlined' style={{ fontSize: "0.9rem" }} title='Spectrogram'>
-														graphic_eq
-													</span>
-												</span>
 											</div>
 											{currentRecords.map((record) => (
 												<div
 													key={record.id}
-													className='full-list-row'
-													onClick={() => handleRowClick(record)}
-													role='button'
-													tabIndex={0}
-													onKeyDown={(e) => {
-														if (e.key === "Enter" || e.key === " ") {
-															e.preventDefault();
-															handleRowClick(record);
-														}
-													}}
-												>
-													<span className='full-list-col full-list-date'>
-														{record.date}
-													</span>
-													<span className='full-list-col full-list-time'>
-														{record.time || "—"}
-													</span>
-													<span className='full-list-col full-list-id'>
-														{record.id}
-													</span>
-													<span className='full-list-col full-list-recordist'>
-														{record.recordist}
-													</span>
-													<span className='full-list-col full-list-location'>
-														{record.lat != null && record.lon != null
-															? `${record.lat}, ${record.lon}`
-															: "—"}
-													</span>
-													<span className='full-list-col full-list-conditions'>
-														{record.conditions || "—"}
-													</span>
-													<span className='full-list-col full-list-equipment'>
-														{record.equipment
-															? Array.isArray(record.equipment)
-																? record.equipment.join(", ")
-																: record.equipment
-															: "—"}
-													</span>
-													<span className='full-list-col full-list-tags'>
-														{record.tags || record["Key Words"] || "—"}
-													</span>
-													<span className='full-list-col full-list-observations'>
-														{record.observations && Array.isArray(record.observations)
-															? record.observations.join(" • ")
-															: "—"}
-													</span>
-													<span
-														className='full-list-col full-list-action'
-														onClick={(e) => e.stopPropagation()}
+													className={`full-list-row ${expandedRowId === record.id ? "expanded" : ""}`}
+														onClick={() => handleRowClick(record)}
+														role='button'
+														tabIndex={0}
+														onKeyDown={(e) => {
+															if (e.key === "Enter" || e.key === " ") {
+																e.preventDefault();
+																handleRowClick(record);
+															}
+														}}
 													>
-														<CreateSpectrogram
-															record={record}
-															variant='outline-dark'
-															size='sm'
-															iconOnly
-														/>
-													</span>
-												</div>
+														<span
+															className='full-list-col full-list-action'
+															onClick={(e) => e.stopPropagation()}
+														>
+															<CreateSpectrogram
+																record={record}
+																variant='outline-dark'
+																size='sm'
+																iconOnly
+															/>
+														</span>
+														<span className='full-list-col full-list-date'>
+															{record.date}
+														</span>
+														<span className='full-list-col full-list-time'>
+															{record.time || "—"}
+														</span>
+														<span className='full-list-col full-list-id'>
+															{record.id}
+														</span>
+														<span className='full-list-col full-list-recordist'>
+															{record.recordist}
+														</span>
+														<span className='full-list-col full-list-conditions'>
+															{record.conditions || "—"}
+														</span>
+														<span className='full-list-col full-list-equipment'>
+															{record.equipment
+																? Array.isArray(record.equipment)
+																	? record.equipment.join(", ")
+																	: record.equipment
+																: "—"}
+														</span>
+														<span className='full-list-col full-list-tags'>
+															{(() => {
+																const raw = record.tags || record["Key Words"];
+																if (!raw) return "—";
+																const tags = raw.split(",").map((t) => t.trim()).filter(Boolean);
+																return tags.length > 0 ? (
+																	tags.map((tag, i) => (
+																		<span key={i} className='full-list-tag-chip'>
+																			{tag}
+																		</span>
+																	))
+																) : (
+																	"—"
+																);
+															})()}
+														</span>
+														<span className='full-list-col full-list-observations'>
+															{record.observations && Array.isArray(record.observations)
+																? record.observations.join(" • ")
+																: "—"}
+														</span>
+													</div>
 											))}
 										</div>
 									)}

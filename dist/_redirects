@@ -1,1 +1,5 @@
+# Proxy S3 audio to avoid CORS (spectrogram fetch)
+/s3-audio/*  https://soundingicetestbucket.s3.eu-west-2.amazonaws.com/:splat  200
+
+# SPA fallback
 /*    /index.html   200
