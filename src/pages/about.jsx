@@ -43,8 +43,16 @@ const About = () => {
 							</p>
 							<p className='description'>
 								Produced in collaboration with students from the Yukon School of
-								Visual Arts, Dawson City. Realised by Susan Schuppli during the
-								winter of 2025.
+								Visual Arts, Dawson City. Realised by{" "}
+								<a
+									href='https://susanschuppli.com/'
+									target='_blank'
+									rel='noopener noreferrer'
+									className='description_forlinks_about'
+								>
+									Susan Schuppli
+								</a>{" "}
+								during the winter of 2025.
 							</p>
 							<p className='description'>
 								This acoustic cartography is a way of doing-mapping ‘otherwise’.
@@ -99,8 +107,9 @@ const About = () => {
 								Project Credits: Drone Footage by John Howland & Bobby Ronka.
 								Website designed by{" "}
 								<a
-									href='mailto:negripes0000@gmail.com
-'
+									href='https://ikerluna.netlify.app/'
+									target='_blank'
+									rel='noopener noreferrer'
 									className='description_forlinks_about'
 								>
 									Iker Luna.
@@ -111,7 +120,15 @@ const About = () => {
 							<h3 className='subtitles'>Biographies</h3>
 							<hr />
 							<p className='description'>
-								<strong>Susan Schuppli</strong> is a researcher and artist based
+								<a
+									href='https://susanschuppli.com/'
+									target='_blank'
+									rel='noopener noreferrer'
+									className='description_forlinks_about'
+								>
+									<strong>Susan Schuppli</strong>
+								</a>{" "}
+								is a researcher and artist based
 								in the UK. Her fieldwork and documentary film practice is
 								situated at the intersections between environmental struggles,
 								climate science, and affected communities with a contemporary
@@ -169,7 +186,15 @@ const About = () => {
 								</a>
 							</p>
 							<p className='description'>
-								<strong>Iker Luna</strong> is an architect and artist based
+								<a
+									href='https://ikerluna.netlify.app/'
+									target='_blank'
+									rel='noopener noreferrer'
+									className='description_forlinks_about'
+								>
+									<strong>Iker Luna</strong>
+								</a>{" "}
+								is an architect and artist based
 								in Costa Rica whose research explores political repression and
 								state-sponsored violence in Central America as expressed through the
 								built and natural environment. Iker holds an MAArch from the Institute for
