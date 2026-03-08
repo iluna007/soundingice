@@ -3,6 +3,7 @@ import store from "../flux/store";
 import { fetchData1, selectRecord } from "../flux/actions";
 import RecordingCard from "../components/RecordingCard";
 import MapEmbed from "../components/MapEmbeded";
+import CreateSpectrogram from "../components/CreateSpectrogram";
 import Masonry from "react-masonry-css";
 import "../Styles/FieldRecordings.css";
 
@@ -21,6 +22,8 @@ const FieldRecordings = () => {
 	const [expandedCard, setExpandedCard] = useState(null);
 	const [currentPage, setCurrentPage] = useState(1);
 	const [viewMode, setViewMode] = useState("cards"); // "cards" | "list"
+	const [sortBy, setSortBy] = useState(null); // "date" | "time" | "id" | "conditions"
+	const [sortOrder, setSortOrder] = useState("asc"); // "asc" | "desc"
 
 	const handleUpdate = useCallback(() => {
 		const data = store.getAll() || [];
@@ -110,16 +113,55 @@ const FieldRecordings = () => {
 		}
 	};
 
+	const handleRowClick = (record) => {
+		selectRecord(record);
+	};
+
+	const handleSortClick = (column) => {
+		if (sortBy === column) {
+			setSortOrder((prev) => (prev === "asc" ? "desc" : "asc"));
+		} else {
+			setSortBy(column);
+			setSortOrder("asc");
+		}
+		setCurrentPage(1);
+	};
+
+	const parseDateForSort = (dateStr) => {
+		if (!dateStr) return 0;
+		const parts = String(dateStr).split("/");
+		if (parts.length >= 2) return parseInt(parts[0], 10) * 100 + parseInt(parts[1], 10);
+		return 0;
+	};
+
+	const parseTimeForSort = (timeStr) => {
+		if (!timeStr) return "";
+		return String(timeStr).replace(/:/g, "");
+	};
+
+	const sortedRecords =
+		viewMode === "list" && sortBy
+			? [...filteredRecords].sort((a, b) => {
+					let cmp = 0;
+					if (sortBy === "date") {
+						cmp = parseDateForSort(a.date) - parseDateForSort(b.date);
+					} else if (sortBy === "time") {
+						cmp = parseTimeForSort(a.time).localeCompare(parseTimeForSort(b.time));
+					} else if (sortBy === "id") {
+						cmp = Number(a.id) - Number(b.id);
+					} else if (sortBy === "conditions") {
+						cmp = (a.conditions || "").localeCompare(b.conditions || "");
+					}
+					return sortOrder === "desc" ? -cmp : cmp;
+				})
+			: filteredRecords;
+
 	// Paginación: calcular el subset a mostrar
 	const itemsPerPage = viewMode === "list" ? LIST_ITEMS_PER_PAGE : ITEMS_PER_PAGE;
 	const indexOfLast = currentPage * itemsPerPage;
 	const indexOfFirst = indexOfLast - itemsPerPage;
-	const currentRecords = filteredRecords.slice(indexOfFirst, indexOfLast);
-	const totalPages = Math.ceil(filteredRecords.length / itemsPerPage);
-
-	const handleRowClick = (record) => {
-		selectRecord(record);
-	};
+	const currentRecords = sortedRecords.slice(indexOfFirst, indexOfLast);
+	const totalPages = Math.ceil(sortedRecords.length / itemsPerPage);
 
 	const handlePageChange = (newPage) => {
 		if (newPage >= 1 && newPage <= totalPages) setCurrentPage(newPage);
@@ -192,8 +234,9 @@ const FieldRecordings = () => {
 				}}
 			>
 				<h2 className='title'>Field Recordings</h2>
-				<div className='row mt-5'>
-					<div className='row mt-12'>
+				<div className='row mt-5 field-recordings-main align-items-stretch'>
+					<div className='col-12'>
+						<div className='row mt-12'>
 						<p className='description'>
 							Technology must also be held accountable as part of an
 							ecologically valid practice. Microphones and recording kits, made
@@ -209,6 +252,7 @@ const FieldRecordings = () => {
 								Practice
 							</em>
 						</p>
+						</div>
 					</div>
 					{viewMode === "cards" && (
 					<div className='col-md-2'>
@@ -285,7 +329,7 @@ const FieldRecordings = () => {
 						</div>
 					</div>
 					)}
-					<div className={viewMode === "list" ? "col-md-7" : "col-md-5"}>
+					<div className={`field-recordings-list-col ${viewMode === "list" ? "col-md-7" : "col-md-5"}`}>
 						{/* Toggle de vista */}
 						<div className='view-toggle'>
 							<button
@@ -302,6 +346,7 @@ const FieldRecordings = () => {
 								onClick={() => {
 									setViewMode("list");
 									setCurrentPage(1);
+									setSortBy(null);
 								}}
 							>
 								Full List View
@@ -335,15 +380,44 @@ const FieldRecordings = () => {
 									) : (
 										<div className='full-list-view'>
 											<div className='full-list-header'>
-												<span className='full-list-col full-list-date'>Date</span>
-												<span className='full-list-col full-list-time'>Time</span>
-												<span className='full-list-col full-list-id'>Recording</span>
+												<button
+													type='button'
+													className={`full-list-col full-list-sortable ${sortBy === "date" ? "active" : ""}`}
+													onClick={() => handleSortClick("date")}
+												>
+													Date {sortBy === "date" && (sortOrder === "asc" ? "↑" : "↓")}
+												</button>
+												<button
+													type='button'
+													className={`full-list-col full-list-sortable ${sortBy === "time" ? "active" : ""}`}
+													onClick={() => handleSortClick("time")}
+												>
+													Time {sortBy === "time" && (sortOrder === "asc" ? "↑" : "↓")}
+												</button>
+												<button
+													type='button'
+													className={`full-list-col full-list-sortable full-list-id ${sortBy === "id" ? "active" : ""}`}
+													onClick={() => handleSortClick("id")}
+												>
+													Recording {sortBy === "id" && (sortOrder === "asc" ? "↑" : "↓")}
+												</button>
 												<span className='full-list-col full-list-recordist'>Recordist</span>
 												<span className='full-list-col full-list-location'>Location</span>
-												<span className='full-list-col full-list-conditions'>Conditions</span>
+												<button
+													type='button'
+													className={`full-list-col full-list-sortable ${sortBy === "conditions" ? "active" : ""}`}
+													onClick={() => handleSortClick("conditions")}
+												>
+													Conditions {sortBy === "conditions" && (sortOrder === "asc" ? "↑" : "↓")}
+												</button>
 												<span className='full-list-col full-list-equipment'>Equipment</span>
 												<span className='full-list-col full-list-tags'>Key Words</span>
 												<span className='full-list-col full-list-observations'>Observations</span>
+												<span className='full-list-col full-list-action'>
+													<span className='material-symbols-outlined' style={{ fontSize: "0.9rem" }} title='Spectrogram'>
+														graphic_eq
+													</span>
+												</span>
 											</div>
 											{currentRecords.map((record) => (
 												<div
@@ -380,7 +454,11 @@ const FieldRecordings = () => {
 														{record.conditions || "—"}
 													</span>
 													<span className='full-list-col full-list-equipment'>
-														{record.equipment || "—"}
+														{record.equipment
+															? Array.isArray(record.equipment)
+																? record.equipment.join(", ")
+																: record.equipment
+															: "—"}
 													</span>
 													<span className='full-list-col full-list-tags'>
 														{record.tags || record["Key Words"] || "—"}
@@ -389,6 +467,17 @@ const FieldRecordings = () => {
 														{record.observations && Array.isArray(record.observations)
 															? record.observations.join(" • ")
 															: "—"}
+													</span>
+													<span
+														className='full-list-col full-list-action'
+														onClick={(e) => e.stopPropagation()}
+													>
+														<CreateSpectrogram
+															record={record}
+															variant='outline-dark'
+															size='sm'
+															iconOnly
+														/>
 													</span>
 												</div>
 											))}
@@ -402,8 +491,10 @@ const FieldRecordings = () => {
 						{/* Paginación inferior */}
 						{renderPagination()}
 					</div>
-					<div className='col-md-5'>
-						<MapEmbed />
+					<div className='col-md-5 field-recordings-map-col d-flex flex-column'>
+						<div className='map-embed-wrapper'>
+							<MapEmbed />
+						</div>
 					</div>
 				</div>
 			</div>

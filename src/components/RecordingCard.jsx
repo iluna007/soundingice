@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { selectRecord } from "../flux/actions";
+import CreateSpectrogram from "./CreateSpectrogram";
 import "../Styles/RecordingCard.css";
 
 const RecordingCard = ({ record }) => {
@@ -97,7 +98,10 @@ const RecordingCard = ({ record }) => {
 						<strong>Conditions:</strong> {record.conditions}
 					</p>
 					<p>
-						<strong>Equipment:</strong> {record.equipment}
+						<strong>Equipment:</strong>{" "}
+						{Array.isArray(record.equipment)
+							? record.equipment.join(", ")
+							: record.equipment}
 					</p>
 					<p>
 						<strong>Key Words:</strong> {record.tags || record["Key Words"]}
@@ -106,6 +110,9 @@ const RecordingCard = ({ record }) => {
 						<source src={record.audioFilePath} type='audio/mpeg' />
 						Your browser does not support the audio element.
 					</audio>
+					<div className='mt-3'>
+						<CreateSpectrogram record={record} variant='dark' />
+					</div>
 					<h5>Observations:</h5>
 					<ul>
 						{record.observations.map((note, index) => (

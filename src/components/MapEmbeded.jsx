@@ -7,9 +7,9 @@ import { selectRecord } from "../flux/actions";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mlcontour from "maplibre-contour";
 
-// Set the global Mapbox token
+// Set the global Mapbox token (from env to avoid committing secrets)
 mapboxgl.accessToken =
-	"pk.eyJ1IjoiaWtlcmx1bmEiLCJhIjoiY203NjMwZHptMHAzaDJrcXlrbnNuMHJlZiJ9.hkoRlM6gQ-BflcGjpI40GA";
+	import.meta.env.VITE_MAPBOX_TOKEN || "";
 	
 
 const MapEmbed = () => {
@@ -160,8 +160,7 @@ const MapEmbed = () => {
 	};
 
 	return (
-		// Contenedor con altura y width fijos (width: "100%" se hereda del contenedor padre)
-		<div style={{ height: "500px", width: "100%" }}>
+		<div className='map-embed-inner' style={{ width: "100%", height: "100%", minHeight: "400px" }}>
 			<ReactMapGL
 				ref={mapRef}
 				{...viewport}

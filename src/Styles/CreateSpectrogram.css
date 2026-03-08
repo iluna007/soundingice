@@ -1,0 +1,80 @@
+.create-spectrogram-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.create-spectrogram-loading p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.create-spectrogram-error {
+  padding: 1rem;
+  background-color: rgba(220, 53, 69, 0.1);
+  border-radius: 8px;
+  border: 1px solid rgba(220, 53, 69, 0.3);
+}
+
+.create-spectrogram-error p {
+  margin: 0 0 0.5rem 0;
+}
+
+.create-spectrogram-hint {
+  font-size: 0.85rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.75rem !important;
+}
+
+.create-spectrogram-hint code {
+  background: rgba(0, 0, 0, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.create-spectrogram-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-spectrogram-video video {
+  border-radius: 8px;
+  background: #000;
+}
+
+.create-spectrogram-canvas-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.create-spectrogram-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+  max-width: 100%;
+}
+
+.create-spectrogram-canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.create-spectrogram-audio {
+  width: 100%;
+  max-width: 920px;
+}
+
+.create-spectrogram-note {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
