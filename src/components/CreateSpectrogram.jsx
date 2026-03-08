@@ -32,9 +32,9 @@ const CreateSpectrogram = ({ record, variant = "dark", size, buttonLabel = "Crea
 
 		try {
 			const audioUrl = record.audioFilePath;
+			// Use proxy in dev (Vite) and production (Netlify redirect) to avoid CORS with S3
 			const proxyUrl =
-				audioUrl?.includes("soundingicetestbucket.s3.eu-west-2.amazonaws.com") &&
-				import.meta.env.DEV
+				audioUrl?.includes("soundingicetestbucket.s3.eu-west-2.amazonaws.com")
 					? audioUrl.replace(
 							"https://soundingicetestbucket.s3.eu-west-2.amazonaws.com",
 							"/s3-audio"
