@@ -1,12 +1,13 @@
 import { useEffect, useState, useCallback } from "react";
 import store from "../flux/store";
-import { fetchData1 } from "../flux/actions";
+import { fetchData1, selectRecord } from "../flux/actions";
 import RecordingCard from "../components/RecordingCard";
 import MapEmbed from "../components/MapEmbeded";
 import Masonry from "react-masonry-css";
 import "../Styles/FieldRecordings.css";
 
 const ITEMS_PER_PAGE = 20;
+const LIST_ITEMS_PER_PAGE = 50;
 
 const FieldRecordings = () => {
 	const [records, setRecords] = useState([]);
@@ -19,6 +20,7 @@ const FieldRecordings = () => {
 	const [filteredRecords, setFilteredRecords] = useState([]);
 	const [expandedCard, setExpandedCard] = useState(null);
 	const [currentPage, setCurrentPage] = useState(1);
+	const [viewMode, setViewMode] = useState("cards"); // "cards" | "list"
 
 	const handleUpdate = useCallback(() => {
 		const data = store.getAll() || [];
@@ -109,10 +111,15 @@ const FieldRecordings = () => {
 	};
 
 	// Paginación: calcular el subset a mostrar
-	const indexOfLast = currentPage * ITEMS_PER_PAGE;
-	const indexOfFirst = indexOfLast - ITEMS_PER_PAGE;
+	const itemsPerPage = viewMode === "list" ? LIST_ITEMS_PER_PAGE : ITEMS_PER_PAGE;
+	const indexOfLast = currentPage * itemsPerPage;
+	const indexOfFirst = indexOfLast - itemsPerPage;
 	const currentRecords = filteredRecords.slice(indexOfFirst, indexOfLast);
-	const totalPages = Math.ceil(filteredRecords.length / ITEMS_PER_PAGE);
+	const totalPages = Math.ceil(filteredRecords.length / itemsPerPage);
+
+	const handleRowClick = (record) => {
+		selectRecord(record);
+	};
 
 	const handlePageChange = (newPage) => {
 		if (newPage >= 1 && newPage <= totalPages) setCurrentPage(newPage);
@@ -203,6 +210,7 @@ const FieldRecordings = () => {
 							</em>
 						</p>
 					</div>
+					{viewMode === "cards" && (
 					<div className='col-md-2'>
 						<h3 className='subtitles'>Recordist</h3>
 						<hr />
@@ -276,31 +284,116 @@ const FieldRecordings = () => {
 							</div>
 						</div>
 					</div>
-					<div className='col-md-5'>
+					)}
+					<div className={viewMode === "list" ? "col-md-7" : "col-md-5"}>
+						{/* Toggle de vista */}
+						<div className='view-toggle'>
+							<button
+								className={`view-toggle-btn ${viewMode === "cards" ? "active" : ""}`}
+								onClick={() => {
+									setViewMode("cards");
+									setCurrentPage(1);
+								}}
+							>
+								Cards View
+							</button>
+							<button
+								className={`view-toggle-btn ${viewMode === "list" ? "active" : ""}`}
+								onClick={() => {
+									setViewMode("list");
+									setCurrentPage(1);
+								}}
+							>
+								Full List View
+							</button>
+						</div>
 						{/* Paginación superior */}
 						{renderPagination()}
 						<div className='recording-list'>
 							{filteredRecords.length > 0 ? (
 								<>
-									<Masonry
-										breakpointCols={breakpointColumnsObj}
-										className='my-masonry-grid'
-										columnClassName='my-masonry-grid_column'
-									>
-										{currentRecords.map((record) => (
-											<RecordingCard
-												key={record.id}
-												record={record}
-												expanded={expandedCard && expandedCard.id === record.id}
-												viewMode={
-													expandedCard && expandedCard.id === record.id
-														? expandedCard.view
-														: null
-												}
-												onToggle={handleToggleCard}
-											/>
-										))}
-									</Masonry>
+									{viewMode === "cards" ? (
+										<Masonry
+											breakpointCols={breakpointColumnsObj}
+											className='my-masonry-grid'
+											columnClassName='my-masonry-grid_column'
+										>
+											{currentRecords.map((record) => (
+												<RecordingCard
+													key={record.id}
+													record={record}
+													expanded={expandedCard && expandedCard.id === record.id}
+													viewMode={
+														expandedCard && expandedCard.id === record.id
+															? expandedCard.view
+															: null
+													}
+													onToggle={handleToggleCard}
+												/>
+											))}
+										</Masonry>
+									) : (
+										<div className='full-list-view'>
+											<div className='full-list-header'>
+												<span className='full-list-col full-list-date'>Date</span>
+												<span className='full-list-col full-list-time'>Time</span>
+												<span className='full-list-col full-list-id'>Recording</span>
+												<span className='full-list-col full-list-recordist'>Recordist</span>
+												<span className='full-list-col full-list-location'>Location</span>
+												<span className='full-list-col full-list-conditions'>Conditions</span>
+												<span className='full-list-col full-list-equipment'>Equipment</span>
+												<span className='full-list-col full-list-tags'>Key Words</span>
+												<span className='full-list-col full-list-observations'>Observations</span>
+											</div>
+											{currentRecords.map((record) => (
+												<div
+													key={record.id}
+													className='full-list-row'
+													onClick={() => handleRowClick(record)}
+													role='button'
+													tabIndex={0}
+													onKeyDown={(e) => {
+														if (e.key === "Enter" || e.key === " ") {
+															e.preventDefault();
+															handleRowClick(record);
+														}
+													}}
+												>
+													<span className='full-list-col full-list-date'>
+														{record.date}
+													</span>
+													<span className='full-list-col full-list-time'>
+														{record.time || "—"}
+													</span>
+													<span className='full-list-col full-list-id'>
+														{record.id}
+													</span>
+													<span className='full-list-col full-list-recordist'>
+														{record.recordist}
+													</span>
+													<span className='full-list-col full-list-location'>
+														{record.lat != null && record.lon != null
+															? `${record.lat}, ${record.lon}`
+															: "—"}
+													</span>
+													<span className='full-list-col full-list-conditions'>
+														{record.conditions || "—"}
+													</span>
+													<span className='full-list-col full-list-equipment'>
+														{record.equipment || "—"}
+													</span>
+													<span className='full-list-col full-list-tags'>
+														{record.tags || record["Key Words"] || "—"}
+													</span>
+													<span className='full-list-col full-list-observations'>
+														{record.observations && Array.isArray(record.observations)
+															? record.observations.join(" • ")
+															: "—"}
+													</span>
+												</div>
+											))}
+										</div>
+									)}
 								</>
 							) : (
 								<p>No recordings available.</p>
