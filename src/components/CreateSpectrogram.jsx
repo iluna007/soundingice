@@ -257,7 +257,16 @@ function SpectrogramCanvas({ data }) {
 			ctx.fillText("PSD", psdLeft + 2, specTop + 12);
 		}
 
-		// Spectrogram - center (use offscreen canvas so drawImage respects transform)
+		// Spectrogram - escala adaptativa (min/max de los datos) para colores más intensos
+		let specDbMin = Infinity;
+		let specDbMax = -Infinity;
+		for (let k = 0; k < nFiltered * nWindows; k++) {
+			const v = SxxFiltered[k];
+			if (v < specDbMin) specDbMin = v;
+			if (v > specDbMax) specDbMax = v;
+		}
+		const specDbRange = Math.max(specDbMax - specDbMin, 1); // evita división por cero
+
 		const specW = Math.floor(specWidth);
 		const specH = Math.floor(specHeight);
 		const offscreen = document.createElement("canvas");
@@ -270,7 +279,7 @@ function SpectrogramCanvas({ data }) {
 			for (let px = 0; px < specW; px++) {
 				const timeIdx = Math.min(Math.floor((px / specW) * nWindows), nWindows - 1);
 				const db = SxxFiltered[freqIdx * nWindows + timeIdx];
-				const t = (db - MIN_THRESHOLD_DB) / (0 - MIN_THRESHOLD_DB);
+				const t = (db - specDbMin) / specDbRange;
 				const [r, g, b] = viridis(Math.max(0, Math.min(1, t)));
 				const i = (py * specW + px) * 4;
 				specImageData.data[i] = Math.round(r * 255);
@@ -343,7 +352,7 @@ function SpectrogramCanvas({ data }) {
 			ctx.fillText(String(Math.round(t)), x - 6, waveTop + waveHeight - 2);
 		}
 
-		// Colorbar - bottom left
+		// Colorbar - escala adaptativa (misma que el espectrograma)
 		const cbarLeft = psdLeft;
 		const cbarWidth = psdWidth;
 		const cbarH = waveHeight * 0.6;
@@ -359,8 +368,8 @@ function SpectrogramCanvas({ data }) {
 		ctx.fillStyle = "#fff";
 		ctx.font = "8px sans-serif";
 		ctx.fillText("dBFS", cbarLeft + 2, waveTop + 10);
-		ctx.fillText("0", cbarLeft + cbarWidth - 8, cbarY + 8);
-		ctx.fillText("-80", cbarLeft + 2, cbarY + cbarH - 2);
+		ctx.fillText(Math.round(specDbMax).toString(), cbarLeft + cbarWidth - 12, cbarY + 8);
+		ctx.fillText(Math.round(specDbMin).toString(), cbarLeft + 2, cbarY + cbarH - 2);
 
 		ctx.restore();
 	}, [data, playbackProgress]);
