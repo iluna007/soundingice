@@ -15,6 +15,7 @@ import {
 	extractDistinctValues,
 } from "../utils/fieldRecordingsUtils";
 import PageSection from "../components/PageSection";
+import DistortedText from "../components/DistortedText";
 import "../Styles/FieldRecordings.css";
 
 const ITEMS_PER_PAGE = 20;
@@ -132,7 +133,9 @@ const FieldRecordings = () => {
 	return (
 		<div className='container-fluid'>
 			<PageSection>
-				<h2 className='title'>Field Recordings</h2>
+				<h2 className='title'>
+					<DistortedText>Field Recordings</DistortedText>
+				</h2>
 				<div className='row mt-5 field-recordings-main align-items-stretch'>
 					<div className='col-12'>
 						<div className='row mt-12'>

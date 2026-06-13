@@ -4,6 +4,7 @@ import students from "../flux/datastudentsimages.js";
 import "../Styles/StudentCard.css";
 import ErrorBoundary from "../components/ErrorBoundary.jsx";
 import "../Styles/About.css";
+import DistortedText from "../components/DistortedText";
 
 const About = () => {
 	// Genera una copia barajada aleatoriamente del array de estudiantes
@@ -25,7 +26,9 @@ const About = () => {
 			>
 				<div className='row example'>
 					<div className='col'>
-						<h2 className='title'>About</h2>
+						<h2 className='title'>
+							<DistortedText>About</DistortedText>
+						</h2>
 						<div className='mt-5'>
 							{/* Primera imagen con filtro blanco y negro */}
 							<img

@@ -1,5 +1,7 @@
 .home-container {
   position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
   height: 100%;
   overflow: hidden;
 }
@@ -51,8 +53,22 @@
   line-height: 0.75;
   text-align: right;
   display: flex;
-  flex-wrap: wrap; /* Permite que el título se divida en líneas si es necesario */
+  flex-wrap: wrap;
   align-items: baseline;
+  justify-content: flex-end;
+  gap: 0.12em;
+  overflow: visible;
+}
+
+.titlehome .distort-text,
+.titlehome .glitch-text {
+  font: inherit;
+  line-height: inherit;
+  overflow: visible;
+}
+
+.titlehome .distort-text {
+  color: #ffffff;
 }
 
 .description1 {

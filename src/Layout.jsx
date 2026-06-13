@@ -52,6 +52,11 @@ export default function Layout({ children }) {
 		(page) => page.route === location.pathname
 	);
 
+	useEffect(() => {
+		const scrollEl = document.querySelector(".section.expanded .scrollable-content");
+		if (scrollEl) scrollEl.scrollTop = 0;
+	}, [location.pathname]);
+
 	// Mobile layout: if width is less than 768px, show a top nav bar.
 	if (width < 768) {
 		return (
@@ -104,6 +109,7 @@ export default function Layout({ children }) {
 								? scrollbarColors[pages[activeIndex].color].thumb
 								: "#555",
 						}}
+						onClick={(e) => e.stopPropagation()}
 					>
 						{children}
 					</div>
@@ -137,6 +143,7 @@ export default function Layout({ children }) {
 									"--scrollbar-thumb": scrollbarColors[page.color].thumb,
 									color: page.route === "/resources" ? "#ffffff" : "inherit",
 								}}
+								onClick={(e) => e.stopPropagation()}
 							>
 								{children}
 							</div>

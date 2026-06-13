@@ -51,6 +51,15 @@ const MapEmbed = () => {
 		return () => window.removeEventListener("resize", handleResize);
 	}, []);
 
+	useEffect(() => {
+		return () => {
+			if (mapRef.current) {
+				const map = mapRef.current.getMap();
+				map?.remove();
+			}
+		};
+	}, []);
+
 	const handleMapLoad = () => {
 		const map = mapRef.current.getMap();
 

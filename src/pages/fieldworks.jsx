@@ -1,4 +1,5 @@
 import "../Styles/Fieldworks.css";
+import DistortedText from "../components/DistortedText";
 import Carousel from "../components/Carousel";
 import Lightbox from "../components/Lightbox";
 import galleryImages from "../flux/dataimages";
@@ -19,7 +20,9 @@ const Fieldworks = () => {
 			>
 				<div className='row example'>
 					<div className='col'>
-						<h2 className='title'>Field Works</h2>
+						<h2 className='title'>
+							<DistortedText>Field Works</DistortedText>
+						</h2>
 
 						{/* Four-column section */}
 						<div className='row mt-5'>

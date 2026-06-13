@@ -1,4 +1,5 @@
 import "../Styles/Resources.css";
+import DistortedText from "../components/DistortedText";
 
 const Resources = () => {
 	return (
@@ -13,7 +14,9 @@ const Resources = () => {
 					paddingRight: "32px",
 				}}
 			>
-				<h2 className='title'>Resources</h2>
+				<h2 className='title'>
+					<DistortedText>Resources</DistortedText>
+				</h2>
 				<div className='row mt-5'>
 					<div className='col-md-4'>
 						<h3 className='subtitles'>Readings</h3>
