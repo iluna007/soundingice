@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
+import HomeBackgroundVideo from "./components/HomeBackgroundVideo";
 import "./Styles/Layout.css";
 
 const pages = [
@@ -91,6 +92,7 @@ export default function Layout({ children }) {
 				<div
 					className='mobile-content'
 					style={{
+						position: "relative",
 						backgroundColor: pages[activeIndex]?.color || "#ffffff",
 						color:
 							pages[activeIndex]?.route === "/resources"
@@ -98,8 +100,9 @@ export default function Layout({ children }) {
 								: "inherit",
 					}}
 				>
+					<HomeBackgroundVideo isActive={location.pathname === "/"} />
 					<div
-						className='scrollable-content'
+						className='scrollable-content mobile-scrollable-content'
 						style={{
 							padding: activeIndex === 0 ? 0 : "20px",
 							"--scrollbar-track": pages[activeIndex]
@@ -129,14 +132,15 @@ export default function Layout({ children }) {
 					<div
 						key={page.route}
 						className={sectionClass}
-						style={{ backgroundColor: page.color }}
+						style={{ backgroundColor: page.color, position: "relative" }}
 						onClick={() => {
 							if (!isActive) navigate(page.route);
 						}}
 					>
+						{page.route === "/" && <HomeBackgroundVideo isActive={isActive} />}
 						{isActive ? (
 							<div
-								className='scrollable-content'
+								className={`scrollable-content${page.route === "/" ? " home-scrollable-content" : ""}`}
 								style={{
 									padding: activeIndex === 0 ? 0 : "20px",
 									"--scrollbar-track": scrollbarColors[page.color].track,

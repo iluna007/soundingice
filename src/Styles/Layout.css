@@ -38,10 +38,12 @@ p {
 
 .section {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   transition: flex 0.5s ease;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 /* Inactive sections: pointer cursor */
@@ -73,6 +75,12 @@ p {
   min-height: 100%;
   overflow-y: auto;
   box-sizing: border-box;
+}
+
+.home-scrollable-content,
+.mobile-scrollable-content {
+  position: relative;
+  z-index: 1;
 }
 
 /* Custom scrollbar for WebKit browsers using CSS variables */
